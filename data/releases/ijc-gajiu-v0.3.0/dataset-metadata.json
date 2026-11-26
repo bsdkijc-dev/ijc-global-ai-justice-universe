@@ -1,0 +1,31 @@
+{
+  "title": "IJC Global AI & Justice Innovation Universe (v0.3.0)",
+  "id": "judicialcollege/ijc-global-ai-justice-universe",
+  "licenses": [
+    {
+      "name": "MIT"
+    }
+  ],
+  "subtitle": "46-country AI justice atlas, 1,000 12D research programs & pilot benchmarks",
+  "description": "# IJC Global AI & Justice Innovation Universe (v0.3.0)\n\n**Founder:** Cecep Mustafa  \n**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n## Overview\nAn open-research dataset combining empirical comparative data from the **Oxford Institute of Technology and Justice — AI Justice Atlas** with a 12-dimensional generative portfolio (`8,957,952,000,000` addressable configurations).\n\n## Epistemic Labeling\n- `EXISTING_REAL_WORLD_RECORD`: Documented systems, statutes, judicial policies, and cases from 46 verified accessible Oxford AI Justice Atlas URLs (1 hub + 45 countries; Zambia `OXF-AIATLAS-44` recorded as `SOURCE_INACCESSIBLE` with zero-imputation).\n- `PROPOSED_RESEARCH_PROGRAM` (`PROPOSED_UNVALIDATED`): 1,000 deterministic, schema-validated, TF-IDF deduplicated research configurations (`seed=202702`) and Top-10 regionally diverse pilot prototypes.\n- `PROTOTYPE_EXPERIMENTAL_NONBINDING`: Synthetic benchmark results (`6/6` exact detection accuracy) for the offline Citation Verification Gate & Appellate Triage prototype.\n\n## Included Files\n1. `source-registry.csv` & `source-registry.json` — 47 Oxford AI Justice Atlas records\n2. `access-log.csv` — Live audit access log\n3. `jurisdiction_atlas_46.csv` & `jurisdiction_atlas_46.json` — 46-country comparative indicator matrix\n4. `programs_curated_1000.csv` & `programs_curated_1000.parquet` — 1,000 validated & ranked research programs\n5. `top10_pilot_prototypes.csv` & `top10_pilot_prototypes.json` — Top-10 regionally diverse 2027–2028 pilot prototypes\n6. `prototype_benchmark_results.json` — Offline citation gate benchmark results",
+  "keywords": [
+    "law",
+    "artificial intelligence",
+    "criminal justice",
+    "judicial governance",
+    "open data"
+  ],
+  "isPrivate": true,
+  "resources": [
+    {"path": "source-registry.csv", "description": "47 Oxford AI Justice Atlas source records (CSV)"},
+    {"path": "source-registry.json", "description": "47 Oxford AI Justice Atlas source records (JSON)"},
+    {"path": "access-log.csv", "description": "Live source verification and access log"},
+    {"path": "jurisdiction_atlas_46.csv", "description": "46-country comparative AI justice indicator matrix (CSV)"},
+    {"path": "jurisdiction_atlas_46.json", "description": "46-country comparative AI justice indicator matrix (JSON)"},
+    {"path": "programs_curated_1000.csv", "description": "1,000 validated and TF-IDF deduplicated 12D research programs (CSV)"},
+    {"path": "programs_curated_1000.parquet", "description": "1,000 validated and TF-IDF deduplicated 12D research programs (Parquet)"},
+    {"path": "top10_pilot_prototypes.csv", "description": "Top-10 regionally diverse 2027-2028 pilot prototypes (CSV)"},
+    {"path": "top10_pilot_prototypes.json", "description": "Top-10 regionally diverse 2027-2028 pilot prototypes (JSON)"},
+    {"path": "prototype_benchmark_results.json", "description": "Synthetic benchmark results for offline citation verification gate"}
+  ]
+}
