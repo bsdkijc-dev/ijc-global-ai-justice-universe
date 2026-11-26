@@ -1,0 +1,23 @@
+{
+  "prototype_id": "IJC-GAJIU-RISK-AUDIT-SIM-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "cohort_size": 200,
+  "fpr_gap_threshold": 0.1,
+  "false_positive_rate_gap": 0.2386,
+  "selection_rate_gap": 0.24,
+  "audit_status": "FLAG_DISPARITY_EXCEEDS_THRESHOLD_HITL_REVIEW",
+  "group_metrics": {
+    "GROUP_A": {
+      "count": 100,
+      "selection_rate": 0.24,
+      "false_positive_rate": 0.1143,
+      "true_positive_rate": 0.5333
+    },
+    "GROUP_B": {
+      "count": 100,
+      "selection_rate": 0.48,
+      "false_positive_rate": 0.3529,
+      "true_positive_rate": 0.75
+    }
+  }
+}

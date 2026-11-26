@@ -1,0 +1,72 @@
+[
+  {
+    "jurisdiction": "Canada",
+    "subregion": "NAM",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "key_ai_systems": "Palantir Gotham; GeoDASH; SPPAL; Clearview AI (banned under PIPEDA); NEC NeoFace; Griffeye; Quebec Superior Court pilot; Westlaw/Lexis+",
+    "regulatory_instruments": "PIPEDA; Bills C-16, C-34, C-36",
+    "reported_cases": "R v Chand; Zhang v Chen; Ko v Li; Ewert v Canada; R v Medow",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "United States",
+    "subregion": "NAM",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "key_ai_systems": "Geolitica (<0.5% Plainfield); Cybercheck; Axon Draft One; NGI-IPS (67M photos); ShotSpotter (Chicago decommissioned); PbK; NICE Justice; PTRA/COMPAS/PSA; SANDI; LearnedHand; CoCounsel; JusticeText; Reduct.Video; Arizona Pelkey AI avatar",
+    "regulatory_instruments": "Proposed FRE Rule 707; TAKE IT DOWN Act; EO 14179; State laws (Colorado AI Act)",
+    "reported_cases": "State v Loomis; Williams v City of Detroit; Mata v Avianca; Heppner",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Azerbaijan",
+    "subregion": "ECA",
+    "source_id": "OXF-AIATLAS-03",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas",
+    "key_ai_systems": "ARAS (customs); E-qanun.ai; e-court system (trial duration reduced 187 to 119 days)",
+    "regulatory_instruments": "AI Strategy 2025-2028 (Decree 530); Criminal Code Arts 148-2 & 242-1 (deepfakes)",
+    "reported_cases": "",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Kazakhstan",
+    "subregion": "ECA",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "key_ai_systems": "Safe City (1.4M cameras); Sergek; Qorgau; Digital Assistant to Investigator; ProkAi; E-Soty AI (500k claims); Assistance to Judges (-20% appeals); Digital Bailiff; E-zan Komegi; AdiletAI",
+    "regulatory_instruments": "Law On AI No. 230-VIII (Nov 2025); Digital Code (Jan 2026)",
+    "reported_cases": "",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Russia",
+    "subregion": "ECA",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "key_ai_systems": "Safe City / FindFace (70% Moscow crime resolution claim); Sfera; AIK Nadzor WEB; UNICA-AI; Magis/NeuroMagis; ISKRA; ConsultantPlus AI (35% courts use AI)",
+    "regulatory_instruments": "Federal Law No. 243-FZ (Jul 2026); Supreme Court Plenum Resolution 15/2026",
+    "reported_cases": "Glukhin v Russia (ECtHR); West Siberian Arbitrazh Court AI fine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Türkiye",
+    "subregion": "ECA",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "key_ai_systems": "KGYS; Trafidar; ASENA (92% narcotics); YEDES; CBS Organizational Prediction; UYAP (40k docs/day); Court of Cassation Case-law Centre; Söyle Yazsın; Ez Cümle",
+    "regulatory_instruments": "Cybersecurity Law 7545 (2025); KVKK AI Recommendations (2021); Draft AI Bill",
+    "reported_cases": "",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Uzbekistan",
+    "subregion": "ECA",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "key_ai_systems": "Mening Inspektori; Smart City (42,750 cameras); LexAI; my.sud.uz; E-huquqshunos; Wakil AI; Yurist AI",
+    "regulatory_instruments": "Law No. ORK-1115 (Jan 2026, human-in-the-loop); Ethical Rules (Mar 2026); Digital Court Decree (Aug 2025); Law on Digital Evidence (2024)",
+    "reported_cases": "",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  }
+]

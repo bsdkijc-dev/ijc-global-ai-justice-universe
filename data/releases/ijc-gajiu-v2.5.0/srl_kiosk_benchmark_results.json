@@ -1,0 +1,48 @@
+{
+  "prototype_id": "IJC-GAJIU-SRL-KIOSK-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING_INFORMATION_ONLY",
+  "benchmark_cases": 5,
+  "exact_triage_accuracy": 1.0,
+  "results": [
+    {
+      "case_id": "SRL-01",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "expected": "DOMESTIC_VIOLENCE_VICTIM_SUPPORT",
+      "detected": "DOMESTIC_VIOLENCE_VICTIM_SUPPORT",
+      "glossary_ref": "GLS-31",
+      "audit_hash": "D61335688B0E"
+    },
+    {
+      "case_id": "SRL-02",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "expected": "CRIMINAL_DEFENCE_AID",
+      "detected": "CRIMINAL_DEFENCE_AID",
+      "glossary_ref": "GLS-33",
+      "audit_hash": "F90086ED063F"
+    },
+    {
+      "case_id": "SRL-03",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "expected": "LABOR_DISPUTE",
+      "detected": "LABOR_DISPUTE",
+      "glossary_ref": "GLS-46",
+      "audit_hash": "67FBDCF6478E"
+    },
+    {
+      "case_id": "SRL-04",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "expected": "SMALL_CLAIMS_CIVIL",
+      "detected": "SMALL_CLAIMS_CIVIL",
+      "glossary_ref": "GLS-32",
+      "audit_hash": "E33F71CBA16A"
+    },
+    {
+      "case_id": "SRL-05",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "expected": "ADMINISTRATIVE_APPEAL",
+      "detected": "ADMINISTRATIVE_APPEAL",
+      "glossary_ref": "GLS-25",
+      "audit_hash": "08C3B9CD2C83"
+    }
+  ]
+}

@@ -1,0 +1,784 @@
+[
+  {
+    "jurisdiction_code": "ARG",
+    "jurisdiction_name": "Argentina",
+    "region_archetype": "LAT",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-01"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": true,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina"
+  },
+  {
+    "jurisdiction_code": "AUS",
+    "jurisdiction_name": "Australia",
+    "region_archetype": "OCE",
+    "legal_system_family": "COM",
+    "source_ids": [
+      "OXF-AIATLAS-02"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": true,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "AZE",
+    "jurisdiction_name": "Azerbaijan",
+    "region_archetype": "ECA",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-03"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "BRA",
+    "jurisdiction_name": "Brazil",
+    "region_archetype": "LAT",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-04"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil"
+  },
+  {
+    "jurisdiction_code": "CAN",
+    "jurisdiction_name": "Canada",
+    "region_archetype": "NAM",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-05"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada"
+  },
+  {
+    "jurisdiction_code": "CHL",
+    "jurisdiction_name": "Chile",
+    "region_archetype": "LAT",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-06"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile"
+  },
+  {
+    "jurisdiction_code": "CHN",
+    "jurisdiction_name": "China",
+    "region_archetype": "EAS",
+    "legal_system_family": "SOC",
+    "source_ids": [
+      "OXF-AIATLAS-07"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china"
+  },
+  {
+    "jurisdiction_code": "COL",
+    "jurisdiction_name": "Colombia",
+    "region_archetype": "LAT",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-08"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia"
+  },
+  {
+    "jurisdiction_code": "EGY",
+    "jurisdiction_name": "Egypt",
+    "region_archetype": "MEN",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-09"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind"
+  },
+  {
+    "jurisdiction_code": "EST",
+    "jurisdiction_name": "Estonia",
+    "region_archetype": "EUR",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-10"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia"
+  },
+  {
+    "jurisdiction_code": "ETH",
+    "jurisdiction_name": "Ethiopia",
+    "region_archetype": "SSA",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-11"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "FIN",
+    "jurisdiction_name": "Finland",
+    "region_archetype": "EUR",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-12"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": false,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "FRA",
+    "jurisdiction_name": "France",
+    "region_archetype": "EUR",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-13"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france"
+  },
+  {
+    "jurisdiction_code": "DEU",
+    "jurisdiction_name": "Germany",
+    "region_archetype": "EUR",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-14"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany"
+  },
+  {
+    "jurisdiction_code": "IND",
+    "jurisdiction_name": "India",
+    "region_archetype": "SAS",
+    "legal_system_family": "COM",
+    "source_ids": [
+      "OXF-AIATLAS-15"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india"
+  },
+  {
+    "jurisdiction_code": "IRN",
+    "jurisdiction_name": "Iran",
+    "region_archetype": "MEN",
+    "legal_system_family": "ISL",
+    "source_ids": [
+      "OXF-AIATLAS-16"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations"
+  },
+  {
+    "jurisdiction_code": "ITA",
+    "jurisdiction_name": "Italy",
+    "region_archetype": "EUR",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-17"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": true,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy"
+  },
+  {
+    "jurisdiction_code": "JPN",
+    "jurisdiction_name": "Japan",
+    "region_archetype": "EAS",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-18"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "KAZ",
+    "jurisdiction_name": "Kazakhstan",
+    "region_archetype": "ECA",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-19"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai"
+  },
+  {
+    "jurisdiction_code": "KEN",
+    "jurisdiction_name": "Kenya",
+    "region_archetype": "SSA",
+    "legal_system_family": "COM",
+    "source_ids": [
+      "OXF-AIATLAS-20"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": true,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "KWT",
+    "jurisdiction_name": "Kuwait",
+    "region_archetype": "MEN",
+    "legal_system_family": "ISL",
+    "source_ids": [
+      "OXF-AIATLAS-21"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": false,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights"
+  },
+  {
+    "jurisdiction_code": "MYS",
+    "jurisdiction_name": "Malaysia",
+    "region_archetype": "SEA",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-22"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "MEX",
+    "jurisdiction_name": "Mexico",
+    "region_archetype": "LAT",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-23"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "NZL",
+    "jurisdiction_name": "New Zealand",
+    "region_archetype": "OCE",
+    "legal_system_family": "COM",
+    "source_ids": [
+      "OXF-AIATLAS-24"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai"
+  },
+  {
+    "jurisdiction_code": "RUS",
+    "jurisdiction_name": "Russia",
+    "region_archetype": "ECA",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-25"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "RWA",
+    "jurisdiction_name": "Rwanda",
+    "region_archetype": "SSA",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-26"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda"
+  },
+  {
+    "jurisdiction_code": "SAU",
+    "jurisdiction_name": "Saudi Arabia",
+    "region_archetype": "MEN",
+    "legal_system_family": "ISL",
+    "source_ids": [
+      "OXF-AIATLAS-27"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia"
+  },
+  {
+    "jurisdiction_code": "SGP",
+    "jurisdiction_name": "Singapore",
+    "region_archetype": "SEA",
+    "legal_system_family": "COM",
+    "source_ids": [
+      "OXF-AIATLAS-28"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": true,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore"
+  },
+  {
+    "jurisdiction_code": "ZAF",
+    "jurisdiction_name": "South Africa",
+    "region_archetype": "SSA",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-29"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": true,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa"
+  },
+  {
+    "jurisdiction_code": "KOR",
+    "jurisdiction_name": "South Korea",
+    "region_archetype": "EAS",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-30"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid"
+  },
+  {
+    "jurisdiction_code": "ESP",
+    "jurisdiction_name": "Spain",
+    "region_archetype": "EUR",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-31"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain"
+  },
+  {
+    "jurisdiction_code": "TWN",
+    "jurisdiction_name": "Taiwan",
+    "region_archetype": "EAS",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-32"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights"
+  },
+  {
+    "jurisdiction_code": "THA",
+    "jurisdiction_name": "Thailand",
+    "region_archetype": "SEA",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-33"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309"
+  },
+  {
+    "jurisdiction_code": "GMB",
+    "jurisdiction_name": "The Gambia",
+    "region_archetype": "SSA",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-34"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": false,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thegambia-3447303d-c9d6-4476-963c-02898588dc35"
+  },
+  {
+    "jurisdiction_code": "NLD",
+    "jurisdiction_name": "The Netherlands",
+    "region_archetype": "EUR",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-35"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands"
+  },
+  {
+    "jurisdiction_code": "PHL",
+    "jurisdiction_name": "The Philippines",
+    "region_archetype": "SEA",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-36"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai"
+  },
+  {
+    "jurisdiction_code": "TZA",
+    "jurisdiction_name": "Tanzania",
+    "region_archetype": "SSA",
+    "legal_system_family": "COM",
+    "source_ids": [
+      "OXF-AIATLAS-37"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": false,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/tanzanias-ai-in-criminal-justice-training-and-regulation-insights-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "TUR",
+    "jurisdiction_name": "Türkiye",
+    "region_archetype": "ECA",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-38"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": true,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye"
+  },
+  {
+    "jurisdiction_code": "UKR",
+    "jurisdiction_name": "Ukraine",
+    "region_archetype": "ECA",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-39"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine"
+  },
+  {
+    "jurisdiction_code": "ARE",
+    "jurisdiction_name": "United Arab Emirates",
+    "region_archetype": "MEN",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-40"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": true,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates"
+  },
+  {
+    "jurisdiction_code": "GBR",
+    "jurisdiction_name": "United Kingdom",
+    "region_archetype": "EUR",
+    "legal_system_family": "COM",
+    "source_ids": [
+      "OXF-AIATLAS-41"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom"
+  },
+  {
+    "jurisdiction_code": "USA",
+    "jurisdiction_name": "United States",
+    "region_archetype": "NAM",
+    "legal_system_family": "COM",
+    "source_ids": [
+      "OXF-AIATLAS-42"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": true,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america"
+  },
+  {
+    "jurisdiction_code": "UZB",
+    "jurisdiction_name": "Uzbekistan",
+    "region_archetype": "ECA",
+    "legal_system_family": "CIV",
+    "source_ids": [
+      "OXF-AIATLAS-43"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "ZMB",
+    "jurisdiction_name": "Zambia",
+    "region_archetype": "SSA",
+    "legal_system_family": "COM",
+    "source_ids": [
+      "OXF-AIATLAS-44"
+    ],
+    "verification_status": "SOURCE_INACCESSIBLE",
+    "evidence_label": "UNVERIFIED_INACCESSIBLE_SOURCE",
+    "has_hallucination_cases": null,
+    "has_biometric_or_frt_pushback": null,
+    "has_judicial_ai_policy": null,
+    "has_national_ai_law_or_strategy": null,
+    "has_multilingual_court_asr": null,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-zambias-criminal-justice-system-insights-and-regulation-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "ZWE",
+    "jurisdiction_name": "Zimbabwe",
+    "region_archetype": "SSA",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-45"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": true,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": true,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas"
+  },
+  {
+    "jurisdiction_code": "ISR",
+    "jurisdiction_name": "Israel",
+    "region_archetype": "MEN",
+    "legal_system_family": "MIX",
+    "source_ids": [
+      "OXF-AIATLAS-46"
+    ],
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD",
+    "has_hallucination_cases": false,
+    "has_biometric_or_frt_pushback": false,
+    "has_judicial_ai_policy": true,
+    "has_national_ai_law_or_strategy": false,
+    "has_multilingual_court_asr": false,
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat"
+  }
+]
