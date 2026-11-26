@@ -1,0 +1,189 @@
+{
+  "prototype_id": "IJC-GAJIU-NEURO-SYMBOLIC-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "authority_corpus_size": 238,
+  "benchmark_cases": 6,
+  "exact_norm_accuracy": 1.0,
+  "results": [
+    {
+      "case_id": "NSY-01",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_norm": "NORM-01_NON_DELEGATION_ADJUDICATION",
+      "triggered_norms": [
+        "NORM-01_NON_DELEGATION_ADJUDICATION"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "grounded_precedents": [
+        {
+          "auth_id": "AUTH-090",
+          "citation": "Statutory reservation of judicial decision-making to human judges under Law 132/2025",
+          "jurisdiction": "Italy",
+          "similarity": 0.6706
+        },
+        {
+          "auth_id": "AUTH-087",
+          "citation": "Law 132/2025 (Arts 13, 15, 24",
+          "jurisdiction": "Italy",
+          "similarity": 0.2306
+        },
+        {
+          "auth_id": "AUTH-001",
+          "citation": "Cross-jurisdictional AI hallucination, FRT, and automated decision-making cases",
+          "jurisdiction": "Global (Hub)",
+          "similarity": 0.2082
+        }
+      ]
+    },
+    {
+      "case_id": "NSY-02",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_norm": "NORM-02_CITATION_GROUNDING_REQUIRED",
+      "triggered_norms": [
+        "NORM-02_CITATION_GROUNDING_REQUIRED"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "grounded_precedents": [
+        {
+          "auth_id": "AUTH-215",
+          "citation": "Mata v Avianca",
+          "jurisdiction": "United States",
+          "similarity": 0.4727
+        },
+        {
+          "auth_id": "AUTH-205",
+          "citation": "Ayinde & Al-Haroun",
+          "jurisdiction": "United Kingdom",
+          "similarity": 0.175
+        },
+        {
+          "auth_id": "AUTH-228",
+          "citation": "Pulserate Investments v Zuze [SC 202/25] (12 AI citations nullified)",
+          "jurisdiction": "Zimbabwe",
+          "similarity": 0.1497
+        }
+      ]
+    },
+    {
+      "case_id": "NSY-03",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_norm": "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+      "triggered_norms": [
+        "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "grounded_precedents": [
+        {
+          "auth_id": "AUTH-164",
+          "citation": "Supreme Court 114 Tai-Shang 5166 (FRT corroboration requirement)",
+          "jurisdiction": "Taiwan",
+          "similarity": 0.6974
+        },
+        {
+          "auth_id": "AUTH-004",
+          "citation": "BA Facial Recognition suspension (2023 appeal)",
+          "jurisdiction": "Argentina",
+          "similarity": 0.25
+        },
+        {
+          "auth_id": "AUTH-082",
+          "citation": "OECD incident regarding facial recognition enforcement",
+          "jurisdiction": "Iran",
+          "similarity": 0.2378
+        }
+      ]
+    },
+    {
+      "case_id": "NSY-04",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_norm": "NORM-04_AUDIT_TRANSPARENCY_REQUIRED",
+      "triggered_norms": [
+        "NORM-04_AUDIT_TRANSPARENCY_REQUIRED"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "grounded_precedents": [
+        {
+          "auth_id": "AUTH-157",
+          "citation": "Supreme Court 1119/2025 (source code access)",
+          "jurisdiction": "Spain",
+          "similarity": 0.5571
+        },
+        {
+          "auth_id": "AUTH-213",
+          "citation": "State v Loomis",
+          "jurisdiction": "United States",
+          "similarity": 0.4096
+        },
+        {
+          "auth_id": "AUTH-016",
+          "citation": "CNJ Resolution 615/2025 (risk matrix, mandatory judge training)",
+          "jurisdiction": "Brazil",
+          "similarity": 0.1308
+        }
+      ]
+    },
+    {
+      "case_id": "NSY-05",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_norm": "NORM-05_CONTESTABILITY_RIGHT_REQUIRED",
+      "triggered_norms": [
+        "NORM-05_CONTESTABILITY_RIGHT_REQUIRED"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "grounded_precedents": [
+        {
+          "auth_id": "AUTH-056",
+          "citation": "Personal Data Protection Proclamation 1321/2024 (automated decision right)",
+          "jurisdiction": "Ethiopia",
+          "similarity": 0.5986
+        },
+        {
+          "auth_id": "AUTH-155",
+          "citation": "PIPA Art 37-2",
+          "jurisdiction": "South Korea",
+          "similarity": 0.5341
+        },
+        {
+          "auth_id": "AUTH-001",
+          "citation": "Cross-jurisdictional AI hallucination, FRT, and automated decision-making cases",
+          "jurisdiction": "Global (Hub)",
+          "similarity": 0.1873
+        }
+      ]
+    },
+    {
+      "case_id": "NSY-06",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_norm": "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED",
+      "triggered_norms": [
+        "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "grounded_precedents": [
+        {
+          "auth_id": "AUTH-217",
+          "citation": "Proposed FRE Rule 707",
+          "jurisdiction": "United States",
+          "similarity": 0.6943
+        },
+        {
+          "auth_id": "AUTH-226",
+          "citation": "Law on Digital Evidence (2024)",
+          "jurisdiction": "Uzbekistan",
+          "similarity": 0.2642
+        },
+        {
+          "auth_id": "AUTH-131",
+          "citation": "Digital evidence admissibility framework",
+          "jurisdiction": "Rwanda",
+          "similarity": 0.2417
+        }
+      ]
+    }
+  ]
+}

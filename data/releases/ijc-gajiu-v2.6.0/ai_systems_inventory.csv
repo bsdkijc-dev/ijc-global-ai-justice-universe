@@ -1,0 +1,351 @@
+system_id,system_name,jurisdiction,source_id,source_url,evidence_label
+SYS-001,PROMETEA,Argentina,OXF-AIATLAS-01,https://www.techandjustice.bsg.ox.ac.uk/research/argentina,EXISTING_REAL_WORLD_RECORD
+SYS-002,AymurAI,Argentina,OXF-AIATLAS-01,https://www.techandjustice.bsg.ox.ac.uk/research/argentina,EXISTING_REAL_WORLD_RECORD
+SYS-003,IURIX Mind,Argentina,OXF-AIATLAS-01,https://www.techandjustice.bsg.ox.ac.uk/research/argentina,EXISTING_REAL_WORLD_RECORD
+SYS-004,Genaro,Argentina,OXF-AIATLAS-01,https://www.techandjustice.bsg.ox.ac.uk/research/argentina,EXISTING_REAL_WORLD_RECORD
+SYS-005,Relmo,Argentina,OXF-AIATLAS-01,https://www.techandjustice.bsg.ox.ac.uk/research/argentina,EXISTING_REAL_WORLD_RECORD
+SYS-006,DoctIA,Argentina,OXF-AIATLAS-01,https://www.techandjustice.bsg.ox.ac.uk/research/argentina,EXISTING_REAL_WORLD_RECORD
+SYS-007,MinutaIA,Argentina,OXF-AIATLAS-01,https://www.techandjustice.bsg.ox.ac.uk/research/argentina,EXISTING_REAL_WORLD_RECORD
+SYS-008,Buenos Aires Facial Recognition System,Argentina,OXF-AIATLAS-01,https://www.techandjustice.bsg.ox.ac.uk/research/argentina,EXISTING_REAL_WORLD_RECORD
+SYS-009,AFP 6 AI capabilities,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-010,NEC NeoFace,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-011,iFace,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-012,Acusensus,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-013,Auror,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-014,Silverer,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-015,Amicus/Amicus X,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-016,Coroners Redaction,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-017,CoCounsel,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-018,Lexis+AI,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-019,Hear Me Out,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-020,Umibot,Australia,OXF-AIATLAS-02,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-021,ARAS (customs),Azerbaijan,OXF-AIATLAS-03,https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-022,E-qanun.ai,Azerbaijan,OXF-AIATLAS-03,https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-023,e-court system (trial duration reduced 187 to 119 days),Azerbaijan,OXF-AIATLAS-03,https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-024,VICTOR,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-025,ATHOS,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-026,Projeto Sócrates,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-027,APOIA,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-028,ASSIS,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-029,STJ Logos,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-030,Plataforma Codex (386M lawsuits),Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-031,Detecta,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-032,Smart Sampa (40k cameras),Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-033,LuminarIA,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-034,Jarvis,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-035,Etiquetas Inteligentes,Brazil,OXF-AIATLAS-04,https://www.techandjustice.bsg.ox.ac.uk/research/brazil,EXISTING_REAL_WORLD_RECORD
+SYS-036,Palantir Gotham,Canada,OXF-AIATLAS-05,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada,EXISTING_REAL_WORLD_RECORD
+SYS-037,GeoDASH,Canada,OXF-AIATLAS-05,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada,EXISTING_REAL_WORLD_RECORD
+SYS-038,SPPAL,Canada,OXF-AIATLAS-05,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada,EXISTING_REAL_WORLD_RECORD
+SYS-039,Clearview AI (banned under PIPEDA),Canada,OXF-AIATLAS-05,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada,EXISTING_REAL_WORLD_RECORD
+SYS-040,NEC NeoFace,Canada,OXF-AIATLAS-05,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada,EXISTING_REAL_WORLD_RECORD
+SYS-041,Griffeye,Canada,OXF-AIATLAS-05,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada,EXISTING_REAL_WORLD_RECORD
+SYS-042,Quebec Superior Court pilot,Canada,OXF-AIATLAS-05,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada,EXISTING_REAL_WORLD_RECORD
+SYS-043,Westlaw/Lexis+,Canada,OXF-AIATLAS-05,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada,EXISTING_REAL_WORLD_RECORD
+SYS-044,Urban Crime Prediction System (89% accuracy claim),Chile,OXF-AIATLAS-06,https://www.techandjustice.bsg.ox.ac.uk/research/chile,EXISTING_REAL_WORLD_RECORD
+SYS-045,SITIA,Chile,OXF-AIATLAS-06,https://www.techandjustice.bsg.ox.ac.uk/research/chile,EXISTING_REAL_WORLD_RECORD
+SYS-046,Calle Segura,Chile,OXF-AIATLAS-06,https://www.techandjustice.bsg.ox.ac.uk/research/chile,EXISTING_REAL_WORLD_RECORD
+SYS-047,FISCAL HEREDIA (>240 prosecutors),Chile,OXF-AIATLAS-06,https://www.techandjustice.bsg.ox.ac.uk/research/chile,EXISTING_REAL_WORLD_RECORD
+SYS-048,Justa pilot,Chile,OXF-AIATLAS-06,https://www.techandjustice.bsg.ox.ac.uk/research/chile,EXISTING_REAL_WORLD_RECORD
+SYS-049,Buscador de Jurisprudencia,Chile,OXF-AIATLAS-06,https://www.techandjustice.bsg.ox.ac.uk/research/chile,EXISTING_REAL_WORLD_RECORD
+SYS-050,Smart Courts,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-051,206 System,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-052,Faxin Zhitui,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-053,Little Judge Bao,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-054,Judicial Knowledge Services Platform (1.14B knowledge points),China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-055,Kunpeng Team,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-056,DeepSeek policing,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-057,Skynet,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-058,Sharp Eyes,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-059,IJOP,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-060,12368 Voice,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-061,Fa Xiaotao,China,OXF-AIATLAS-07,https://www.techandjustice.bsg.ox.ac.uk/research/china,EXISTING_REAL_WORLD_RECORD
+SYS-062,Fiscal Watson,Colombia,OXF-AIATLAS-08,https://www.techandjustice.bsg.ox.ac.uk/research/colombia,EXISTING_REAL_WORLD_RECORD
+SYS-063,Think,Colombia,OXF-AIATLAS-08,https://www.techandjustice.bsg.ox.ac.uk/research/colombia,EXISTING_REAL_WORLD_RECORD
+SYS-064,PRiSMA (suspended),Colombia,OXF-AIATLAS-08,https://www.techandjustice.bsg.ox.ac.uk/research/colombia,EXISTING_REAL_WORLD_RECORD
+SYS-065,PROMETEA,Colombia,OXF-AIATLAS-08,https://www.techandjustice.bsg.ox.ac.uk/research/colombia,EXISTING_REAL_WORLD_RECORD
+SYS-066,"PretorIA (~4,500 tutelas/day)",Colombia,OXF-AIATLAS-08,https://www.techandjustice.bsg.ox.ac.uk/research/colombia,EXISTING_REAL_WORLD_RECORD
+SYS-067,Ebba/PERLA,Colombia,OXF-AIATLAS-08,https://www.techandjustice.bsg.ox.ac.uk/research/colombia,EXISTING_REAL_WORLD_RECORD
+SYS-068,Security Operations Centre,Egypt,OXF-AIATLAS-09,https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind,EXISTING_REAL_WORLD_RECORD
+SYS-069,Honeywell New Administrative Capital,Egypt,OXF-AIATLAS-09,https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind,EXISTING_REAL_WORLD_RECORD
+SYS-070,offline court speech-to-text (>96% accuracy),Egypt,OXF-AIATLAS-09,https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind,EXISTING_REAL_WORLD_RECORD
+SYS-071,LegalMind,Egypt,OXF-AIATLAS-09,https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind,EXISTING_REAL_WORLD_RECORD
+SYS-072,Laiwyer,Egypt,OXF-AIATLAS-09,https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind,EXISTING_REAL_WORLD_RECORD
+SYS-073,KARNAK,Egypt,OXF-AIATLAS-09,https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind,EXISTING_REAL_WORLD_RECORD
+SYS-074,Shawwir,Egypt,OXF-AIATLAS-09,https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind,EXISTING_REAL_WORLD_RECORD
+SYS-075,Salme (92% transcription accuracy),Estonia,OXF-AIATLAS-10,https://www.techandjustice.bsg.ox.ac.uk/research/estonia,EXISTING_REAL_WORLD_RECORD
+SYS-076,Krat (anonymisation),Estonia,OXF-AIATLAS-10,https://www.techandjustice.bsg.ox.ac.uk/research/estonia,EXISTING_REAL_WORLD_RECORD
+SYS-077,Texta OÜ (80k decisions),Estonia,OXF-AIATLAS-10,https://www.techandjustice.bsg.ox.ac.uk/research/estonia,EXISTING_REAL_WORLD_RECORD
+SYS-078,"semi-automated small claims (<=EUR 8,000)",Estonia,OXF-AIATLAS-10,https://www.techandjustice.bsg.ox.ac.uk/research/estonia,EXISTING_REAL_WORLD_RECORD
+SYS-079,Smart Police Station,Ethiopia,OXF-AIATLAS-11,https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-080,Smart Court System (24 branches),Ethiopia,OXF-AIATLAS-11,https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-081,Afaan Oromo transcription,Ethiopia,OXF-AIATLAS-11,https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-082,EFP App,Ethiopia,OXF-AIATLAS-11,https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-083,Chllot,Ethiopia,OXF-AIATLAS-11,https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-084,Behigamlak,Ethiopia,OXF-AIATLAS-11,https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-085,HegAwaqi,Ethiopia,OXF-AIATLAS-11,https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-086,PNR AI (terrorism/crime),Finland,OXF-AIATLAS-12,https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-087,FERMI,Finland,OXF-AIATLAS-12,https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-088,RANKKA,Finland,OXF-AIATLAS-12,https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-089,AinoAid chatbot,Finland,OXF-AIATLAS-12,https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-090,RosetIA,France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-091,Parole,France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-092,PredNatinf,France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-093,BriefCam (halted by Caen/Grenoble/Nice courts),France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-094,Paris 2024 Olympic video analytics,France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-095,TRAUNE,France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-096,Mon Assistant Pénal,France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-097,LABEL,France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-098,ÉPOPÉE,France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-099,DataJust (abandoned),France,OXF-AIATLAS-13,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france,EXISTING_REAL_WORLD_RECORD
+SYS-100,"Palantir Gotham (hessenDATA, VeRA)",Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-101,PreCobs,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-102,SKALA,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-103,AKLS,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-104,AIRA,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-105,JAIF,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-106,Jailbox,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-107,MoNA,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-108,StruKi,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-109,AKIRA,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-110,JANO,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-111,Codefy/ASTRA,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-112,ALeKS (97%),Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-113,FRIDA,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-114,Beck-Noxtua,Germany,OXF-AIATLAS-14,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany,EXISTING_REAL_WORLD_RECORD
+SYS-115,e-Courts Phase III (>50M backlog),India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-116,"SUVAS (31,184 judgments, 16 languages)",India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-117,SUPACE,India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-118,Nyaay AI,India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-119,"Adalat AI (>4,000 courts)",India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-120,Lucio,India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-121,NyaySanhita.in,India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-122,Abhay,India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-123,AMPED FIVE,India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-124,CCTNS,India,OXF-AIATLAS-15,https://www.techandjustice.bsg.ox.ac.uk/research/india,EXISTING_REAL_WORLD_RECORD
+SYS-125,FARAJA facial recognition,Iran,OXF-AIATLAS-16,https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations,EXISTING_REAL_WORLD_RECORD
+SYS-126,Sana System,Iran,OXF-AIATLAS-16,https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations,EXISTING_REAL_WORLD_RECORD
+SYS-127,Tenad System (110M decisions),Iran,OXF-AIATLAS-16,https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations,EXISTING_REAL_WORLD_RECORD
+SYS-128,RoboLegal,Iran,OXF-AIATLAS-16,https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations,EXISTING_REAL_WORLD_RECORD
+SYS-129,Vakil-GPT,Iran,OXF-AIATLAS-16,https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations,EXISTING_REAL_WORLD_RECORD
+SYS-130,Adalat Hamrah,Iran,OXF-AIATLAS-16,https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations,EXISTING_REAL_WORLD_RECORD
+SYS-131,Delia/KeyCrime (1.5M data points),Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-132,Giove,Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-133,X-Law,Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-134,CEREBRO,Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-135,APFIS,Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-136,"SARI (Enterprise active, Real-Time blocked)",Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-137,Progetto Seneca,Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-138,GIADA,Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-139,ASPEN,Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-140,Lisia,Italy,OXF-AIATLAS-17,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy,EXISTING_REAL_WORLD_RECORD
+SYS-141,Crime Nabi,Japan,OXF-AIATLAS-18,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-142,NPA FRT (10M images),Japan,OXF-AIATLAS-18,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-143,"tokuryu social media AI (18,500 warnings)",Japan,OXF-AIATLAS-18,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-144,JAFIC AML,Japan,OXF-AIATLAS-18,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-145,Aichi AI sketch,Japan,OXF-AIATLAS-18,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-146,disaster drones,Japan,OXF-AIATLAS-18,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-147,Safe City (1.4M cameras),Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-148,Sergek,Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-149,Qorgau,Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-150,Digital Assistant to Investigator,Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-151,ProkAi,Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-152,E-Soty AI (500k claims),Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-153,Assistance to Judges (-20% appeals),Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-154,Digital Bailiff,Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-155,E-zan Komegi,Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-156,AdiletAI,Kazakhstan,OXF-AIATLAS-19,https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai,EXISTING_REAL_WORLD_RECORD
+SYS-157,NPS NEC NeoFace CCTV,Kenya,OXF-AIATLAS-20,https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-158,ICCS,Kenya,OXF-AIATLAS-20,https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-159,"Judiciary transcription (154k transcripts, 80% accuracy)",Kenya,OXF-AIATLAS-20,https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-160,Hakimu.ai,Kenya,OXF-AIATLAS-20,https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-161,AI smart patrol vehicles,Kuwait,OXF-AIATLAS-21,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights,EXISTING_REAL_WORLD_RECORD
+SYS-162,3D FRT,Kuwait,OXF-AIATLAS-21,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights,EXISTING_REAL_WORLD_RECORD
+SYS-163,252 traffic cameras,Kuwait,OXF-AIATLAS-21,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights,EXISTING_REAL_WORLD_RECORD
+SYS-164,mandatory biometrics (>3M enrolled),Kuwait,OXF-AIATLAS-21,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights,EXISTING_REAL_WORLD_RECORD
+SYS-165,Interpol cybercrime platform,Kuwait,OXF-AIATLAS-21,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights,EXISTING_REAL_WORLD_RECORD
+SYS-166,Oqood.ai,Kuwait,OXF-AIATLAS-21,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights,EXISTING_REAL_WORLD_RECORD
+SYS-167,Harvey,Kuwait,OXF-AIATLAS-21,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights,EXISTING_REAL_WORLD_RECORD
+SYS-168,Legora,Kuwait,OXF-AIATLAS-21,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights,EXISTING_REAL_WORLD_RECORD
+SYS-169,Qistas,Kuwait,OXF-AIATLAS-21,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights,EXISTING_REAL_WORLD_RECORD
+SYS-170,AI Sentencing System (Sabah/Sarawak & Peninsular),Malaysia,OXF-AIATLAS-22,https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-171,E-Court,Malaysia,OXF-AIATLAS-22,https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-172,YITU bodycam FRT,Malaysia,OXF-AIATLAS-22,https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-173,Penang/Sarawak AI CCTV,Malaysia,OXF-AIATLAS-22,https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-174,CDMX C5 (>113k cameras),Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-175,Michoacán SAFR FRT,Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-176,Zacatecas backlog triage (74%),Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-177,Mapeo Nacional,Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-178,JulIA,Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-179,Ebba,Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-180,Fiscal IA (35 to 11 min),Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-181,JusticIA,Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-182,Sor Juana,Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-183,TEO,Mexico,OXF-AIATLAS-23,https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-184,Appian,New Zealand,OXF-AIATLAS-24,https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai,EXISTING_REAL_WORLD_RECORD
+SYS-185,Auror ANPR,New Zealand,OXF-AIATLAS-24,https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai,EXISTING_REAL_WORLD_RECORD
+SYS-186,BriefCam,New Zealand,OXF-AIATLAS-24,https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai,EXISTING_REAL_WORLD_RECORD
+SYS-187,ABIS2,New Zealand,OXF-AIATLAS-24,https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai,EXISTING_REAL_WORLD_RECORD
+SYS-188,Clearview AI (stopped 2021),New Zealand,OXF-AIATLAS-24,https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai,EXISTING_REAL_WORLD_RECORD
+SYS-189,Lumi Drug Scan,New Zealand,OXF-AIATLAS-24,https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai,EXISTING_REAL_WORLD_RECORD
+SYS-190,Griffeye,New Zealand,OXF-AIATLAS-24,https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai,EXISTING_REAL_WORLD_RECORD
+SYS-191,SAFVR/DYRA,New Zealand,OXF-AIATLAS-24,https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai,EXISTING_REAL_WORLD_RECORD
+SYS-192,Te Au Reka,New Zealand,OXF-AIATLAS-24,https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai,EXISTING_REAL_WORLD_RECORD
+SYS-193,Safe City / FindFace (70% Moscow crime resolution claim),Russia,OXF-AIATLAS-25,https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-194,Sfera,Russia,OXF-AIATLAS-25,https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-195,AIK Nadzor WEB,Russia,OXF-AIATLAS-25,https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-196,UNICA-AI,Russia,OXF-AIATLAS-25,https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-197,Magis/NeuroMagis,Russia,OXF-AIATLAS-25,https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-198,ISKRA,Russia,OXF-AIATLAS-25,https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-199,ConsultantPlus AI (35% courts use AI),Russia,OXF-AIATLAS-25,https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-200,Safe City Kigali,Rwanda,OXF-AIATLAS-26,https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda,EXISTING_REAL_WORLD_RECORD
+SYS-201,AI traffic cameras,Rwanda,OXF-AIATLAS-26,https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda,EXISTING_REAL_WORLD_RECORD
+SYS-202,Spam Alert Service,Rwanda,OXF-AIATLAS-26,https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda,EXISTING_REAL_WORLD_RECORD
+SYS-203,IST Legal platform,Rwanda,OXF-AIATLAS-26,https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda,EXISTING_REAL_WORLD_RECORD
+SYS-204,AiLex Rwanda,Rwanda,OXF-AIATLAS-26,https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda,EXISTING_REAL_WORLD_RECORD
+SYS-205,Wansom,Rwanda,OXF-AIATLAS-26,https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda,EXISTING_REAL_WORLD_RECORD
+SYS-206,Mbaza Ubutabera AI,Rwanda,OXF-AIATLAS-26,https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda,EXISTING_REAL_WORLD_RECORD
+SYS-207,Saher,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-208,EagleEye,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-209,Sawaher,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-210,Smart C,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-211,Najiz,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-212,Qanoniah,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-213,Arabic.ai,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-214,Wathiq,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-215,Haseef,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-216,Waddah AI,Saudi Arabia,OXF-AIATLAS-27,https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia,EXISTING_REAL_WORLD_RECORD
+SYS-217,R-Cop,Singapore,OXF-AIATLAS-28,https://www.techandjustice.bsg.ox.ac.uk/research/singapore,EXISTING_REAL_WORLD_RECORD
+SYS-218,GRAND-VISION,Singapore,OXF-AIATLAS-28,https://www.techandjustice.bsg.ox.ac.uk/research/singapore,EXISTING_REAL_WORLD_RECORD
+SYS-219,Cyber Guardian,Singapore,OXF-AIATLAS-28,https://www.techandjustice.bsg.ox.ac.uk/research/singapore,EXISTING_REAL_WORLD_RECORD
+SYS-220,AGC CaseEdge & Prollie,Singapore,OXF-AIATLAS-28,https://www.techandjustice.bsg.ox.ac.uk/research/singapore,EXISTING_REAL_WORLD_RECORD
+SYS-221,Courts-Harvey SCT MoU,Singapore,OXF-AIATLAS-28,https://www.techandjustice.bsg.ox.ac.uk/research/singapore,EXISTING_REAL_WORLD_RECORD
+SYS-222,Pair Search,Singapore,OXF-AIATLAS-28,https://www.techandjustice.bsg.ox.ac.uk/research/singapore,EXISTING_REAL_WORLD_RECORD
+SYS-223,Lupl LTP,Singapore,OXF-AIATLAS-28,https://www.techandjustice.bsg.ox.ac.uk/research/singapore,EXISTING_REAL_WORLD_RECORD
+SYS-224,LawNet GPT-Legal Q&A,Singapore,OXF-AIATLAS-28,https://www.techandjustice.bsg.ox.ac.uk/research/singapore,EXISTING_REAL_WORLD_RECORD
+SYS-225,ShotSpotter,South Africa,OXF-AIATLAS-29,https://www.techandjustice.bsg.ox.ac.uk/research/south-africa,EXISTING_REAL_WORLD_RECORD
+SYS-226,Vumacam ANPR (28k daily alerts),South Africa,OXF-AIATLAS-29,https://www.techandjustice.bsg.ox.ac.uk/research/south-africa,EXISTING_REAL_WORLD_RECORD
+SYS-227,SAPS PIVA (>1.08M verifications),South Africa,OXF-AIATLAS-29,https://www.techandjustice.bsg.ox.ac.uk/research/south-africa,EXISTING_REAL_WORLD_RECORD
+SYS-228,LegalFundi Maya,South Africa,OXF-AIATLAS-29,https://www.techandjustice.bsg.ox.ac.uk/research/south-africa,EXISTING_REAL_WORLD_RECORD
+SYS-229,My AI Lawyer,South Africa,OXF-AIATLAS-29,https://www.techandjustice.bsg.ox.ac.uk/research/south-africa,EXISTING_REAL_WORLD_RECORD
+SYS-230,Juta,South Africa,OXF-AIATLAS-29,https://www.techandjustice.bsg.ox.ac.uk/research/south-africa,EXISTING_REAL_WORLD_RECORD
+SYS-231,"KICS-AI (Exaone, 36k officers)",South Korea,OXF-AIATLAS-30,https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid,EXISTING_REAL_WORLD_RECORD
+SYS-232,Pre-CAS/Freecus,South Korea,OXF-AIATLAS-30,https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid,EXISTING_REAL_WORLD_RECORD
+SYS-233,AIID,South Korea,OXF-AIATLAS-30,https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid,EXISTING_REAL_WORLD_RECORD
+SYS-234,Zio-Keeper,South Korea,OXF-AIATLAS-30,https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid,EXISTING_REAL_WORLD_RECORD
+SYS-235,NPA deepfake detector (419 arrests),South Korea,OXF-AIATLAS-30,https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid,EXISTING_REAL_WORLD_RECORD
+SYS-236,K-VoM,South Korea,OXF-AIATLAS-30,https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid,EXISTING_REAL_WORLD_RECORD
+SYS-237,LBox,South Korea,OXF-AIATLAS-30,https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid,EXISTING_REAL_WORLD_RECORD
+SYS-238,Trial Support AI,South Korea,OXF-AIATLAS-30,https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid,EXISTING_REAL_WORLD_RECORD
+SYS-239,SuperLawyer,South Korea,OXF-AIATLAS-30,https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid,EXISTING_REAL_WORLD_RECORD
+SYS-240,RisCanvi,Spain,OXF-AIATLAS-31,https://www.techandjustice.bsg.ox.ac.uk/research/spain,EXISTING_REAL_WORLD_RECORD
+SYS-241,VioGén / VioGén 2,Spain,OXF-AIATLAS-31,https://www.techandjustice.bsg.ox.ac.uk/research/spain,EXISTING_REAL_WORLD_RECORD
+SYS-242,EPV-R,Spain,OXF-AIATLAS-31,https://www.techandjustice.bsg.ox.ac.uk/research/spain,EXISTING_REAL_WORLD_RECORD
+SYS-243,Veripol (discontinued Oct 2024),Spain,OXF-AIATLAS-31,https://www.techandjustice.bsg.ox.ac.uk/research/spain,EXISTING_REAL_WORLD_RECORD
+SYS-244,ADIA,Spain,OXF-AIATLAS-31,https://www.techandjustice.bsg.ox.ac.uk/research/spain,EXISTING_REAL_WORLD_RECORD
+SYS-245,Delfos,Spain,OXF-AIATLAS-31,https://www.techandjustice.bsg.ox.ac.uk/research/spain,EXISTING_REAL_WORLD_RECORD
+SYS-246,KENDOJ,Spain,OXF-AIATLAS-31,https://www.techandjustice.bsg.ox.ac.uk/research/spain,EXISTING_REAL_WORLD_RECORD
+SYS-247,LexNET,Spain,OXF-AIATLAS-31,https://www.techandjustice.bsg.ox.ac.uk/research/spain,EXISTING_REAL_WORLD_RECORD
+SYS-248,AinoAid,Spain,OXF-AIATLAS-31,https://www.techandjustice.bsg.ox.ac.uk/research/spain,EXISTING_REAL_WORLD_RECORD
+SYS-249,Municipal AI patrol systems,Taiwan,OXF-AIATLAS-32,https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights,EXISTING_REAL_WORLD_RECORD
+SYS-250,M-Police (NEC),Taiwan,OXF-AIATLAS-32,https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights,EXISTING_REAL_WORLD_RECORD
+SYS-251,Judicial Yuan ASR (Mandarin/Taiwanese/Hakka),Taiwan,OXF-AIATLAS-32,https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights,EXISTING_REAL_WORLD_RECORD
+SYS-252,AI judgment drafting (suspended Oct 2023),Taiwan,OXF-AIATLAS-32,https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights,EXISTING_REAL_WORLD_RECORD
+SYS-253,AI Sentencing Information System,Taiwan,OXF-AIATLAS-32,https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights,EXISTING_REAL_WORLD_RECORD
+SYS-254,TAIDE,Taiwan,OXF-AIATLAS-32,https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights,EXISTING_REAL_WORLD_RECORD
+SYS-255,Lawbot/Lawsnote/TaiLexi,Taiwan,OXF-AIATLAS-32,https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights,EXISTING_REAL_WORLD_RECORD
+SYS-256,165 Anti-Fraud,Taiwan,OXF-AIATLAS-32,https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights,EXISTING_REAL_WORLD_RECORD
+SYS-257,AI Police Cyborg 1.0 (14 fugitives),Thailand,OXF-AIATLAS-33,https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309,EXISTING_REAL_WORLD_RECORD
+SYS-258,Anti-Online Scam Center,Thailand,OXF-AIATLAS-33,https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309,EXISTING_REAL_WORLD_RECORD
+SYS-259,ChatAI,Thailand,OXF-AIATLAS-33,https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309,EXISTING_REAL_WORLD_RECORD
+SYS-260,CIBbot,Thailand,OXF-AIATLAS-33,https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309,EXISTING_REAL_WORLD_RECORD
+SYS-261,Q-Soft Denovo court recording/transcription (no AI deployed yet),The Gambia,OXF-AIATLAS-34,https://www.techandjustice.bsg.ox.ac.uk/thegambia-3447303d-c9d6-4476-963c-02898588dc35,EXISTING_REAL_WORLD_RECORD
+SYS-262,Public Algorithm Register,The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-263,Threat to Life,The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-264,CATCH (56% match),The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-265,HAVANK,The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-266,BriefCam,The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-267,MONOcam,The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-268,Hansken (1TB/30min),The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-269,DNAxs,The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-270,RechtspraakGPT,The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-271,OxRec (suspended Feb 2026),The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-272,CAS (phased out Dec 2025),The Netherlands,OXF-AIATLAS-35,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands,EXISTING_REAL_WORLD_RECORD
+SYS-273,AI Police Command Centers,The Philippines,OXF-AIATLAS-36,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai,EXISTING_REAL_WORLD_RECORD
+SYS-274,eCourt PH,The Philippines,OXF-AIATLAS-36,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai,EXISTING_REAL_WORLD_RECORD
+SYS-275,JIGSS,The Philippines,OXF-AIATLAS-36,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai,EXISTING_REAL_WORLD_RECORD
+SYS-276,"Scriptix (mandatory nationwide Mar 2026, Taglish)",The Philippines,OXF-AIATLAS-36,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai,EXISTING_REAL_WORLD_RECORD
+SYS-277,Philippine Judiciary 365,The Philippines,OXF-AIATLAS-36,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai,EXISTING_REAL_WORLD_RECORD
+SYS-278,Anycase.ai,The Philippines,OXF-AIATLAS-36,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai,EXISTING_REAL_WORLD_RECORD
+SYS-279,Digest AI,The Philippines,OXF-AIATLAS-36,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai,EXISTING_REAL_WORLD_RECORD
+SYS-280,Lex Pilipinas,The Philippines,OXF-AIATLAS-36,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai,EXISTING_REAL_WORLD_RECORD
+SYS-281,Tisya Hutsiaya,The Philippines,OXF-AIATLAS-36,https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai,EXISTING_REAL_WORLD_RECORD
+SYS-282,"Almawave Pervoice Kiswahili-English transcription ($3M, 11 to 50 courtrooms)",Tanzania,OXF-AIATLAS-37,https://www.techandjustice.bsg.ox.ac.uk/tanzanias-ai-in-criminal-justice-training-and-regulation-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-283,Law Companion (98% accuracy),Tanzania,OXF-AIATLAS-37,https://www.techandjustice.bsg.ox.ac.uk/tanzanias-ai-in-criminal-justice-training-and-regulation-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-284,KGYS,Türkiye,OXF-AIATLAS-38,https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye,EXISTING_REAL_WORLD_RECORD
+SYS-285,Trafidar,Türkiye,OXF-AIATLAS-38,https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye,EXISTING_REAL_WORLD_RECORD
+SYS-286,ASENA (92% narcotics),Türkiye,OXF-AIATLAS-38,https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye,EXISTING_REAL_WORLD_RECORD
+SYS-287,YEDES,Türkiye,OXF-AIATLAS-38,https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye,EXISTING_REAL_WORLD_RECORD
+SYS-288,CBS Organizational Prediction,Türkiye,OXF-AIATLAS-38,https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye,EXISTING_REAL_WORLD_RECORD
+SYS-289,UYAP (40k docs/day),Türkiye,OXF-AIATLAS-38,https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye,EXISTING_REAL_WORLD_RECORD
+SYS-290,Court of Cassation Case-law Centre,Türkiye,OXF-AIATLAS-38,https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye,EXISTING_REAL_WORLD_RECORD
+SYS-291,Söyle Yazsın,Türkiye,OXF-AIATLAS-38,https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye,EXISTING_REAL_WORLD_RECORD
+SYS-292,Ez Cümle,Türkiye,OXF-AIATLAS-38,https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye,EXISTING_REAL_WORLD_RECORD
+SYS-293,Safe City (74% Hikvision/Dahua security concern),Ukraine,OXF-AIATLAS-39,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine,EXISTING_REAL_WORLD_RECORD
+SYS-294,Clearview AI,Ukraine,OXF-AIATLAS-39,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine,EXISTING_REAL_WORLD_RECORD
+SYS-295,Microsoft/Palantir (>107k war crimes),Ukraine,OXF-AIATLAS-39,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine,EXISTING_REAL_WORLD_RECORD
+SYS-296,Legal Positions / Database 2.0,Ukraine,OXF-AIATLAS-39,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine,EXISTING_REAL_WORLD_RECORD
+SYS-297,Cassandra,Ukraine,OXF-AIATLAS-39,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine,EXISTING_REAL_WORLD_RECORD
+SYS-298,Court on the Palm,Ukraine,OXF-AIATLAS-39,https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine,EXISTING_REAL_WORLD_RECORD
+SYS-299,"27 Smart Police Stations (45 services, 7 languages)",United Arab Emirates,OXF-AIATLAS-40,https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates,EXISTING_REAL_WORLD_RECORD
+SYS-300,Oyoon,United Arab Emirates,OXF-AIATLAS-40,https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates,EXISTING_REAL_WORLD_RECORD
+SYS-301,Falcon Eye,United Arab Emirates,OXF-AIATLAS-40,https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates,EXISTING_REAL_WORLD_RECORD
+SYS-302,Digital Twin,United Arab Emirates,OXF-AIATLAS-40,https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates,EXISTING_REAL_WORLD_RECORD
+SYS-303,Federal Prosecution AI71,United Arab Emirates,OXF-AIATLAS-40,https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates,EXISTING_REAL_WORLD_RECORD
+SYS-304,Abu Dhabi ML case system,United Arab Emirates,OXF-AIATLAS-40,https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates,EXISTING_REAL_WORLD_RECORD
+SYS-305,Aisha,United Arab Emirates,OXF-AIATLAS-40,https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates,EXISTING_REAL_WORLD_RECORD
+SYS-306,PoliceAI (£115M),United Kingdom,OXF-AIATLAS-41,https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom,EXISTING_REAL_WORLD_RECORD
+SYS-307,Soze,United Kingdom,OXF-AIATLAS-41,https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom,EXISTING_REAL_WORLD_RECORD
+SYS-308,DocDefender,United Kingdom,OXF-AIATLAS-41,https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom,EXISTING_REAL_WORLD_RECORD
+SYS-309,OASys/OGRS/ARNS,United Kingdom,OXF-AIATLAS-41,https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom,EXISTING_REAL_WORLD_RECORD
+SYS-310,HART (ceased),United Kingdom,OXF-AIATLAS-41,https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom,EXISTING_REAL_WORLD_RECORD
+SYS-311,LFR/RFR (4.7M faces in 2024),United Kingdom,OXF-AIATLAS-41,https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom,EXISTING_REAL_WORLD_RECORD
+SYS-312,CPS Copilot,United Kingdom,OXF-AIATLAS-41,https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom,EXISTING_REAL_WORLD_RECORD
+SYS-313,Justice AI,United Kingdom,OXF-AIATLAS-41,https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom,EXISTING_REAL_WORLD_RECORD
+SYS-314,Luminance AI,United Kingdom,OXF-AIATLAS-41,https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom,EXISTING_REAL_WORLD_RECORD
+SYS-315,Geolitica (<0.5% Plainfield),United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-316,Cybercheck,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-317,Axon Draft One,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-318,NGI-IPS (67M photos),United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-319,ShotSpotter (Chicago decommissioned),United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-320,PbK,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-321,NICE Justice,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-322,PTRA/COMPAS/PSA,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-323,SANDI,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-324,LearnedHand,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-325,CoCounsel,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-326,JusticeText,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-327,Reduct.Video,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-328,Arizona Pelkey AI avatar,United States,OXF-AIATLAS-42,https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america,EXISTING_REAL_WORLD_RECORD
+SYS-329,Mening Inspektori,Uzbekistan,OXF-AIATLAS-43,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-330,"Smart City (42,750 cameras)",Uzbekistan,OXF-AIATLAS-43,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-331,LexAI,Uzbekistan,OXF-AIATLAS-43,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-332,my.sud.uz,Uzbekistan,OXF-AIATLAS-43,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-333,E-huquqshunos,Uzbekistan,OXF-AIATLAS-43,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-334,Wakil AI,Uzbekistan,OXF-AIATLAS-43,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-335,Yurist AI,Uzbekistan,OXF-AIATLAS-43,https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-336,CloudWalk FRT,Zimbabwe,OXF-AIATLAS-45,https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-337,Hikvision border,Zimbabwe,OXF-AIATLAS-45,https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-338,Huawei $100M Harare CCTV,Zimbabwe,OXF-AIATLAS-45,https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-339,IECMS,Zimbabwe,OXF-AIATLAS-45,https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas,EXISTING_REAL_WORLD_RECORD
+SYS-340,Carbyne,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-341,Eagle Eye,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-342,Mabat 2000,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-343,Corsight,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-344,Cellebrite,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-345,Briefcam,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-346,Saifan,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-347,"Chat HaMishpat (45 to 1.5 min, ~900 judges)",Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-348,SUMIT,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-349,Nevo AI,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD
+SYS-350,LawMate,Israel,OXF-AIATLAS-46,https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat,EXISTING_REAL_WORLD_RECORD

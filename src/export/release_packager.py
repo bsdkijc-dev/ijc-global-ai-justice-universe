@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v2.5.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v2.6.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v2.5.0"
+RELEASE_NAME = "ijc-gajiu-v2.6.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v2.5.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v2.6.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -51,6 +51,7 @@ BUNDLE_FILES = [
     "data/sample/synthetic_media_benchmark_results.json",
     "data/sample/srl_kiosk_benchmark_results.json",
     "data/sample/procurement_audit_benchmark_results.json",
+    "data/sample/neuro_symbolic_benchmark_results.json",
     "data/manifests/cardinality_verification.json",
     "data/manifests/scale_1m_manifest.json",
 ]
@@ -59,14 +60,13 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "v2.5.0: Complete Phase 2 regional deep-dives (46 countries) + 100k",
+    "subtitle": "v2.6.0: Phase 3 Neuro-Symbolic Engine, 46-country atlas & 100k",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v2.5.0 — Phase 2 Complete)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v2.6.0 — Phase 3 Start)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v2.5.0\n"
-        "- Completed all 5 Phase 2 regional deep-dives (`asean_apac`, `europe`, `latam`, `ssa_mena`, `nam_eca`) covering all 46 Oxford jurisdictions and **2,500** targeted regional 12D programs.\n"
-        "- Added `PHASE_2_REGIONAL_SYNTHESIS.md`.\n"
+        "## What's New in v2.6.0 (Phase 3)\n"
+        "- Added `neuro_symbolic_benchmark_results.json` (offline Neuro-Symbolic Legal Reasoning & TF-IDF Precedent Engine over 238 Oxford authorities, `6/6` exact norm accuracy).\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -100,7 +100,7 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "2.5.0",
+        "release_version": "2.6.0",
         "release_name": RELEASE_NAME,
         "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {
