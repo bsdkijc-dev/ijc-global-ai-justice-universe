@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v1.0.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v1.1.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v1.0.0"
+RELEASE_NAME = "ijc-gajiu-v1.1.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.0.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.1.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -21,6 +21,7 @@ BUNDLE_FILES = [
     "data/curated/programs_curated_1000.csv",
     "data/curated/programs_curated_1000.parquet",
     "data/curated/programs_curated_10000.parquet",
+    "data/curated/programs_curated_100000.parquet",
     "data/curated/top10_pilot_prototypes.csv",
     "data/curated/top10_pilot_prototypes.json",
     "data/curated/top10_pilot_aia_dossiers.json",
@@ -31,6 +32,7 @@ BUNDLE_FILES = [
     "data/sample/prototype_benchmark_results.json",
     "data/sample/anonymisation_benchmark_results.json",
     "data/sample/risk_audit_benchmark_results.json",
+    "data/sample/synthetic_media_benchmark_results.json",
     "data/manifests/cardinality_verification.json",
 ]
 
@@ -38,16 +40,14 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "v1.0.0: 46-country AI justice atlas, 10,000 12D programs & prototypes",
+    "subtitle": "v1.1.0: 46-country atlas, 100k 12D programs & synthetic media gate",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v1.0.0)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v1.1.0)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## v1.0.0 Baseline Milestone\n"
-        "- **8,957,952,000,000** addressable 12D configurations verified (`cardinality_verification.json`).\n"
-        "- **47** Oxford AI Justice Atlas URLs audited (46 accessible, 1 `SOURCE_INACCESSIBLE` Zambia).\n"
-        "- **10,000** schema-validated, deduplicated programs + **Top-10** pilots & AIA dossiers.\n"
-        "- **238** verified real-world authorities, **50-term** 5-language glossary, and **3** offline CPU prototype benchmarks.\n"
+        "## What's New in v1.1.0\n"
+        "- Added `programs_curated_100000.parquet` (**100,000** unique 12D configurations generated at 72,992.7 prog/sec).\n"
+        "- Added `synthetic_media_benchmark_results.json` (offline Synthetic Media & Chain-of-Custody Gate, `4/4` exact accuracy).\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -81,9 +81,9 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "1.0.0",
+        "release_version": "1.1.0",
         "release_name": RELEASE_NAME,
-        "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE_V1",
+        "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {
             "filename": ARCHIVE_PATH.name,
             "bytes": ARCHIVE_PATH.stat().st_size,

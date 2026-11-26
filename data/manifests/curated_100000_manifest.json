@@ -1,0 +1,13 @@
+{
+  "dataset_name": "programs_curated_100000",
+  "record_count": 100000,
+  "unique_hashes": 100000,
+  "seed": 202711,
+  "generation_seconds": 1.37,
+  "throughput_programs_per_sec": 72992.7,
+  "file": {
+    "name": "programs_curated_100000.parquet",
+    "bytes": 8902900,
+    "sha256": "4129203aaf5ce68875af46a4cfea101d6ce82d35afc5e839de0d932a444c8f4f"
+  }
+}
