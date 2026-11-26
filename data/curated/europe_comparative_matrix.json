@@ -1,0 +1,92 @@
+[
+  {
+    "jurisdiction": "Estonia",
+    "regional_framework": "EU Member",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "key_ai_systems": "Salme (92% transcription accuracy); Krat (anonymisation); Texta OÜ (80k decisions); semi-automated small claims (<=EUR 8,000)",
+    "regulatory_instruments": "EU AI Act; GDPR; Law Enforcement Directive (LED)",
+    "reported_cases": "",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Finland",
+    "regional_framework": "EU Member",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "key_ai_systems": "PNR AI (terrorism/crime); FERMI; RANKKA; AinoAid chatbot",
+    "regulatory_instruments": "EU AI Act; AI Supervision Act (2025, Traficom); GDPR; LED; Cyber Security Act (124/2025)",
+    "reported_cases": "Clearview AI reprimand (2021)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "France",
+    "regional_framework": "EU Member",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "key_ai_systems": "RosetIA; Parole; PredNatinf; BriefCam (halted by Caen/Grenoble/Nice courts); Paris 2024 Olympic video analytics; TRAUNE; Mon Assistant Pénal; LABEL; ÉPOPÉE; DataJust (abandoned)",
+    "regulatory_instruments": "Art 33 Justice Reform Act (ban on judicial predictive profiling); Law 2023-380 (Olympic video analytics); Loi SREN (deepfakes)",
+    "reported_cases": "Caen, Grenoble, and Nice court rulings halting BriefCam",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Germany",
+    "regional_framework": "EU Member",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "key_ai_systems": "Palantir Gotham (hessenDATA, VeRA); PreCobs; SKALA; AKLS; AIRA; JAIF; Jailbox; MoNA; StruKi; AKIRA; JANO; Codefy/ASTRA; ALeKS (97%); FRIDA; Beck-Noxtua",
+    "regulatory_instruments": "EU AI Act; German constitutional data protection standards",
+    "reported_cases": "BVerfG hessenDATA ruling (2023); Reutlingen FRT rulings (2025/2026)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Italy",
+    "regional_framework": "EU Member",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "key_ai_systems": "Delia/KeyCrime (1.5M data points); Giove; X-Law; CEREBRO; APFIS; SARI (Enterprise active, Real-Time blocked); Progetto Seneca; GIADA; ASPEN; Lisia",
+    "regulatory_instruments": "Law 132/2025 (Arts 13, 15, 24; Art 612-quater deepfakes); EU AI Act",
+    "reported_cases": "Florence Tribunal & Latina Tribunal AI hallucination cases",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Spain",
+    "regional_framework": "EU Member",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "key_ai_systems": "RisCanvi; VioGén / VioGén 2; EPV-R; Veripol (discontinued Oct 2024); ADIA; Delfos; KENDOJ; LexNET; AinoAid",
+    "regulatory_instruments": "Royal Decree-Law 6/2023; EU AI Act; Organic Law 5/2024",
+    "reported_cases": "Supreme Court 1119/2025 (source code access); Canary Islands EUR 420 fine (Feb 2026)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "The Netherlands",
+    "regional_framework": "EU Member",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "key_ai_systems": "Public Algorithm Register; Threat to Life; CATCH (56% match); HAVANK; BriefCam; MONOcam; Hansken (1TB/30min); DNAxs; RechtspraakGPT; OxRec (suspended Feb 2026); CAS (phased out Dec 2025)",
+    "regulatory_instruments": "EU AI Act; GDPR; LED; Public Algorithm Register",
+    "reported_cases": "SyRI (2020); Clearview EUR 30.5M fine; CATCH (2019); Hansken (2018)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "United Kingdom",
+    "regional_framework": "Council of Europe (Non-EU)",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "key_ai_systems": "PoliceAI (£115M); Soze; DocDefender; OASys/OGRS/ARNS; HART (ceased); LFR/RFR (4.7M faces in 2024); CPS Copilot; Justice AI; Luminance AI",
+    "regulatory_instruments": "NPCC Covenant; MoJ AI Action Plan",
+    "reported_cases": "Bridges; Thompson; Ayinde & Al-Haroun; VP Evans [2025] UKFTT 1112",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Ukraine",
+    "regional_framework": "Council of Europe / EU Candidate",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "key_ai_systems": "Safe City (74% Hikvision/Dahua security concern); Clearview AI; Microsoft/Palantir (>107k war crimes); Legal Positions / Database 2.0; Cassandra; Court on the Palm",
+    "regulatory_instruments": "MinDigital Lawyer Guidelines (2025)",
+    "reported_cases": "Supreme Court & HACC contempt/abuse rulings",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  }
+]

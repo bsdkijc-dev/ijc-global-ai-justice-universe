@@ -1,0 +1,11 @@
+module_id,title,audience,pillar,lab_module,benchmark_ref
+MOD-01,Comparative Judicial AI Landscape (46 Jurisdictions),Judges & Judicial Academies,P19,src/evidence/jurisdiction_atlas.py,UNESCO AI Guidelines; CNJ Res 615/2025
+MOD-02,Constitutional Separation of Powers & Non-Delegation,Constitutional & Appellate Judges,P01,src/evidence/precedent_graph.py,Colombia T-323/2024; Italy Law 132/2025
+MOD-03,Detecting & Preventing AI Citation Hallucinations,"Judges, Clerks & Bar Associations",P18,src/prototype/citation_and_triage_gate.py,Mata v Avianca; Ayinde; Arabyads
+MOD-04,Algorithmic Due Process & Source-Code Transparency,Defence Counsel & Trial Judges,P02,src/prototype/aia_generator.py,Spain SC 1119/2025; State v Loomis
+MOD-05,"Biometrics, Facial Recognition & Corroboration Standards",Prosecutors & Police Oversight,P07,src/evidence/query_cli.py,Germany hessenDATA; Bridges; Taiwan 114 Tai-Shang 5166
+MOD-06,Fairness & False-Positive Disparity Auditing in Risk Tools,"Probation, Bail & Sentencing Judges",P11,src/prototype/risk_audit_simulator.py,Ewert v Canada; Netherlands OxRec/SyRI
+MOD-07,"Synthetic Media, Deepfakes & Chain-of-Custody Admissibility",Forensic Experts & Criminal Courts,P08,src/prototype/synthetic_media_gate.py,Proposed US FRE 707; South Korea NPA
+MOD-08,Automated Judgment Anonymisation & Open Justice,Court Registrars & Data Protection Officers,P10,src/prototype/anonymisation_gate.py,Estonia Krat; EU GDPR/LED
+MOD-09,Multilingual Courtroom ASR & Access to Justice,Court Administrators & Legal Aid,P09,src/prototype/multilingual_glossary.py,India SUVAS; Philippines Scriptix; Tanzania
+MOD-10,Zero-Budget Sovereign Computing & 2027-2045 Governance,Ministries of Justice & Tech Leads,P27,src/run_all.py,Uzbekistan Law ORK-1115; Philippines AM 25-11-28-SC
