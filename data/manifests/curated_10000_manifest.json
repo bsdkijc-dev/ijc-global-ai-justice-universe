@@ -1,0 +1,18 @@
+{
+  "dataset_name": "programs_curated_10000",
+  "record_count": 10000,
+  "seed": 202706,
+  "exact_hash_duplicates": 0,
+  "schema_errors": 0,
+  "generation_seconds": 71.86,
+  "files": {
+    "programs_curated_10000.parquet": {
+      "bytes": 1987247,
+      "sha256": "42cb37da2caef30f899296f2f7936bdee91854f49a095c2f81b4daa04b402440"
+    },
+    "programs_curated_10000.sqlite": {
+      "bytes": 13746176,
+      "sha256": "4054b93f07531e0a167f8d6ceddbd47fee46f1a83e1c3d31450d06e9fe5a7938"
+    }
+  }
+}
