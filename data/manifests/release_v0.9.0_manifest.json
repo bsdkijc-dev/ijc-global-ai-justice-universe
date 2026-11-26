@@ -1,0 +1,107 @@
+{
+  "release_version": "0.9.0",
+  "release_name": "ijc-gajiu-v0.9.0",
+  "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
+  "archive": {
+    "filename": "ijc-gajiu-v0.9.0.tar.gz",
+    "bytes": 1941619,
+    "sha256": "e156a931241fe58dc6f41a4df206bac07acbcce71dfa31500bd69cb5c08844c7"
+  },
+  "files": {
+    "source-registry.csv": {
+      "source_path": "sources/source-registry.csv",
+      "bytes": 55261,
+      "sha256": "d0961e0b4965f1d393c47fcf1ba1e65d59c40c3e46278e3e72745e69db9e1dd5"
+    },
+    "source-registry.json": {
+      "source_path": "sources/source-registry.json",
+      "bytes": 83268,
+      "sha256": "3551dd2128580817c5e35d4b59fadf6aa75c1be2660edd0846f2cab0a8d8b8aa"
+    },
+    "access-log.csv": {
+      "source_path": "sources/access-log.csv",
+      "bytes": 9497,
+      "sha256": "6b71bd9a68af3e0ff813ae3aa067c02857721f535fa69fbfb0fd0179389dd8bf"
+    },
+    "jurisdiction_atlas_46.csv": {
+      "source_path": "data/curated/jurisdiction_atlas_46.csv",
+      "bytes": 9672,
+      "sha256": "14c29e329101d7a0434016c5d4007e88100c3f88a87a9caeed065b8ef5a5753e"
+    },
+    "jurisdiction_atlas_46.json": {
+      "source_path": "data/curated/jurisdiction_atlas_46.json",
+      "bytes": 28149,
+      "sha256": "32668f12ef11a389c16499900e0969b87619382ceb9884c0712ac99f13906993"
+    },
+    "programs_curated_1000.csv": {
+      "source_path": "data/curated/programs_curated_1000.csv",
+      "bytes": 1309669,
+      "sha256": "2d80db861706f47834581c4083992936efd5284b50c0fd9e9ca1390da5ee3de2"
+    },
+    "programs_curated_1000.parquet": {
+      "source_path": "data/curated/programs_curated_1000.parquet",
+      "bytes": 245757,
+      "sha256": "1474a6f56d5ad7ac9bcf3826e6c82736281d3775ec09fb694ca64a33cf39efc0"
+    },
+    "programs_curated_10000.parquet": {
+      "source_path": "data/curated/programs_curated_10000.parquet",
+      "bytes": 1987247,
+      "sha256": "42cb37da2caef30f899296f2f7936bdee91854f49a095c2f81b4daa04b402440"
+    },
+    "top10_pilot_prototypes.csv": {
+      "source_path": "data/curated/top10_pilot_prototypes.csv",
+      "bytes": 13424,
+      "sha256": "6021ed4dd35f23a8b93e76624a97d641cb7b5adbe514c77433e570520bebb3fc"
+    },
+    "top10_pilot_prototypes.json": {
+      "source_path": "data/curated/top10_pilot_prototypes.json",
+      "bytes": 21086,
+      "sha256": "aadc82845abcf5549bfeaddc60ca2d7f3c4f228fcc407a2f9a214f99eccac026"
+    },
+    "top10_pilot_aia_dossiers.json": {
+      "source_path": "data/curated/top10_pilot_aia_dossiers.json",
+      "bytes": 10035,
+      "sha256": "a6155cc0cb0f07189fdc56610d5c3adb9f38fdb7f70defbbb0df88d046274c5c"
+    },
+    "verified_authority_corpus.json": {
+      "source_path": "data/curated/verified_authority_corpus.json",
+      "bytes": 85133,
+      "sha256": "7e28a8a81e0ae83a8126567467333f270ed27abc1f77cf3c21c03ec4116e9727"
+    },
+    "multilingual_glossary_50.csv": {
+      "source_path": "data/curated/multilingual_glossary_50.csv",
+      "bytes": 6986,
+      "sha256": "af8896938a291d9b2889dea7d1f8408742c822cb5a8929850e9469a4978f3541"
+    },
+    "multilingual_glossary_50.json": {
+      "source_path": "data/curated/multilingual_glossary_50.json",
+      "bytes": 11611,
+      "sha256": "2e0ab2eb3ea19b35d169591cd8ecde41ed9d15489ffaea374056040127f5fd34"
+    },
+    "pillar_coverage_30.csv": {
+      "source_path": "data/curated/pillar_coverage_30.csv",
+      "bytes": 2051,
+      "sha256": "c9a66a33dd87b2af3bfc1251414c9b05ed8daff457139ec51ed7d8eeb4d65b86"
+    },
+    "prototype_benchmark_results.json": {
+      "source_path": "data/sample/prototype_benchmark_results.json",
+      "bytes": 2125,
+      "sha256": "b9c359566995fda3ff1885d68f5ac229904826e764f6b814c3a6b6eb32a0eb14"
+    },
+    "anonymisation_benchmark_results.json": {
+      "source_path": "data/sample/anonymisation_benchmark_results.json",
+      "bytes": 1224,
+      "sha256": "4cd2356f068d0f0dedf2954ee9eca012534546a072bcb8514b736d048893919a"
+    },
+    "risk_audit_benchmark_results.json": {
+      "source_path": "data/sample/risk_audit_benchmark_results.json",
+      "bytes": 608,
+      "sha256": "75d702b61f06f38ed648791e2a816d6517ca53037f00ecf34b023869dce40b59"
+    },
+    "cardinality_verification.json": {
+      "source_path": "data/manifests/cardinality_verification.json",
+      "bytes": 553,
+      "sha256": "fe664ee37b4b17556334a62fd50b510323821219a3a78b02c6ae1948adab52c9"
+    }
+  }
+}

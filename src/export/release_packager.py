@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v0.8.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v0.9.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v0.8.0"
+RELEASE_NAME = "ijc-gajiu-v0.9.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v0.8.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v0.9.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -27,8 +27,10 @@ BUNDLE_FILES = [
     "data/curated/verified_authority_corpus.json",
     "data/curated/multilingual_glossary_50.csv",
     "data/curated/multilingual_glossary_50.json",
+    "data/curated/pillar_coverage_30.csv",
     "data/sample/prototype_benchmark_results.json",
     "data/sample/anonymisation_benchmark_results.json",
+    "data/sample/risk_audit_benchmark_results.json",
     "data/manifests/cardinality_verification.json",
 ]
 
@@ -36,14 +38,14 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "46-country AI justice atlas, 10,000 12D programs, AIA dossiers & pilots",
+    "subtitle": "46-country AI justice atlas, 10,000 12D programs, risk audit & pilots",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v0.8.0)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v0.9.0)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v0.8.0\n"
-        "- Added `top10_pilot_aia_dossiers.json` (Algorithmic Impact Assessment governance templates for all Top-10 pilots).\n"
-        "- Upgraded GitHub Pages portal with client-side Anonymisation Playground and 5-language Glossary explorer.\n"
+        "## What's New in v0.9.0\n"
+        "- Added `risk_audit_benchmark_results.json` (offline synthetic FPR disparity audit simulator).\n"
+        "- Added `pillar_coverage_30.csv` (30-pillar distribution across all 10,000 curated programs).\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -77,7 +79,7 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "0.8.0",
+        "release_version": "0.9.0",
         "release_name": RELEASE_NAME,
         "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {

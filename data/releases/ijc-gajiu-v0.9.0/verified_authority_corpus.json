@@ -1,0 +1,2144 @@
+[
+  {
+    "auth_id": "AUTH-001",
+    "citation": "Cross-jurisdictional AI hallucination, FRT, and automated decision-making cases",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Global (Hub)",
+    "source_id": "OXF-AIATLAS-00",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-002",
+    "citation": "Cross-jurisdictional statutes, data protection laws, and AI acts indexed by country",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Global (Hub)",
+    "source_id": "OXF-AIATLAS-00",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-003",
+    "citation": "Cross-jurisdictional judicial AI guidelines and practice directions",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Global (Hub)",
+    "source_id": "OXF-AIATLAS-00",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-004",
+    "citation": "BA Facial Recognition suspension (2023 appeal)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-005",
+    "citation": "Santa Fe and General Roca hallucination admonitions",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-006",
+    "citation": "Provincial AI protocols (Río Negro, Santa Fe, San Juan, Jujuy)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-007",
+    "citation": "Judicial admonitions on AI hallucinations in Santa Fe and General Roca",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-008",
+    "citation": ">30 hallucination cases including Nash v DPP, Valu, and DPP v Khan",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-009",
+    "citation": "General Practice Note GPN-AI (Apr 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-010",
+    "citation": "NSW SC Gen 23",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-011",
+    "citation": "Vic SC Gen 25",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-012",
+    "citation": "Strict disclosure and human-verification duties for GenAI in court filings",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-013",
+    "citation": "AI Strategy 2025-2028 (Decree 530)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Azerbaijan",
+    "source_id": "OXF-AIATLAS-03",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-014",
+    "citation": "Criminal Code Arts 148-2 & 242-1 (deepfakes)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Azerbaijan",
+    "source_id": "OXF-AIATLAS-03",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-015",
+    "citation": "Digital court modernization policies",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Azerbaijan",
+    "source_id": "OXF-AIATLAS-03",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-016",
+    "citation": "CNJ Resolution 615/2025 (risk matrix, mandatory judge training)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-017",
+    "citation": "Bill 2338/2023",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-018",
+    "citation": "Law 15,123/2025",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-019",
+    "citation": "Mandatory judicial AI governance, risk classification, and oversight under CNJ Res 615/2025",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-020",
+    "citation": "R v Chand",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-021",
+    "citation": "Zhang v Chen",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-022",
+    "citation": "Ko v Li",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-023",
+    "citation": "Ewert v Canada",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-024",
+    "citation": "R v Medow",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-025",
+    "citation": "PIPEDA",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-026",
+    "citation": "Bills C-16, C-34, C-36",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-027",
+    "citation": "CJC AI Guidelines (2024)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-028",
+    "citation": "Worldcoin (2024)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-029",
+    "citation": "Cruz v Manzano (2026)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-030",
+    "citation": "Law 21.719 (Data Protection)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-031",
+    "citation": "Bill Boletín 16.821-19",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-032",
+    "citation": "Judicial search and pilot governance",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-033",
+    "citation": "SPC Opinions (2022)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-034",
+    "citation": "Generative AI Measures (2023)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-035",
+    "citation": "Deep Synthesis Provisions (2023)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-036",
+    "citation": "Labeling Measures (2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-037",
+    "citation": "SPC Opinions on AI in Courts (2022)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-038",
+    "citation": "Xiamen Maritime Court guidelines",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-039",
+    "citation": "Constitutional Court T-323/2024, T-067/2025, AC739-2026",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-040",
+    "citation": "Acuerdo PCSJA24-12243 (first judiciary to implement UNESCO AI Guidelines)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-041",
+    "citation": "Law 1581/2012",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-042",
+    "citation": "Bill 422/2025",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-043",
+    "citation": "Acuerdo PCSJA24-12243 mandatory human control and transparency rules",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-044",
+    "citation": "National AI Strategy 2025-2030",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-045",
+    "citation": "Responsible AI Charter (2023)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-046",
+    "citation": "AI Governance Guide (2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-047",
+    "citation": "GenAI Guidelines (2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-048",
+    "citation": "PDPL 151/2020",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-049",
+    "citation": "Digital court modernization and offline speech-to-text deployment",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-050",
+    "citation": "EU AI Act",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Estonia",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-051",
+    "citation": "GDPR",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Estonia",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-052",
+    "citation": "Law Enforcement Directive (LED)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Estonia",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-053",
+    "citation": "Judicial Development Plan 2024-2030",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Estonia",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-054",
+    "citation": "Estonian Bar AI Guide (2024)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Estonia",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-055",
+    "citation": "National AI Policy (2024)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-056",
+    "citation": "Personal Data Protection Proclamation 1321/2024 (automated decision right)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-057",
+    "citation": "Smart Court branch rollout",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-058",
+    "citation": "Clearview AI reprimand (2021)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-059",
+    "citation": "EU AI Act",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-060",
+    "citation": "AI Supervision Act (2025, Traficom)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-061",
+    "citation": "GDPR",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-062",
+    "citation": "LED",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-063",
+    "citation": "Cyber Security Act (124/2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-064",
+    "citation": "Caen, Grenoble, and Nice court rulings halting BriefCam",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-065",
+    "citation": "Art 33 Justice Reform Act (ban on judicial predictive profiling)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-066",
+    "citation": "Law 2023-380 (Olympic video analytics)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-067",
+    "citation": "Loi SREN (deepfakes)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-068",
+    "citation": "Conseil d'État AI Charter (2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-069",
+    "citation": "CNB Guide",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-070",
+    "citation": "BVerfG hessenDATA ruling (2023)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-071",
+    "citation": "Reutlingen FRT rulings (2025/2026)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-072",
+    "citation": "EU AI Act",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-073",
+    "citation": "German constitutional data protection standards",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-074",
+    "citation": "E-Justice Council Strategy (2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-075",
+    "citation": "BRAK Guidelines (2024)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-076",
+    "citation": "Christian Louboutin",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-077",
+    "citation": "Gummadi Usha Rani (2026)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-078",
+    "citation": "DPDP Act 2023 & Rules 2025",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-079",
+    "citation": "IT Intermediary Amendment Rules 2026 (SGI)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-080",
+    "citation": "Supreme Court AI White Paper (Nov 2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-081",
+    "citation": "Kerala High Court AI Policy (2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-082",
+    "citation": "OECD incident regarding facial recognition enforcement",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-083",
+    "citation": "National AI Document (2024)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-084",
+    "citation": "Judiciary Transformation Document",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-085",
+    "citation": "Judiciary digital transformation directives",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-086",
+    "citation": "Florence Tribunal & Latina Tribunal AI hallucination cases",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-087",
+    "citation": "Law 132/2025 (Arts 13, 15, 24",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-088",
+    "citation": "Art 612-quater deepfakes)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-089",
+    "citation": "EU AI Act",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-090",
+    "citation": "Statutory reservation of judicial decision-making to human judges under Law 132/2025",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-091",
+    "citation": "AI Promotion Act (May 2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-092",
+    "citation": "Second AI Basic Plan (Jul 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-093",
+    "citation": "METI/MIC Guidelines",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-094",
+    "citation": "Criminal Digitalisation Act (2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-095",
+    "citation": "Criminal procedure digitalisation framework",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-096",
+    "citation": "Law On AI No. 230-VIII (Nov 2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-097",
+    "citation": "Digital Code (Jan 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-098",
+    "citation": "E-Soty and judicial AI integration policies",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-099",
+    "citation": "BAKE v AG (2026)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-100",
+    "citation": "Nayan Savla (nullified AI pleadings)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-101",
+    "citation": "Wangai (2026)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-102",
+    "citation": "AI Bill 2026",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-103",
+    "citation": "Data Protection Act 2019",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-104",
+    "citation": "Draft Judiciary AI Policy 2.0 (2026)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-105",
+    "citation": "CITRA AI Ethics Guide (2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-106",
+    "citation": "National AI Strategy 2025-2028",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-107",
+    "citation": "Denis v PP",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-108",
+    "citation": "PP v Adrian Kheung",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-109",
+    "citation": "Sukerdi bin Damit",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-110",
+    "citation": "Forthcoming AI Governance Bill (NAIO Jul 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-111",
+    "citation": "Judges' Code of Ethics 2009",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-112",
+    "citation": "Malaysian Bar Circular 242/2025",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-113",
+    "citation": "Queja 212/2025 (Tesis II.2o.C.9 K)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-114",
+    "citation": "e-Justice Policy (2022)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-115",
+    "citation": "Data Protection Laws (2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-116",
+    "citation": "Judicial precedent on AI-assisted rulings",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-117",
+    "citation": "Tamiefuna v R [2025] NZSC 40",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-118",
+    "citation": "Jones [2026] NZSC 1",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-119",
+    "citation": "Yorston [2026] NZCA 15",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-120",
+    "citation": "Biometric Processing Privacy Code (2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-121",
+    "citation": "Courts GenAI Guidelines (2023)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-122",
+    "citation": "NZLS Guidance (2024)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-123",
+    "citation": "Glukhin v Russia (ECtHR)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-124",
+    "citation": "West Siberian Arbitrazh Court AI fine",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-125",
+    "citation": "Federal Law No. 243-FZ (Jul 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-126",
+    "citation": "Supreme Court Plenum Resolution 15/2026",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-127",
+    "citation": "Plenum Resolution 15/2026 on digital/AI evidence and procedure",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-128",
+    "citation": "National AI Policy (2023, first in Africa)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-129",
+    "citation": "Data Protection & Privacy Law 058/2021",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-130",
+    "citation": "Evidence Law 62/2024",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-131",
+    "citation": "Digital evidence admissibility framework",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-132",
+    "citation": "SDAIA AI Ethics Principles (2023)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-133",
+    "citation": "GenAI Gov Guidelines (2024)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-134",
+    "citation": "AI Adoption Framework (2024/2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-135",
+    "citation": "Deepfakes Guidelines (2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-136",
+    "citation": "GCC Prosecutors Ethics (2023)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-137",
+    "citation": "PDPL",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-138",
+    "citation": "Digital justice governance via Najiz and GCC prosecutorial ethics",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-139",
+    "citation": "2 civil hallucination cost orders",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-140",
+    "citation": "PDPC AI Guidelines (2024)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-141",
+    "citation": "Administration of Justice (Protection) Act 2024 contempt amendment",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-142",
+    "citation": "State Courts GenAI Guide (2024)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-143",
+    "citation": "MinLaw GenAI Guide (Mar 2026)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-144",
+    "citation": "Parker v Forsyth",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-145",
+    "citation": "Mavundla",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-146",
+    "citation": "Northbound",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-147",
+    "citation": "POPIA",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-148",
+    "citation": "ECTA",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-149",
+    "citation": "Draft National AI Policy (withdrawn over AI hallucinations)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-150",
+    "citation": "Draft Judiciary AI Policy (Apr 2026)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-151",
+    "citation": "2025GoDan894",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-152",
+    "citation": "Daejeon Patent Court (2026)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-153",
+    "citation": "AI Framework Act (Jan 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-154",
+    "citation": "NPA AI Regulations (Jun 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-155",
+    "citation": "PIPA Art 37-2",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-156",
+    "citation": "Judges AI Guidebook (Feb 2026)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-157",
+    "citation": "Supreme Court 1119/2025 (source code access)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-158",
+    "citation": "Canary Islands EUR 420 fine (Feb 2026)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-159",
+    "citation": "Royal Decree-Law 6/2023",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-160",
+    "citation": "EU AI Act",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-161",
+    "citation": "Organic Law 5/2024",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-162",
+    "citation": "CGPJ Instruction 2/2026",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-163",
+    "citation": "CTEAJ Policy (2024)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-164",
+    "citation": "Supreme Court 114 Tai-Shang 5166 (FRT corroboration requirement)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-165",
+    "citation": "AI Basic Act (Jan 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-166",
+    "citation": "Executive Yuan Guidelines (2023)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-167",
+    "citation": "Criminal Code Art 319-4",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-168",
+    "citation": "Suspension of Judicial Yuan AI judgment drafting (Oct 2023)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-169",
+    "citation": "Draft AI Law Principles",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Thailand",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-170",
+    "citation": "PDPA",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Thailand",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-171",
+    "citation": "Computer Crime Act",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Thailand",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-172",
+    "citation": "Supreme Court President Recommendations (Sep 2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Thailand",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-173",
+    "citation": "Civil Court Binding AI Regulations B.E. 2568 (2025, mandatory tagging & certification)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Thailand",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-174",
+    "citation": "Data Protection & Privacy Law (Sep 2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "The Gambia",
+    "source_id": "OXF-AIATLAS-34",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thegambia-3447303d-c9d6-4476-963c-02898588dc35",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-175",
+    "citation": "National Digital Economy Master Plan 2023-2033",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "The Gambia",
+    "source_id": "OXF-AIATLAS-34",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thegambia-3447303d-c9d6-4476-963c-02898588dc35",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-176",
+    "citation": "SyRI (2020)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-177",
+    "citation": "Clearview EUR 30.5M fine",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-178",
+    "citation": "CATCH (2019)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-179",
+    "citation": "Hansken (2018)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-180",
+    "citation": "EU AI Act",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-181",
+    "citation": "GDPR",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-182",
+    "citation": "LED",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-183",
+    "citation": "Public Algorithm Register",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-184",
+    "citation": "National AI Strategy Judiciary (2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-185",
+    "citation": "Dutch Bar Recommendations (2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-186",
+    "citation": "Sandiganbayan (Aug 2025)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-187",
+    "citation": "Data Privacy Act 2012",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-188",
+    "citation": "Supreme Court AI Governance Framework AM 25-11-28-SC (Feb 2026, first ASEAN judiciary to endorse UNESCO Guidelines)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-189",
+    "citation": "PDPA 2022",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Tanzania",
+    "source_id": "OXF-AIATLAS-37",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/tanzanias-ai-in-criminal-justice-training-and-regulation-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-190",
+    "citation": "Draft Ethical AI Guidelines (2024)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Tanzania",
+    "source_id": "OXF-AIATLAS-37",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/tanzanias-ai-in-criminal-justice-training-and-regulation-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-191",
+    "citation": "Draft National AI Strategy (2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Tanzania",
+    "source_id": "OXF-AIATLAS-37",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/tanzanias-ai-in-criminal-justice-training-and-regulation-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-192",
+    "citation": "Cybersecurity Law 7545 (2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-193",
+    "citation": "KVKK AI Recommendations (2021)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-194",
+    "citation": "Draft AI Bill",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-195",
+    "citation": "Ankara Bar AI Guide (2024)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-196",
+    "citation": "Supreme Court & HACC contempt/abuse rulings",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-197",
+    "citation": "MinDigital Lawyer Guidelines (2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-198",
+    "citation": "Supreme Court Admin Regulations (Dec 2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-199",
+    "citation": "HACC Principles (Dec 2024)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-200",
+    "citation": "Arabyads [2025] ADGMCFI 0032 (AED 282,508 wasted costs)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-201",
+    "citation": "UAE AI Charter (2024)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-202",
+    "citation": "DIFC Practice Note 2/2023",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-203",
+    "citation": "Bridges",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-204",
+    "citation": "Thompson",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-205",
+    "citation": "Ayinde & Al-Haroun",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-206",
+    "citation": "VP Evans [2025] UKFTT 1112",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-207",
+    "citation": "NPCC Covenant",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-208",
+    "citation": "MoJ AI Action Plan",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-209",
+    "citation": "Judiciary AI Guidance (Oct 2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-210",
+    "citation": "Bar Council",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-211",
+    "citation": "Law Society (May 2025)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-212",
+    "citation": "SRA",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-213",
+    "citation": "State v Loomis",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-214",
+    "citation": "Williams v City of Detroit",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-215",
+    "citation": "Mata v Avianca",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-216",
+    "citation": "Heppner",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-217",
+    "citation": "Proposed FRE Rule 707",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-218",
+    "citation": "TAKE IT DOWN Act",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-219",
+    "citation": "EO 14179",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-220",
+    "citation": "State laws (Colorado AI Act)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-221",
+    "citation": "ABA Formal Opinion 512 & 517",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-222",
+    "citation": "Federal/State standing orders",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-223",
+    "citation": "Law No. ORK-1115 (Jan 2026, human-in-the-loop)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-224",
+    "citation": "Ethical Rules (Mar 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-225",
+    "citation": "Digital Court Decree (Aug 2025)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-226",
+    "citation": "Law on Digital Evidence (2024)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-227",
+    "citation": "Mandatory human-in-the-loop and digital court rules",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-228",
+    "citation": "Pulserate Investments v Zuze [SC 202/25] (12 AI citations nullified)",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Zimbabwe",
+    "source_id": "OXF-AIATLAS-45",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-229",
+    "citation": "National AI Strategy 2026-2030 (Mar 2026)",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Zimbabwe",
+    "source_id": "OXF-AIATLAS-45",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-230",
+    "citation": "Cyber & Data Protection Act 2021",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Zimbabwe",
+    "source_id": "OXF-AIATLAS-45",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-231",
+    "citation": "Zero-tolerance precedent for fabricated AI citations",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Zimbabwe",
+    "source_id": "OXF-AIATLAS-45",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-232",
+    "citation": "Jane Doe",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-233",
+    "citation": "Mahajne",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-234",
+    "citation": "Omer Berger",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-235",
+    "citation": "Nevo Ben Cohen",
+    "authority_type": "REPORTED_CASE",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-236",
+    "citation": "Privacy Protection Law Amendment 13",
+    "authority_type": "REGULATORY_INSTRUMENT",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-237",
+    "citation": "Judicial Ethical Code (Mar 2026)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "auth_id": "AUTH-238",
+    "citation": "IBA Ethics Opinion (2024/2026)",
+    "authority_type": "JUDICIAL_POLICY",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  }
+]
