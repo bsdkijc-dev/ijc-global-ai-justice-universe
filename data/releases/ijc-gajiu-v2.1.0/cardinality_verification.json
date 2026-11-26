@@ -1,0 +1,20 @@
+{
+  "dimension_count": 12,
+  "pillar_count": 30,
+  "dimension_cardinalities": {
+    "D01_jurisdiction_archetype": 12,
+    "D02_legal_system": 10,
+    "D03_justice_domain": 12,
+    "D04_institutional_actor": 12,
+    "D05_workflow_stage": 12,
+    "D06_ai_paradigm": 12,
+    "D07_data_modality": 10,
+    "D08_governance_mechanism": 12,
+    "D09_human_rights_focus": 10,
+    "D10_deployment_tier": 10,
+    "D11_research_pillar": 30,
+    "D12_horizon_target": 10
+  },
+  "total_addressable_configurations": 8957952000000,
+  "meets_one_trillion_target": true
+}

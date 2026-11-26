@@ -1,0 +1,40 @@
+{
+  "prototype_id": "IJC-GAJIU-SYNTHETIC-MEDIA-GATE-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "benchmark_cases": 4,
+  "exact_gate_accuracy": 1.0,
+  "results": [
+    {
+      "evidence_id": "EVID-01",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_status": "PASS_CHAIN_OF_CUSTODY_VERIFIED_FOR_JUDICIAL_REVIEW",
+      "detected_status": "PASS_CHAIN_OF_CUSTODY_VERIFIED_FOR_JUDICIAL_REVIEW",
+      "audit_hash": "1E5D037E6F1C"
+    },
+    {
+      "evidence_id": "EVID-02",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_status": "FLAG_SYNTHETIC_UNCORROBORATED_EXCLUDED_PENDING_HEARING",
+      "detected_status": "FLAG_SYNTHETIC_UNCORROBORATED_EXCLUDED_PENDING_HEARING",
+      "audit_hash": "0DEF067F522E"
+    },
+    {
+      "evidence_id": "EVID-03",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_status": "FLAG_INCOMPLETE_CHAIN_OF_CUSTODY_HITL_REQUIRED",
+      "detected_status": "FLAG_INCOMPLETE_CHAIN_OF_CUSTODY_HITL_REQUIRED",
+      "audit_hash": "B027DA3811CE"
+    },
+    {
+      "evidence_id": "EVID-04",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "expected_status": "PASS_CHAIN_OF_CUSTODY_VERIFIED_FOR_JUDICIAL_REVIEW",
+      "detected_status": "PASS_CHAIN_OF_CUSTODY_VERIFIED_FOR_JUDICIAL_REVIEW",
+      "audit_hash": "D90F575A14F3"
+    }
+  ]
+}

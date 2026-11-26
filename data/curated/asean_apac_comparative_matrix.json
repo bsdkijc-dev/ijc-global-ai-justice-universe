@@ -1,0 +1,172 @@
+[
+  {
+    "jurisdiction": "Malaysia",
+    "subregion": "ASEAN",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "key_ai_systems": "AI Sentencing System (Sabah/Sarawak & Peninsular); E-Court; YITU bodycam FRT; Penang/Sarawak AI CCTV",
+    "key_regulations_and_policies": "Forthcoming AI Governance Bill (NAIO Jul 2026); Judges' Code of Ethics 2009 | Malaysian Bar Circular 242/2025",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Singapore",
+    "subregion": "ASEAN",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "key_ai_systems": "R-Cop; GRAND-VISION; Cyber Guardian; AGC CaseEdge & Prollie; Courts-Harvey SCT MoU; Pair Search; Lupl LTP; LawNet GPT-Legal Q&A",
+    "key_regulations_and_policies": "PDPC AI Guidelines (2024); Administration of Justice (Protection) Act 2024 contempt amendment | State Courts GenAI Guide (2024); MinLaw GenAI Guide (Mar 2026)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Thailand",
+    "subregion": "ASEAN",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "key_ai_systems": "AI Police Cyborg 1.0 (14 fugitives); Anti-Online Scam Center; ChatAI; CIBbot",
+    "key_regulations_and_policies": "Draft AI Law Principles; PDPA; Computer Crime Act | Supreme Court President Recommendations (Sep 2025); Civil Court Binding AI Regulations B.E. 2568 (2025, mandatory tagging & certification)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "The Philippines",
+    "subregion": "ASEAN",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "key_ai_systems": "AI Police Command Centers; eCourt PH; JIGSS; Scriptix (mandatory nationwide Mar 2026, Taglish); Philippine Judiciary 365; Anycase.ai; Digest AI; Lex Pilipinas; Tisya Hutsiaya",
+    "key_regulations_and_policies": "Data Privacy Act 2012 | Supreme Court AI Governance Framework AM 25-11-28-SC (Feb 2026, first ASEAN judiciary to endorse UNESCO Guidelines)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Australia",
+    "subregion": "Asia-Pacific",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "key_ai_systems": "AFP 6 AI capabilities; NEC NeoFace; iFace; Acusensus; Auror; Silverer; Amicus/Amicus X; Coroners Redaction; CoCounsel; Lexis+AI; Hear Me Out; Umibot",
+    "key_regulations_and_policies": "General Practice Note GPN-AI (Apr 2026); NSW SC Gen 23; Vic SC Gen 25 | Strict disclosure and human-verification duties for GenAI in court filings",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "New Zealand",
+    "subregion": "Asia-Pacific",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "key_ai_systems": "Appian; Auror ANPR; BriefCam; ABIS2; Clearview AI (stopped 2021); Lumi Drug Scan; Griffeye; SAFVR/DYRA; Te Au Reka",
+    "key_regulations_and_policies": "Biometric Processing Privacy Code (2025) | Courts GenAI Guidelines (2023); NZLS Guidance (2024)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "China",
+    "subregion": "Asia-Pacific",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "key_ai_systems": "Smart Courts; 206 System; Faxin Zhitui; Little Judge Bao; Judicial Knowledge Services Platform (1.14B knowledge points); Kunpeng Team; DeepSeek policing; Skynet; Sharp Eyes; IJOP; 12368 Voice; Fa Xiaotao",
+    "key_regulations_and_policies": "SPC Opinions (2022); Generative AI Measures (2023); Deep Synthesis Provisions (2023); Labeling Measures (2025) | SPC Opinions on AI in Courts (2022); Xiamen Maritime Court guidelines",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "India",
+    "subregion": "Asia-Pacific",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "key_ai_systems": "e-Courts Phase III (>50M backlog); SUVAS (31,184 judgments, 16 languages); SUPACE; Nyaay AI; Adalat AI (>4,000 courts); Lucio; NyaySanhita.in; Abhay; AMPED FIVE; CCTNS",
+    "key_regulations_and_policies": "DPDP Act 2023 & Rules 2025; IT Intermediary Amendment Rules 2026 (SGI) | Supreme Court AI White Paper (Nov 2025); Kerala High Court AI Policy (2025)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Japan",
+    "subregion": "Asia-Pacific",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "key_ai_systems": "Crime Nabi; NPA FRT (10M images); tokuryu social media AI (18,500 warnings); JAFIC AML; Aichi AI sketch; disaster drones",
+    "key_regulations_and_policies": "AI Promotion Act (May 2025); Second AI Basic Plan (Jul 2026); METI/MIC Guidelines; Criminal Digitalisation Act (2025) | Criminal procedure digitalisation framework",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "South Korea",
+    "subregion": "Asia-Pacific",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "key_ai_systems": "KICS-AI (Exaone, 36k officers); Pre-CAS/Freecus; AIID; Zio-Keeper; NPA deepfake detector (419 arrests); K-VoM; LBox; Trial Support AI; SuperLawyer",
+    "key_regulations_and_policies": "AI Framework Act (Jan 2026); NPA AI Regulations (Jun 2026); PIPA Art 37-2 | Judges AI Guidebook (Feb 2026)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Taiwan",
+    "subregion": "Asia-Pacific",
+    "coverage_status": "COVERED_OXFORD_VERIFIED",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "key_ai_systems": "Municipal AI patrol systems; M-Police (NEC); Judicial Yuan ASR (Mandarin/Taiwanese/Hakka); AI judgment drafting (suspended Oct 2023); AI Sentencing Information System; TAIDE; Lawbot/Lawsnote/TaiLexi; 165 Anti-Fraud",
+    "key_regulations_and_policies": "AI Basic Act (Jan 2026); Executive Yuan Guidelines (2023); Criminal Code Art 319-4 | Suspension of Judicial Yuan AI judgment drafting (Oct 2023)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Indonesia",
+    "subregion": "ASEAN",
+    "coverage_status": "NOT_IN_OXFORD_INITIAL_CORPUS_GAP_IDENTIFIED",
+    "source_id": "",
+    "source_url": "",
+    "key_ai_systems": "",
+    "key_regulations_and_policies": "",
+    "evidence_label": "RESEARCH_GAP_IDENTIFIED"
+  },
+  {
+    "jurisdiction": "Vietnam",
+    "subregion": "ASEAN",
+    "coverage_status": "NOT_IN_OXFORD_INITIAL_CORPUS_GAP_IDENTIFIED",
+    "source_id": "",
+    "source_url": "",
+    "key_ai_systems": "",
+    "key_regulations_and_policies": "",
+    "evidence_label": "RESEARCH_GAP_IDENTIFIED"
+  },
+  {
+    "jurisdiction": "Brunei Darussalam",
+    "subregion": "ASEAN",
+    "coverage_status": "NOT_IN_OXFORD_INITIAL_CORPUS_GAP_IDENTIFIED",
+    "source_id": "",
+    "source_url": "",
+    "key_ai_systems": "",
+    "key_regulations_and_policies": "",
+    "evidence_label": "RESEARCH_GAP_IDENTIFIED"
+  },
+  {
+    "jurisdiction": "Cambodia",
+    "subregion": "ASEAN",
+    "coverage_status": "NOT_IN_OXFORD_INITIAL_CORPUS_GAP_IDENTIFIED",
+    "source_id": "",
+    "source_url": "",
+    "key_ai_systems": "",
+    "key_regulations_and_policies": "",
+    "evidence_label": "RESEARCH_GAP_IDENTIFIED"
+  },
+  {
+    "jurisdiction": "Lao PDR",
+    "subregion": "ASEAN",
+    "coverage_status": "NOT_IN_OXFORD_INITIAL_CORPUS_GAP_IDENTIFIED",
+    "source_id": "",
+    "source_url": "",
+    "key_ai_systems": "",
+    "key_regulations_and_policies": "",
+    "evidence_label": "RESEARCH_GAP_IDENTIFIED"
+  },
+  {
+    "jurisdiction": "Myanmar",
+    "subregion": "ASEAN",
+    "coverage_status": "NOT_IN_OXFORD_INITIAL_CORPUS_GAP_IDENTIFIED",
+    "source_id": "",
+    "source_url": "",
+    "key_ai_systems": "",
+    "key_regulations_and_policies": "",
+    "evidence_label": "RESEARCH_GAP_IDENTIFIED"
+  }
+]
