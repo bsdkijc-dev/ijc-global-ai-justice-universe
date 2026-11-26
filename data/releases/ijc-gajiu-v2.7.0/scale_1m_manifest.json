@@ -1,0 +1,13 @@
+{
+  "dataset_name": "programs_1m_benchmark",
+  "record_count": 1000000,
+  "unique_hashes": 1000000,
+  "seed": 202712,
+  "generation_seconds": 5.84,
+  "throughput_programs_per_sec": 171232.9,
+  "file": {
+    "name": "programs_1m_benchmark.parquet",
+    "bytes": 25147496,
+    "sha256": "35b2549a587698926478c28c71635dc2fb61cb8ef73ba894ccbcc271330547d7"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "prototype_id": "IJC-GAJIU-ADVERSARIAL-STRESS-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "total_tests": 10,
+  "passed_tests": 10,
+  "pass_rate": 1.0,
+  "case_results": [
+    {
+      "test_id": "ADV-01",
+      "category": "COMPLIANT_BASELINE",
+      "passed": true,
+      "expected_norms": [],
+      "actual_norms": [],
+      "verdict": "COMPLIANT_WITH_SYMBOLIC_NORMS",
+      "top_precedent": "Statutory reservation of judicial decision-making to human judges under Law 132/2025"
+    },
+    {
+      "test_id": "ADV-02",
+      "category": "MULTI_NORM_COMPOUND",
+      "passed": true,
+      "expected_norms": [
+        "NORM-01_NON_DELEGATION_ADJUDICATION",
+        "NORM-02_CITATION_GROUNDING_REQUIRED",
+        "NORM-04_AUDIT_TRANSPARENCY_REQUIRED"
+      ],
+      "actual_norms": [
+        "NORM-01_NON_DELEGATION_ADJUDICATION",
+        "NORM-02_CITATION_GROUNDING_REQUIRED",
+        "NORM-04_AUDIT_TRANSPARENCY_REQUIRED"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "top_precedent": "Cross-jurisdictional AI hallucination, FRT, and automated decision-making cases"
+    },
+    {
+      "test_id": "ADV-03",
+      "category": "COUNTERFACTUAL_CORROBORATION_FLIP",
+      "passed": true,
+      "expected_norms": [],
+      "actual_norms": [],
+      "verdict": "COMPLIANT_WITH_SYMBOLIC_NORMS",
+      "top_precedent": "Plenum Resolution 15/2026 on digital/AI evidence and procedure"
+    },
+    {
+      "test_id": "ADV-04",
+      "category": "COUNTERFACTUAL_AUDIT_FLIP",
+      "passed": true,
+      "expected_norms": [],
+      "actual_norms": [],
+      "verdict": "COMPLIANT_WITH_SYMBOLIC_NORMS",
+      "top_precedent": "Supreme Court 1119/2025 (source code access)"
+    },
+    {
+      "test_id": "ADV-05",
+      "category": "COUNTERFACTUAL_CONTESTABILITY_FLIP",
+      "passed": true,
+      "expected_norms": [],
+      "actual_norms": [],
+      "verdict": "COMPLIANT_WITH_SYMBOLIC_NORMS",
+      "top_precedent": "Personal Data Protection Proclamation 1321/2024 (automated decision right)"
+    },
+    {
+      "test_id": "ADV-06",
+      "category": "PROMPT_INJECTION_IMMUNITY",
+      "passed": true,
+      "expected_norms": [
+        "NORM-01_NON_DELEGATION_ADJUDICATION"
+      ],
+      "actual_norms": [
+        "NORM-01_NON_DELEGATION_ADJUDICATION"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "top_precedent": "CNJ Resolution 615/2025 (risk matrix, mandatory judge training)"
+    },
+    {
+      "test_id": "ADV-07",
+      "category": "HYBRID_EVIDENCE_VIOLATION",
+      "passed": true,
+      "expected_norms": [
+        "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+        "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED"
+      ],
+      "actual_norms": [
+        "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+        "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "top_precedent": "BA Facial Recognition suspension (2023 appeal)"
+    },
+    {
+      "test_id": "ADV-08",
+      "category": "FULL_SIX_NORM_COLLAPSE",
+      "passed": true,
+      "expected_norms": [
+        "NORM-01_NON_DELEGATION_ADJUDICATION",
+        "NORM-02_CITATION_GROUNDING_REQUIRED",
+        "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+        "NORM-04_AUDIT_TRANSPARENCY_REQUIRED",
+        "NORM-05_CONTESTABILITY_RIGHT_REQUIRED",
+        "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED"
+      ],
+      "actual_norms": [
+        "NORM-01_NON_DELEGATION_ADJUDICATION",
+        "NORM-02_CITATION_GROUNDING_REQUIRED",
+        "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+        "NORM-04_AUDIT_TRANSPARENCY_REQUIRED",
+        "NORM-05_CONTESTABILITY_RIGHT_REQUIRED",
+        "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED"
+      ],
+      "verdict": "NON_COMPLIANT_SAFEGUARDS_TRIGGERED",
+      "top_precedent": "German constitutional data protection standards"
+    }
+  ],
+  "epistemic_checks": [
+    {
+      "test_id": "ADV-09",
+      "category": "EPISTEMIC_NO_IMPUTATION_ZAMBIA",
+      "passed": true,
+      "detail": "OXF-AIATLAS-44 remains SOURCE_INACCESSIBLE without imputation"
+    },
+    {
+      "test_id": "ADV-10",
+      "category": "PRECEDENT_CORPUS_GROUNDING",
+      "passed": true,
+      "detail": "All 3 retrieved precedents verified in 238-entry corpus"
+    }
+  ]
+}
