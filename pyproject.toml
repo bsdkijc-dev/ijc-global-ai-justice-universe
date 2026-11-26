@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ijc-global-ai-justice-universe"
-version = "0.1.0"
+version = "1.0.0"
 description = "IJC Global AI & Justice Innovation Universe — 12D Combinatorial Research & Governance Architecture"
 readme = "README.md"
 requires-python = ">=3.11"

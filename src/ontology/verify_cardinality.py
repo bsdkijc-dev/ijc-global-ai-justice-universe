@@ -3,7 +3,10 @@
 
 import json
 from pathlib import Path
-from taxonomy import DIMENSIONS, PILLARS, compute_cardinality
+try:
+    from src.ontology.taxonomy import DIMENSIONS, PILLARS, compute_cardinality
+except ImportError:
+    from taxonomy import DIMENSIONS, PILLARS, compute_cardinality
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 

@@ -1,0 +1,94 @@
+{
+  "title": "IJC Global AI & Justice Innovation Universe",
+  "id": "judicialcollege/ijc-global-ai-justice-universe",
+  "licenses": [
+    {
+      "name": "MIT"
+    }
+  ],
+  "subtitle": "v1.0.0: 46-country AI justice atlas, 10,000 12D programs & prototypes",
+  "description": "# IJC Global AI & Justice Innovation Universe (v1.0.0)\n\n**Founder:** Cecep Mustafa  \n**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n## v1.0.0 Baseline Milestone\n- **8,957,952,000,000** addressable 12D configurations verified (`cardinality_verification.json`).\n- **47** Oxford AI Justice Atlas URLs audited (46 accessible, 1 `SOURCE_INACCESSIBLE` Zambia).\n- **10,000** schema-validated, deduplicated programs + **Top-10** pilots & AIA dossiers.\n- **238** verified real-world authorities, **50-term** 5-language glossary, and **3** offline CPU prototype benchmarks.\n",
+  "keywords": [
+    "law",
+    "artificial intelligence"
+  ],
+  "isPrivate": true,
+  "resources": [
+    {
+      "path": "source-registry.csv",
+      "description": "Released from sources/source-registry.csv"
+    },
+    {
+      "path": "source-registry.json",
+      "description": "Released from sources/source-registry.json"
+    },
+    {
+      "path": "access-log.csv",
+      "description": "Released from sources/access-log.csv"
+    },
+    {
+      "path": "jurisdiction_atlas_46.csv",
+      "description": "Released from data/curated/jurisdiction_atlas_46.csv"
+    },
+    {
+      "path": "jurisdiction_atlas_46.json",
+      "description": "Released from data/curated/jurisdiction_atlas_46.json"
+    },
+    {
+      "path": "programs_curated_1000.csv",
+      "description": "Released from data/curated/programs_curated_1000.csv"
+    },
+    {
+      "path": "programs_curated_1000.parquet",
+      "description": "Released from data/curated/programs_curated_1000.parquet"
+    },
+    {
+      "path": "programs_curated_10000.parquet",
+      "description": "Released from data/curated/programs_curated_10000.parquet"
+    },
+    {
+      "path": "top10_pilot_prototypes.csv",
+      "description": "Released from data/curated/top10_pilot_prototypes.csv"
+    },
+    {
+      "path": "top10_pilot_prototypes.json",
+      "description": "Released from data/curated/top10_pilot_prototypes.json"
+    },
+    {
+      "path": "top10_pilot_aia_dossiers.json",
+      "description": "Released from data/curated/top10_pilot_aia_dossiers.json"
+    },
+    {
+      "path": "verified_authority_corpus.json",
+      "description": "Released from data/curated/verified_authority_corpus.json"
+    },
+    {
+      "path": "multilingual_glossary_50.csv",
+      "description": "Released from data/curated/multilingual_glossary_50.csv"
+    },
+    {
+      "path": "multilingual_glossary_50.json",
+      "description": "Released from data/curated/multilingual_glossary_50.json"
+    },
+    {
+      "path": "pillar_coverage_30.csv",
+      "description": "Released from data/curated/pillar_coverage_30.csv"
+    },
+    {
+      "path": "prototype_benchmark_results.json",
+      "description": "Released from data/sample/prototype_benchmark_results.json"
+    },
+    {
+      "path": "anonymisation_benchmark_results.json",
+      "description": "Released from data/sample/anonymisation_benchmark_results.json"
+    },
+    {
+      "path": "risk_audit_benchmark_results.json",
+      "description": "Released from data/sample/risk_audit_benchmark_results.json"
+    },
+    {
+      "path": "cardinality_verification.json",
+      "description": "Released from data/manifests/cardinality_verification.json"
+    }
+  ]
+}
