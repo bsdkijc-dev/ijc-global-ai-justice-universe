@@ -1,0 +1,52 @@
+[
+  {
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "key_ai_systems": "PROMETEA; AymurAI; IURIX Mind; Genaro; Relmo; DoctIA; MinutaIA; Buenos Aires Facial Recognition System",
+    "regulatory_instruments": "Provincial AI protocols (Río Negro, Santa Fe, San Juan, Jujuy)",
+    "judicial_policies": "Judicial admonitions on AI hallucinations in Santa Fe and General Roca",
+    "reported_cases": "BA Facial Recognition suspension (2023 appeal); Santa Fe and General Roca hallucination admonitions",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "key_ai_systems": "VICTOR; ATHOS; Projeto Sócrates; APOIA; ASSIS; STJ Logos; Plataforma Codex (386M lawsuits); Detecta; Smart Sampa (40k cameras); LuminarIA; Jarvis; Etiquetas Inteligentes",
+    "regulatory_instruments": "CNJ Resolution 615/2025 (risk matrix, mandatory judge training); Bill 2338/2023; Law 15,123/2025",
+    "judicial_policies": "Mandatory judicial AI governance, risk classification, and oversight under CNJ Res 615/2025",
+    "reported_cases": "",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "key_ai_systems": "Urban Crime Prediction System (89% accuracy claim); SITIA; Calle Segura; FISCAL HEREDIA (>240 prosecutors); Justa pilot; Buscador de Jurisprudencia",
+    "regulatory_instruments": "Law 21.719 (Data Protection); Bill Boletín 16.821-19",
+    "judicial_policies": "Judicial search and pilot governance",
+    "reported_cases": "Worldcoin (2024); Cruz v Manzano (2026)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "key_ai_systems": "Fiscal Watson; Think; PRiSMA (suspended); PROMETEA; PretorIA (~4,500 tutelas/day); Ebba/PERLA",
+    "regulatory_instruments": "Acuerdo PCSJA24-12243 (first judiciary to implement UNESCO AI Guidelines); Law 1581/2012; Bill 422/2025",
+    "judicial_policies": "Acuerdo PCSJA24-12243 mandatory human control and transparency rules",
+    "reported_cases": "Constitutional Court T-323/2024, T-067/2025, AC739-2026",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "key_ai_systems": "CDMX C5 (>113k cameras); Michoacán SAFR FRT; Zacatecas backlog triage (74%); Mapeo Nacional; JulIA; Ebba; Fiscal IA (35 to 11 min); JusticIA; Sor Juana; TEO",
+    "regulatory_instruments": "e-Justice Policy (2022); Data Protection Laws (2025)",
+    "judicial_policies": "Judicial precedent on AI-assisted rulings",
+    "reported_cases": "Queja 212/2025 (Tesis II.2o.C.9 K)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  }
+]
