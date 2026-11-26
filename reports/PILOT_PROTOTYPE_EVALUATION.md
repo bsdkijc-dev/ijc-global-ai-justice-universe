@@ -1,6 +1,7 @@
 # Pilot Prototype Evaluation Report — Citation Gate & Appellate Triage
 
 **Prototype Status:** `PROTOTYPE_EXPERIMENTAL_NONBINDING` (Zero-Budget Offline CPU)  
+**Verified Authority Corpus Entries:** 238  
 **Benchmark Cases (`SYNTHETIC_BENCHMARK_TEST_CASE`):** 6  
 **Exact Unverified-Citation Detection Accuracy:** 100.0% (6/6)  
 **TF-IDF Issue Clusters Formed:** 6
@@ -13,4 +14,4 @@
 | SYN-03 | CLU-03 | 2 | 0 | 0 | PASS_HUMAN_SIGN_OFF_READY | `A1543E646E8A` |
 | SYN-04 | CLU-04 | 2 | 2 | 2 | FLAG_UNVERIFIED_CITATIONS_HITL_REQUIRED | `2855525E0D1D` |
 | SYN-05 | CLU-05 | 2 | 0 | 0 | PASS_HUMAN_SIGN_OFF_READY | `F1CBC5A24CDA` |
-| SYN-06 | CLU-06 | 2 | 1 | 1 | FLAG_UNVERIFIED_CITATIONS_HITL_REQUIRED | `F44C79E38D1F` |
+| SYN-06 | CLU-06 | 2 | 1 | 1 | FLAG_UNVERIFIED_CITATIONS_HITL_REQUIRED | `2F005B8512C9` |

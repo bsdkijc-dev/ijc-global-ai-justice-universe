@@ -1,6 +1,7 @@
 {
   "prototype_id": "IJC-GAJIU-PILOT-PROTOTYPE-01",
   "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "authority_registry_entries": 238,
   "benchmark_cases": 6,
   "exact_citation_detection_accuracy": 1.0,
   "clusters_formed": 6,
@@ -63,7 +64,7 @@
       "detected_unverified": 1,
       "citations_detected": 2,
       "gate_status": "FLAG_UNVERIFIED_CITATIONS_HITL_REQUIRED",
-      "audit_hash": "F44C79E38D1F"
+      "audit_hash": "2F005B8512C9"
     }
   ]
 }

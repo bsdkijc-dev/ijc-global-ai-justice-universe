@@ -11,14 +11,14 @@ from src.originality.deduplicator import compute_tfidf_matrix, tokenize
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 REPORTS_DIR = ROOT / "reports"
+CORPUS_PATH = ROOT / "data" / "curated" / "verified_authority_corpus.json"
 BENCHMARK_OUT = ROOT / "data" / "sample" / "prototype_benchmark_results.json"
 
 CITATION_RE = re.compile(
     r"(?:\[\d{4}\]\s+[A-Z]{2,10}\s+\d+|\b[A-Z][A-Za-z0-9.\-]+\s+v\.?\s+[A-Z][A-Za-z0-9.\-]+\b|\bLaw\s+No\.?\s+[A-Z0-9\-\/]+\b)"
 )
 
-# Verified authority registry seeded from Oxford AI Justice Atlas public case/statute citations
-VERIFIED_AUTHORITY_REGISTRY = [
+FALLBACK_REGISTRY = [
     {"auth_id": "AUTH-01", "citation": "State v Loomis", "jurisdiction": "United States"},
     {"auth_id": "AUTH-02", "citation": "Mata v Avianca", "jurisdiction": "United States"},
     {"auth_id": "AUTH-03", "citation": "Parker v Forsyth", "jurisdiction": "South Africa"},
@@ -27,22 +27,39 @@ VERIFIED_AUTHORITY_REGISTRY = [
     {"auth_id": "AUTH-06", "citation": "[2025] UKFTT 1112", "jurisdiction": "United Kingdom"},
     {"auth_id": "AUTH-07", "citation": "Law No. ORK-1115", "jurisdiction": "Uzbekistan"},
     {"auth_id": "AUTH-08", "citation": "Law No. 243-FZ", "jurisdiction": "Russia"},
-    {"auth_id": "AUTH-09", "citation": "Williams v Detroit", "jurisdiction": "United States"},
+    {"auth_id": "AUTH-09", "citation": "Williams v City of Detroit", "jurisdiction": "United States"},
     {"auth_id": "AUTH-10", "citation": "Ewert v Canada", "jurisdiction": "Canada"},
 ]
 
 
-def verify_citations(text: str, registry: List[Dict[str, str]] = VERIFIED_AUTHORITY_REGISTRY) -> Dict[str, Any]:
+def load_authority_registry() -> List[Dict[str, str]]:
+    if CORPUS_PATH.exists():
+        return json.loads(CORPUS_PATH.read_text(encoding="utf-8"))
+    return FALLBACK_REGISTRY
+
+
+def verify_citations(text: str, registry: List[Dict[str, str]] | None = None) -> Dict[str, Any]:
+    reg = registry if registry is not None else load_authority_registry()
     found = CITATION_RE.findall(text)
-    known = {item["citation"].lower(): item for item in registry}
 
     verified: List[Dict[str, str]] = []
     unverified: List[str] = []
 
     for cit in found:
         key = cit.strip().lower()
-        if key in known:
-            verified.append({"citation": cit, "auth_id": known[key]["auth_id"], "status": "VERIFIED_AUTHORITY"})
+        match = None
+        for item in reg:
+            item_cit = item["citation"].strip().lower()
+            if key == item_cit or key in item_cit:
+                match = item
+                break
+        if match:
+            verified.append({
+                "citation": cit,
+                "auth_id": match["auth_id"],
+                "jurisdiction": match.get("jurisdiction", ""),
+                "status": "VERIFIED_AUTHORITY",
+            })
         else:
             unverified.append(cit)
 
@@ -51,6 +68,7 @@ def verify_citations(text: str, registry: List[Dict[str, str]] = VERIFIED_AUTHOR
 
     return {
         "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+        "registry_size": len(reg),
         "audit_hash": audit_hash,
         "citations_detected": len(found),
         "verified_citations": verified,
@@ -60,6 +78,7 @@ def verify_citations(text: str, registry: List[Dict[str, str]] = VERIFIED_AUTHOR
 
 
 def cluster_filings(filings: List[Dict[str, str]], similarity_threshold: float = 0.20) -> List[Dict[str, Any]]:
+    reg = load_authority_registry()
     docs = [tokenize(f["text"]) for f in filings]
     tfidf = compute_tfidf_matrix(docs)
     sim = tfidf @ tfidf.T
@@ -77,7 +96,7 @@ def cluster_filings(filings: List[Dict[str, str]], similarity_threshold: float =
 
     results = []
     for i, f in enumerate(filings):
-        cit_res = verify_citations(f["text"])
+        cit_res = verify_citations(f["text"], registry=reg)
         results.append({
             "case_id": f["case_id"],
             "record_type": f["record_type"],
@@ -127,12 +146,13 @@ def build_synthetic_benchmark() -> List[Dict[str, Any]]:
             "case_id": "SYN-06",
             "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
             "expected_unverified": 1,
-            "text": "Biometric proportionality appeal citing Williams v Detroit alongside unverified Doe v GhostCourt.",
+            "text": "Biometric proportionality appeal citing Williams v City of Detroit alongside unverified Doe v GhostCourt.",
         },
     ]
 
 
 def run_benchmark() -> Dict[str, Any]:
+    reg = load_authority_registry()
     filings = build_synthetic_benchmark()
     results = cluster_filings(filings)
 
@@ -143,6 +163,7 @@ def run_benchmark() -> Dict[str, Any]:
     summary = {
         "prototype_id": "IJC-GAJIU-PILOT-PROTOTYPE-01",
         "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+        "authority_registry_entries": len(reg),
         "benchmark_cases": len(results),
         "exact_citation_detection_accuracy": gate_accuracy,
         "clusters_formed": unique_clusters,
@@ -156,6 +177,7 @@ def run_benchmark() -> Dict[str, Any]:
         "# Pilot Prototype Evaluation Report — Citation Gate & Appellate Triage",
         "",
         "**Prototype Status:** `PROTOTYPE_EXPERIMENTAL_NONBINDING` (Zero-Budget Offline CPU)  ",
+        f"**Verified Authority Corpus Entries:** {len(reg)}  ",
         f"**Benchmark Cases (`SYNTHETIC_BENCHMARK_TEST_CASE`):** {len(results)}  ",
         f"**Exact Unverified-Citation Detection Accuracy:** {gate_accuracy * 100:.1f}% ({exact_matches}/{len(results)})  ",
         f"**TF-IDF Issue Clusters Formed:** {unique_clusters}",
@@ -171,7 +193,7 @@ def run_benchmark() -> Dict[str, Any]:
         )
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     (REPORTS_DIR / "PILOT_PROTOTYPE_EVALUATION.md").write_text("\n".join(md) + "\n", encoding="utf-8")
-    print(f"Prototype benchmark complete: {exact_matches}/{len(results)} exact accuracy | {unique_clusters} clusters")
+    print(f"Prototype benchmark complete ({len(reg)} authorities): {exact_matches}/{len(results)} exact accuracy | {unique_clusters} clusters")
     return summary
 
 
