@@ -1,4 +1,4 @@
-"""Build zero-dependency static GitHub Pages explorer at docs/index.html."""
+"""Build zero-dependency static GitHub Pages explorer with interactive Citation Gate at docs/index.html."""
 
 import json
 from pathlib import Path
@@ -24,6 +24,7 @@ def main() -> None:
         "corpus_count": len(corpus),
         "pillars": [{"id": pid, "title": title} for pid, title in PILLARS],
         "atlas": atlas,
+        "corpus": [{"auth_id": c["auth_id"], "citation": c["citation"], "jurisdiction": c["jurisdiction"]} for c in corpus],
         "pilots": [
             {
                 "program_id": p["program_id"],
@@ -55,12 +56,15 @@ def main() -> None:
   .kpi .val {{ font-size: 1.4rem; font-weight: 700; color: var(--accent); }}
   .kpi .lbl {{ font-size: 0.85rem; color: var(--muted); }}
   .panel {{ background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; margin-bottom: 1.5rem; }}
-  input, select {{ padding: 0.5rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; margin-right: 0.5rem; margin-bottom: 0.75rem; }}
+  input, select, textarea {{ padding: 0.5rem 0.75rem; border: 1px solid var(--border); border-radius: 6px; margin-right: 0.5rem; margin-bottom: 0.75rem; font-family: inherit; }}
+  textarea {{ width: 100%; box-sizing: border-box; min-height: 75px; }}
+  button {{ background: var(--accent); color: #fff; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-weight: 600; }}
   table {{ width: 100%; border-collapse: collapse; font-size: 0.9rem; }}
   th, td {{ text-align: left; padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--border); }}
   th {{ background: #f1f5f9; }}
   .badge {{ display: inline-block; padding: 0.15rem 0.45rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; background: #e0e7ff; color: #1e3a8a; }}
   .warn {{ background: #fee2e2; color: #991b1b; }}
+  .ok {{ background: #dcfce7; color: #166534; }}
 </style>
 </head>
 <body>
@@ -76,6 +80,14 @@ def main() -> None:
     <div class="kpi"><div class="val">{embedded['accessible_count']} / {embedded['atlas_count']}</div><div class="lbl">Verified Accessible Jurisdictions</div></div>
     <div class="kpi"><div class="val">{embedded['corpus_count']}</div><div class="lbl">Verified Real-World Authorities</div></div>
     <div class="kpi"><div class="val">1,000 / 10</div><div class="lbl">Curated Programs / Pilot Prototypes</div></div>
+  </div>
+
+  <div class="panel">
+    <h2>Interactive Citation Verification Gate (<code>PROTOTYPE_EXPERIMENTAL_NONBINDING</code>)</h2>
+    <p style="color:var(--muted); margin-top:0;">Runs 100% client-side against {embedded['corpus_count']} verified Oxford AI Justice Atlas authorities.</p>
+    <textarea id="citInput">Appeal brief citing [2025] ADGMCFI 0032, State v Loomis, and fabricated Smith v PhantomCorp.</textarea>
+    <button onclick="runGate()">Verify Citations</button>
+    <div id="gateOut" style="margin-top:0.8rem;"></div>
   </div>
 
   <div class="panel">
@@ -102,6 +114,30 @@ def main() -> None:
 </div>
 <script>
 const DATA = {json.dumps(embedded, ensure_ascii=False)};
+const CIT_RE = /(?:\\[\\d{{4}}\\]\\s+[A-Z]{{2,10}}\\s+\\d+|\\b[A-Z][A-Za-z0-9.\\-]+\\s+v\\.?\\s+[A-Z][A-Za-z0-9.\\-]+\\b|\\bLaw\\s+No\\.?\\s+[A-Z0-9\\-\\/]+\\b)/g;
+
+function runGate() {{
+  const txt = document.getElementById('citInput').value || '';
+  const found = txt.match(CIT_RE) || [];
+  const verified = [];
+  const unverified = [];
+  for (const c of found) {{
+    const key = c.trim().toLowerCase();
+    const match = DATA.corpus.find(item => {{
+      const ic = item.citation.trim().toLowerCase();
+      return key === ic || ic.includes(key);
+    }});
+    if (match) verified.push(`${{c}} (${{match.auth_id}}, ${{match.jurisdiction}})`);
+    else unverified.push(c);
+  }}
+  const cls = unverified.length === 0 ? 'ok' : 'warn';
+  const status = unverified.length === 0 ? 'PASS_HUMAN_SIGN_OFF_READY' : 'FLAG_UNVERIFIED_CITATIONS_HITL_REQUIRED';
+  document.getElementById('gateOut').innerHTML = `
+    <span class="badge ${{cls}}">${{status}}</span>
+    <p style="margin:0.4rem 0;"><strong>Verified (${{verified.length}}):</strong> ${{verified.join('; ') || 'None'}}</p>
+    <p style="margin:0.4rem 0;"><strong>Unverified (${{unverified.length}}):</strong> ${{unverified.join('; ') || 'None'}}</p>`;
+}}
+
 function renderAtlas() {{
   const q = document.getElementById('qJur').value.toLowerCase();
   const arch = document.getElementById('qArch').value;
@@ -128,13 +164,14 @@ document.getElementById('pilotBody').innerHTML = DATA.pilots.map(p => `
     <td>${{p.title}}</td>
   </tr>`).join('');
 renderAtlas();
+runGate();
 </script>
 </body>
 </html>
 """
     OUT_HTML.parent.mkdir(parents=True, exist_ok=True)
     OUT_HTML.write_text(html, encoding="utf-8")
-    print(f"Built static GitHub Pages explorer -> {OUT_HTML} ({OUT_HTML.stat().st_size:,} bytes)")
+    print(f"Built upgraded GitHub Pages explorer -> {OUT_HTML} ({OUT_HTML.stat().st_size:,} bytes)")
 
 
 if __name__ == "__main__":
