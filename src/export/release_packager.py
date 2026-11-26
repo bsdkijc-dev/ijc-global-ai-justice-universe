@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v0.9.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v1.0.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v0.9.0"
+RELEASE_NAME = "ijc-gajiu-v1.0.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v0.9.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.0.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -38,14 +38,16 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "46-country AI justice atlas, 10,000 12D programs, risk audit & pilots",
+    "subtitle": "v1.0.0: 46-country AI justice atlas, 10,000 12D programs & prototypes",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v0.9.0)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v1.0.0)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v0.9.0\n"
-        "- Added `risk_audit_benchmark_results.json` (offline synthetic FPR disparity audit simulator).\n"
-        "- Added `pillar_coverage_30.csv` (30-pillar distribution across all 10,000 curated programs).\n"
+        "## v1.0.0 Baseline Milestone\n"
+        "- **8,957,952,000,000** addressable 12D configurations verified (`cardinality_verification.json`).\n"
+        "- **47** Oxford AI Justice Atlas URLs audited (46 accessible, 1 `SOURCE_INACCESSIBLE` Zambia).\n"
+        "- **10,000** schema-validated, deduplicated programs + **Top-10** pilots & AIA dossiers.\n"
+        "- **238** verified real-world authorities, **50-term** 5-language glossary, and **3** offline CPU prototype benchmarks.\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -79,9 +81,9 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "0.9.0",
+        "release_version": "1.0.0",
         "release_name": RELEASE_NAME,
-        "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
+        "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE_V1",
         "archive": {
             "filename": ARCHIVE_PATH.name,
             "bytes": ARCHIVE_PATH.stat().st_size,
