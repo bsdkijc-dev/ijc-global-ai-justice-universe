@@ -1,0 +1,314 @@
+{
+  "prototype_id": "IJC-GAJIU-STATUTORY-HARMONIZER-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "total_cells": 30,
+  "regions_count": 5,
+  "norms_count": 6,
+  "status_counts": {
+    "CONVERGENT_ANCHOR": 4,
+    "EMERGING_ALIGNMENT": 9,
+    "DIVERGENT_OR_GAP": 17
+  },
+  "matrix": [
+    {
+      "region_code": "ASEAN_APAC",
+      "norm_id": "NORM-01_NON_DELEGATION_ADJUDICATION",
+      "harmonization_status": "EMERGING_ALIGNMENT",
+      "top_auth_id": "AUTH-156",
+      "top_jurisdiction": "South Korea",
+      "top_citation": "Judges AI Guidebook (Feb 2026)",
+      "similarity_score": 0.1576,
+      "regional_corpus_size": 55
+    },
+    {
+      "region_code": "ASEAN_APAC",
+      "norm_id": "NORM-02_CITATION_GROUNDING_REQUIRED",
+      "harmonization_status": "EMERGING_ALIGNMENT",
+      "top_auth_id": "AUTH-012",
+      "top_jurisdiction": "Australia",
+      "top_citation": "Strict disclosure and human-verification duties for GenAI in court filings",
+      "similarity_score": 0.164,
+      "regional_corpus_size": 55
+    },
+    {
+      "region_code": "ASEAN_APAC",
+      "norm_id": "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+      "harmonization_status": "EMERGING_ALIGNMENT",
+      "top_auth_id": "AUTH-164",
+      "top_jurisdiction": "Taiwan",
+      "top_citation": "Supreme Court 114 Tai-Shang 5166 (FRT corroboration requirement)",
+      "similarity_score": 0.2351,
+      "regional_corpus_size": 55
+    },
+    {
+      "region_code": "ASEAN_APAC",
+      "norm_id": "NORM-04_AUDIT_TRANSPARENCY_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-111",
+      "top_jurisdiction": "Malaysia",
+      "top_citation": "Judges' Code of Ethics 2009",
+      "similarity_score": 0.1086,
+      "regional_corpus_size": 55
+    },
+    {
+      "region_code": "ASEAN_APAC",
+      "norm_id": "NORM-05_CONTESTABILITY_RIGHT_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-008",
+      "top_jurisdiction": "Australia",
+      "top_citation": ">30 hallucination cases including Nash v DPP, Valu, and DPP v Khan",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 55
+    },
+    {
+      "region_code": "ASEAN_APAC",
+      "norm_id": "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-008",
+      "top_jurisdiction": "Australia",
+      "top_citation": ">30 hallucination cases including Nash v DPP, Valu, and DPP v Khan",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 55
+    },
+    {
+      "region_code": "EUROPE_UK",
+      "norm_id": "NORM-01_NON_DELEGATION_ADJUDICATION",
+      "harmonization_status": "CONVERGENT_ANCHOR",
+      "top_auth_id": "AUTH-090",
+      "top_jurisdiction": "Italy",
+      "top_citation": "Statutory reservation of judicial decision-making to human judges under Law 132/2025",
+      "similarity_score": 0.4999,
+      "regional_corpus_size": 50
+    },
+    {
+      "region_code": "EUROPE_UK",
+      "norm_id": "NORM-02_CITATION_GROUNDING_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-157",
+      "top_jurisdiction": "Spain",
+      "top_citation": "Supreme Court 1119/2025 (source code access)",
+      "similarity_score": 0.1112,
+      "regional_corpus_size": 50
+    },
+    {
+      "region_code": "EUROPE_UK",
+      "norm_id": "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+      "harmonization_status": "EMERGING_ALIGNMENT",
+      "top_auth_id": "AUTH-071",
+      "top_jurisdiction": "Germany",
+      "top_citation": "Reutlingen FRT rulings (2025/2026)",
+      "similarity_score": 0.1573,
+      "regional_corpus_size": 50
+    },
+    {
+      "region_code": "EUROPE_UK",
+      "norm_id": "NORM-04_AUDIT_TRANSPARENCY_REQUIRED",
+      "harmonization_status": "CONVERGENT_ANCHOR",
+      "top_auth_id": "AUTH-157",
+      "top_jurisdiction": "Spain",
+      "top_citation": "Supreme Court 1119/2025 (source code access)",
+      "similarity_score": 0.3777,
+      "regional_corpus_size": 50
+    },
+    {
+      "region_code": "EUROPE_UK",
+      "norm_id": "NORM-05_CONTESTABILITY_RIGHT_REQUIRED",
+      "harmonization_status": "EMERGING_ALIGNMENT",
+      "top_auth_id": "AUTH-090",
+      "top_jurisdiction": "Italy",
+      "top_citation": "Statutory reservation of judicial decision-making to human judges under Law 132/2025",
+      "similarity_score": 0.1974,
+      "regional_corpus_size": 50
+    },
+    {
+      "region_code": "EUROPE_UK",
+      "norm_id": "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-058",
+      "top_jurisdiction": "Finland",
+      "top_citation": "Clearview AI reprimand (2021)",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 50
+    },
+    {
+      "region_code": "LATAM",
+      "norm_id": "NORM-01_NON_DELEGATION_ADJUDICATION",
+      "harmonization_status": "EMERGING_ALIGNMENT",
+      "top_auth_id": "AUTH-043",
+      "top_jurisdiction": "Colombia",
+      "top_citation": "Acuerdo PCSJA24-12243 mandatory human control and transparency rules",
+      "similarity_score": 0.1445,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "LATAM",
+      "norm_id": "NORM-02_CITATION_GROUNDING_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-039",
+      "top_jurisdiction": "Colombia",
+      "top_citation": "Constitutional Court T-323/2024, T-067/2025, AC739-2026",
+      "similarity_score": 0.0938,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "LATAM",
+      "norm_id": "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+      "harmonization_status": "CONVERGENT_ANCHOR",
+      "top_auth_id": "AUTH-004",
+      "top_jurisdiction": "Argentina",
+      "top_citation": "BA Facial Recognition suspension (2023 appeal)",
+      "similarity_score": 0.2557,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "LATAM",
+      "norm_id": "NORM-04_AUDIT_TRANSPARENCY_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-043",
+      "top_jurisdiction": "Colombia",
+      "top_citation": "Acuerdo PCSJA24-12243 mandatory human control and transparency rules",
+      "similarity_score": 0.1052,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "LATAM",
+      "norm_id": "NORM-05_CONTESTABILITY_RIGHT_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-004",
+      "top_jurisdiction": "Argentina",
+      "top_citation": "BA Facial Recognition suspension (2023 appeal)",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "LATAM",
+      "norm_id": "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-004",
+      "top_jurisdiction": "Argentina",
+      "top_citation": "BA Facial Recognition suspension (2023 appeal)",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "SSA_MENA",
+      "norm_id": "NORM-01_NON_DELEGATION_ADJUDICATION",
+      "harmonization_status": "EMERGING_ALIGNMENT",
+      "top_auth_id": "AUTH-049",
+      "top_jurisdiction": "Egypt",
+      "top_citation": "Digital court modernization and offline speech-to-text deployment",
+      "similarity_score": 0.1369,
+      "regional_corpus_size": 36
+    },
+    {
+      "region_code": "SSA_MENA",
+      "norm_id": "NORM-02_CITATION_GROUNDING_REQUIRED",
+      "harmonization_status": "EMERGING_ALIGNMENT",
+      "top_auth_id": "AUTH-057",
+      "top_jurisdiction": "Ethiopia",
+      "top_citation": "Smart Court branch rollout",
+      "similarity_score": 0.1259,
+      "regional_corpus_size": 36
+    },
+    {
+      "region_code": "SSA_MENA",
+      "norm_id": "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-044",
+      "top_jurisdiction": "Egypt",
+      "top_citation": "National AI Strategy 2025-2030",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 36
+    },
+    {
+      "region_code": "SSA_MENA",
+      "norm_id": "NORM-04_AUDIT_TRANSPARENCY_REQUIRED",
+      "harmonization_status": "EMERGING_ALIGNMENT",
+      "top_auth_id": "AUTH-237",
+      "top_jurisdiction": "Israel",
+      "top_citation": "Judicial Ethical Code (Mar 2026)",
+      "similarity_score": 0.1306,
+      "regional_corpus_size": 36
+    },
+    {
+      "region_code": "SSA_MENA",
+      "norm_id": "NORM-05_CONTESTABILITY_RIGHT_REQUIRED",
+      "harmonization_status": "CONVERGENT_ANCHOR",
+      "top_auth_id": "AUTH-056",
+      "top_jurisdiction": "Ethiopia",
+      "top_citation": "Personal Data Protection Proclamation 1321/2024 (automated decision right)",
+      "similarity_score": 0.3571,
+      "regional_corpus_size": 36
+    },
+    {
+      "region_code": "SSA_MENA",
+      "norm_id": "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-138",
+      "top_jurisdiction": "Saudi Arabia",
+      "top_citation": "Digital justice governance via Najiz and GCC prosecutorial ethics",
+      "similarity_score": 0.0935,
+      "regional_corpus_size": 36
+    },
+    {
+      "region_code": "NAM_ECA",
+      "norm_id": "NORM-01_NON_DELEGATION_ADJUDICATION",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-027",
+      "top_jurisdiction": "Canada",
+      "top_citation": "CJC AI Guidelines (2024)",
+      "similarity_score": 0.0664,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "NAM_ECA",
+      "norm_id": "NORM-02_CITATION_GROUNDING_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-196",
+      "top_jurisdiction": "Ukraine",
+      "top_citation": "Supreme Court & HACC contempt/abuse rulings",
+      "similarity_score": 0.1079,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "NAM_ECA",
+      "norm_id": "NORM-03_BIOMETRIC_CORROBORATION_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-020",
+      "top_jurisdiction": "Canada",
+      "top_citation": "R v Chand",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "NAM_ECA",
+      "norm_id": "NORM-04_AUDIT_TRANSPARENCY_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-020",
+      "top_jurisdiction": "Canada",
+      "top_citation": "R v Chand",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "NAM_ECA",
+      "norm_id": "NORM-05_CONTESTABILITY_RIGHT_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-020",
+      "top_jurisdiction": "Canada",
+      "top_citation": "R v Chand",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 22
+    },
+    {
+      "region_code": "NAM_ECA",
+      "norm_id": "NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED",
+      "harmonization_status": "DIVERGENT_OR_GAP",
+      "top_auth_id": "AUTH-020",
+      "top_jurisdiction": "Canada",
+      "top_citation": "R v Chand",
+      "similarity_score": 0.0,
+      "regional_corpus_size": 22
+    }
+  ]
+}

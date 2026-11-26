@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v2.7.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v2.8.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v2.7.0"
+RELEASE_NAME = "ijc-gajiu-v2.8.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v2.7.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v2.8.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -45,6 +45,7 @@ BUNDLE_FILES = [
     "data/curated/multilingual_glossary_50.csv",
     "data/curated/multilingual_glossary_50.json",
     "data/curated/pillar_coverage_30.csv",
+    "data/curated/statutory_harmonization_matrix.csv",
     "data/sample/prototype_benchmark_results.json",
     "data/sample/anonymisation_benchmark_results.json",
     "data/sample/risk_audit_benchmark_results.json",
@@ -53,6 +54,7 @@ BUNDLE_FILES = [
     "data/sample/procurement_audit_benchmark_results.json",
     "data/sample/neuro_symbolic_benchmark_results.json",
     "data/sample/adversarial_stress_test_results.json",
+    "data/sample/statutory_harmonization_results.json",
     "data/manifests/cardinality_verification.json",
     "data/manifests/scale_1m_manifest.json",
 ]
@@ -61,13 +63,13 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "v2.7.0: Phase 3 Adversarial Stress-Test, Neuro-Symbolic & 100k",
+    "subtitle": "v2.8.0: Phase 3 Statutory Harmonizer, Adversarial & 100k",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v2.7.0 — Phase 3)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v2.8.0 — Phase 3)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v2.7.0 (Phase 3 — Task 027)\n"
-        "- Added `adversarial_stress_test_results.json` (10-case Adversarial Robustness, Counterfactual & Epistemic Boundary Stress-Test Suite: counterfactual safeguard flips, prompt-injection immunity, 6-norm collapse, and `OXF-AIATLAS-44` Zambia non-imputation check, `10/10` pass rate).\n"
+        "## What's New in v2.8.0 (Phase 3 — Task 028)\n"
+        "- Added `statutory_harmonization_matrix.csv` and `statutory_harmonization_results.json` (30-cell 5-region x 6-norm comparative statutory harmonization map grounded in the 238-entry Oxford authority corpus).\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -101,7 +103,7 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "2.7.0",
+        "release_version": "2.8.0",
         "release_name": RELEASE_NAME,
         "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {
