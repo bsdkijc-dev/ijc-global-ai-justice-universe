@@ -1,0 +1,986 @@
+{
+  "nodes_jurisdictions": 45,
+  "edges_count": 98,
+  "edges": [
+    {
+      "source_node": "ARG",
+      "jurisdiction": "Argentina",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-HALLUCINATION-SANCTIONS",
+      "target_label": "Hallucination & Citation Sanctions",
+      "source_id": "OXF-AIATLAS-01",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ARG",
+      "jurisdiction": "Argentina",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-01",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "AUS",
+      "jurisdiction": "Australia",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-HALLUCINATION-SANCTIONS",
+      "target_label": "Hallucination & Citation Sanctions",
+      "source_id": "OXF-AIATLAS-02",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "AUS",
+      "jurisdiction": "Australia",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-02",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "AUS",
+      "jurisdiction": "Australia",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-02",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "AZE",
+      "jurisdiction": "Azerbaijan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-03",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "AZE",
+      "jurisdiction": "Azerbaijan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-03",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "BRA",
+      "jurisdiction": "Brazil",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-04",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "CAN",
+      "jurisdiction": "Canada",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-05",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "CAN",
+      "jurisdiction": "Canada",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-05",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "CHL",
+      "jurisdiction": "Chile",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-06",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "CHN",
+      "jurisdiction": "China",
+      "legal_family": "SOC",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-07",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "COL",
+      "jurisdiction": "Colombia",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-08",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "COL",
+      "jurisdiction": "Colombia",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-08",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "COL",
+      "jurisdiction": "Colombia",
+      "legal_family": "CIV",
+      "relation": "ALIGNS_WITH_UNESCO_GUIDELINES",
+      "target_node": "THEME-UNESCO-GUIDELINES",
+      "target_label": "UNESCO Judicial AI Guidelines Alignment",
+      "source_id": "OXF-AIATLAS-08",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "EGY",
+      "jurisdiction": "Egypt",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-09",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "EGY",
+      "jurisdiction": "Egypt",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-09",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "EGY",
+      "jurisdiction": "Egypt",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-09",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "EST",
+      "jurisdiction": "Estonia",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-10",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "EST",
+      "jurisdiction": "Estonia",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-10",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "EST",
+      "jurisdiction": "Estonia",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-10",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ETH",
+      "jurisdiction": "Ethiopia",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-11",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ETH",
+      "jurisdiction": "Ethiopia",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-11",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ETH",
+      "jurisdiction": "Ethiopia",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-11",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "FIN",
+      "jurisdiction": "Finland",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-12",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "FIN",
+      "jurisdiction": "Finland",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-12",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "FRA",
+      "jurisdiction": "France",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-13",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "FRA",
+      "jurisdiction": "France",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-13",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "DEU",
+      "jurisdiction": "Germany",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-14",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "DEU",
+      "jurisdiction": "Germany",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-14",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "DEU",
+      "jurisdiction": "Germany",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-14",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "DEU",
+      "jurisdiction": "Germany",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-14",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "IND",
+      "jurisdiction": "India",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-15",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "IND",
+      "jurisdiction": "India",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-15",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "IRN",
+      "jurisdiction": "Iran",
+      "legal_family": "ISL",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-16",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ITA",
+      "jurisdiction": "Italy",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-HALLUCINATION-SANCTIONS",
+      "target_label": "Hallucination & Citation Sanctions",
+      "source_id": "OXF-AIATLAS-17",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ITA",
+      "jurisdiction": "Italy",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-17",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ITA",
+      "jurisdiction": "Italy",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-17",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ITA",
+      "jurisdiction": "Italy",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-17",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "JPN",
+      "jurisdiction": "Japan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-18",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "JPN",
+      "jurisdiction": "Japan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-18",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "KAZ",
+      "jurisdiction": "Kazakhstan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-19",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "KAZ",
+      "jurisdiction": "Kazakhstan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-19",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "KEN",
+      "jurisdiction": "Kenya",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-HALLUCINATION-SANCTIONS",
+      "target_label": "Hallucination & Citation Sanctions",
+      "source_id": "OXF-AIATLAS-20",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "KEN",
+      "jurisdiction": "Kenya",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-20",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "KEN",
+      "jurisdiction": "Kenya",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-20",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "KWT",
+      "jurisdiction": "Kuwait",
+      "legal_family": "ISL",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-21",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "MYS",
+      "jurisdiction": "Malaysia",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-22",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "MEX",
+      "jurisdiction": "Mexico",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-23",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "NZL",
+      "jurisdiction": "New Zealand",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-24",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "RUS",
+      "jurisdiction": "Russia",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-25",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "RUS",
+      "jurisdiction": "Russia",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-25",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "RWA",
+      "jurisdiction": "Rwanda",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-26",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "RWA",
+      "jurisdiction": "Rwanda",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-26",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "SAU",
+      "jurisdiction": "Saudi Arabia",
+      "legal_family": "ISL",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-27",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "SGP",
+      "jurisdiction": "Singapore",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-HALLUCINATION-SANCTIONS",
+      "target_label": "Hallucination & Citation Sanctions",
+      "source_id": "OXF-AIATLAS-28",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "SGP",
+      "jurisdiction": "Singapore",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-28",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ZAF",
+      "jurisdiction": "South Africa",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-HALLUCINATION-SANCTIONS",
+      "target_label": "Hallucination & Citation Sanctions",
+      "source_id": "OXF-AIATLAS-29",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ZAF",
+      "jurisdiction": "South Africa",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-29",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ZAF",
+      "jurisdiction": "South Africa",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-29",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "KOR",
+      "jurisdiction": "South Korea",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-30",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "KOR",
+      "jurisdiction": "South Korea",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-30",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ESP",
+      "jurisdiction": "Spain",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-31",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ESP",
+      "jurisdiction": "Spain",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-31",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ESP",
+      "jurisdiction": "Spain",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-31",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "TWN",
+      "jurisdiction": "Taiwan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-32",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "TWN",
+      "jurisdiction": "Taiwan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-32",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "TWN",
+      "jurisdiction": "Taiwan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-32",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "TWN",
+      "jurisdiction": "Taiwan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-32",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "THA",
+      "jurisdiction": "Thailand",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-33",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "THA",
+      "jurisdiction": "Thailand",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-33",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "GMB",
+      "jurisdiction": "The Gambia",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-34",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "NLD",
+      "jurisdiction": "The Netherlands",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-35",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "NLD",
+      "jurisdiction": "The Netherlands",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-35",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "NLD",
+      "jurisdiction": "The Netherlands",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-35",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "PHL",
+      "jurisdiction": "The Philippines",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-36",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "PHL",
+      "jurisdiction": "The Philippines",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-36",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "PHL",
+      "jurisdiction": "The Philippines",
+      "legal_family": "MIX",
+      "relation": "ALIGNS_WITH_UNESCO_GUIDELINES",
+      "target_node": "THEME-UNESCO-GUIDELINES",
+      "target_label": "UNESCO Judicial AI Guidelines Alignment",
+      "source_id": "OXF-AIATLAS-36",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "TZA",
+      "jurisdiction": "Tanzania",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-37",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "TZA",
+      "jurisdiction": "Tanzania",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-37",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "TZA",
+      "jurisdiction": "Tanzania",
+      "legal_family": "COM",
+      "relation": "ALIGNS_WITH_UNESCO_GUIDELINES",
+      "target_node": "THEME-UNESCO-GUIDELINES",
+      "target_label": "UNESCO Judicial AI Guidelines Alignment",
+      "source_id": "OXF-AIATLAS-37",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "TUR",
+      "jurisdiction": "Türkiye",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-38",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "TUR",
+      "jurisdiction": "Türkiye",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-MULTILINGUAL-ASR",
+      "target_label": "Multilingual Court ASR / Translation",
+      "source_id": "OXF-AIATLAS-38",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "UKR",
+      "jurisdiction": "Ukraine",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-39",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ARE",
+      "jurisdiction": "United Arab Emirates",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-HALLUCINATION-SANCTIONS",
+      "target_label": "Hallucination & Citation Sanctions",
+      "source_id": "OXF-AIATLAS-40",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ARE",
+      "jurisdiction": "United Arab Emirates",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-40",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "GBR",
+      "jurisdiction": "United Kingdom",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-41",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "GBR",
+      "jurisdiction": "United Kingdom",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-41",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "GBR",
+      "jurisdiction": "United Kingdom",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-41",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "USA",
+      "jurisdiction": "United States",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-FRT-BIOMETRIC-LIMITS",
+      "target_label": "Biometric / FRT Oversight & Limits",
+      "source_id": "OXF-AIATLAS-42",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "USA",
+      "jurisdiction": "United States",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-42",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "USA",
+      "jurisdiction": "United States",
+      "legal_family": "COM",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-42",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "UZB",
+      "jurisdiction": "Uzbekistan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-43",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "UZB",
+      "jurisdiction": "Uzbekistan",
+      "legal_family": "CIV",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-43",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ZWE",
+      "jurisdiction": "Zimbabwe",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-HALLUCINATION-SANCTIONS",
+      "target_label": "Hallucination & Citation Sanctions",
+      "source_id": "OXF-AIATLAS-45",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ZWE",
+      "jurisdiction": "Zimbabwe",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-45",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ZWE",
+      "jurisdiction": "Zimbabwe",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-NATIONAL-AI-STATUTE",
+      "target_label": "National AI Law / Strategy",
+      "source_id": "OXF-AIATLAS-45",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    },
+    {
+      "source_node": "ISR",
+      "jurisdiction": "Israel",
+      "legal_family": "MIX",
+      "relation": "EXHIBITS_GOVERNANCE_THEME",
+      "target_node": "THEME-JUDICIAL-AI-POLICY",
+      "target_label": "Judicial AI Policy / Guidelines",
+      "source_id": "OXF-AIATLAS-46",
+      "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+    }
+  ]
+}
