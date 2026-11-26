@@ -1,0 +1,44 @@
+{
+  "prototype_id": "IJC-GAJIU-PROCUREMENT-AUDITOR-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "benchmark_cases": 4,
+  "exact_audit_accuracy": 1.0,
+  "results": [
+    {
+      "proposal_id": "PROC-01",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "sovereignty_score": 100.0,
+      "expected_status": "PASS_SOVEREIGN_PROCUREMENT_READY",
+      "detected_status": "PASS_SOVEREIGN_PROCUREMENT_READY",
+      "audit_hash": "3429C55F649A"
+    },
+    {
+      "proposal_id": "PROC-02",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "sovereignty_score": 80.0,
+      "expected_status": "FLAG_SOVEREIGNTY_OR_AUDITABILITY_GAP",
+      "detected_status": "FLAG_SOVEREIGNTY_OR_AUDITABILITY_GAP",
+      "audit_hash": "1C8CC8CA5665"
+    },
+    {
+      "proposal_id": "PROC-03",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "sovereignty_score": 60.0,
+      "expected_status": "FLAG_SOVEREIGNTY_OR_AUDITABILITY_GAP",
+      "detected_status": "FLAG_SOVEREIGNTY_OR_AUDITABILITY_GAP",
+      "audit_hash": "49DCB052C741"
+    },
+    {
+      "proposal_id": "PROC-04",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+      "sovereignty_score": 80.0,
+      "expected_status": "CONDITIONAL_REMEDIATION_REQUIRED",
+      "detected_status": "CONDITIONAL_REMEDIATION_REQUIRED",
+      "audit_hash": "A409144F59D5"
+    }
+  ]
+}

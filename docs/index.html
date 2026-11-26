@@ -57,6 +57,23 @@
   </div>
 
   <div class="panel">
+    <h2>Interactive Neuro-Symbolic Safeguard Simulator (<code>PROTOTYPE_EXPERIMENTAL_NONBINDING</code>)</h2>
+    <p style="color:var(--muted); margin-top:0;">Evaluates the 6 cross-jurisdictional symbolic due-process norms client-side.</p>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:0.4rem; margin-bottom:0.8rem;">
+      <label><input type="checkbox" id="nsHuman" checked onchange="runNeuroSymbolic()"> Human Judge Final Authority</label>
+      <label><input type="checkbox" id="nsUnverCit" onchange="runNeuroSymbolic()"> Unverified Citations Present</label>
+      <label><input type="checkbox" id="nsFrt" onchange="runNeuroSymbolic()"> Sole-Basis Biometric FRT</label>
+      <label><input type="checkbox" id="nsCorrob" checked onchange="runNeuroSymbolic()"> Independent Corroboration</label>
+      <label><input type="checkbox" id="nsOpaque" onchange="runNeuroSymbolic()"> Opaque Proprietary Risk Score</label>
+      <label><input type="checkbox" id="nsAudit" checked onchange="runNeuroSymbolic()"> Source Code Auditable</label>
+      <label><input type="checkbox" id="nsAuto" onchange="runNeuroSymbolic()"> Solely Automated Decision</label>
+      <label><input type="checkbox" id="nsContest" checked onchange="runNeuroSymbolic()"> Contestability Right Provided</label>
+      <label><input type="checkbox" id="nsMedia" onchange="runNeuroSymbolic()"> Unverified Synthetic Media</label>
+    </div>
+    <div id="nsOut"></div>
+  </div>
+
+  <div class="panel">
     <h2>Comparative Jurisdiction Atlas &amp; Governance Readiness (46 Countries)</h2>
     <input id="qJur" type="text" placeholder="Filter country..." oninput="renderAtlas()">
     <select id="qArch" onchange="renderAtlas()">
@@ -130,6 +147,20 @@ function runAnon() {
   document.getElementById('anonOut').innerHTML = `<span class="badge ok">PASS_READY_FOR_HUMAN_PUBLICATION_REVIEW</span><p style="margin:0.4rem 0;"><code>${txt}</code></p>`;
 }
 
+function runNeuroSymbolic() {
+  const norms = [];
+  if (!document.getElementById('nsHuman').checked) norms.push('NORM-01_NON_DELEGATION_ADJUDICATION');
+  if (document.getElementById('nsUnverCit').checked) norms.push('NORM-02_CITATION_GROUNDING_REQUIRED');
+  if (document.getElementById('nsFrt').checked && !document.getElementById('nsCorrob').checked) norms.push('NORM-03_BIOMETRIC_CORROBORATION_REQUIRED');
+  if (document.getElementById('nsOpaque').checked && !document.getElementById('nsAudit').checked) norms.push('NORM-04_AUDIT_TRANSPARENCY_REQUIRED');
+  if (document.getElementById('nsAuto').checked && !document.getElementById('nsContest').checked) norms.push('NORM-05_CONTESTABILITY_RIGHT_REQUIRED');
+  if (document.getElementById('nsMedia').checked) norms.push('NORM-06_SYNTHETIC_MEDIA_PROVENANCE_REQUIRED');
+  const verdict = norms.length === 0 ? 'COMPLIANT_WITH_SYMBOLIC_NORMS' : 'NON_COMPLIANT_SAFEGUARDS_TRIGGERED';
+  const cls = norms.length === 0 ? 'ok' : 'warn';
+  document.getElementById('nsOut').innerHTML = `<span class="badge ${cls}">${verdict}</span>` +
+    (norms.length ? ` <span style="margin-left:0.5rem;">Triggered: ${norms.map(n => '<code>'+n+'</code>').join(', ')}</span>` : ' All 6 safeguards satisfied.');
+}
+
 function renderAtlas() {
   const q = document.getElementById('qJur').value.toLowerCase();
   const arch = document.getElementById('qArch').value;
@@ -180,6 +211,7 @@ renderSystems();
 renderGlossary();
 runGate();
 runAnon();
+runNeuroSymbolic();
 </script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "pipeline_id": "IJC-GAJIU-PHASE3-UNIFIED-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "neuro_symbolic": {
+    "benchmark_cases": 6,
+    "exact_norm_accuracy": 1.0,
+    "authority_corpus_size": 238
+  },
+  "adversarial_stress": {
+    "total_tests": 10,
+    "passed_tests": 10,
+    "pass_rate": 1.0
+  },
+  "statutory_harmonization": {
+    "total_cells": 30,
+    "status_counts": {
+      "CONVERGENT_ANCHOR": 4,
+      "EMERGING_ALIGNMENT": 9,
+      "DIVERGENT_OR_GAP": 17
+    }
+  }
+}
