@@ -1,0 +1,31 @@
+pillar_id,pillar_title,programs_10k_count,mean_quality_score,high_risk_or_prohibited_pct
+P01,Constitutional AI Governance & Separation of Powers,283,83.65,43.1
+P02,Algorithmic Due Process & Fair Trial Safeguards,338,83.79,48.8
+P03,Judicial Decision Support & Case Triage,314,83.69,49.0
+P04,Prosecutorial Intelligence & Charging Integrity,325,83.55,44.3
+P05,Defence Empowerment & Public Defender AI,345,84.16,44.9
+P06,Law Enforcement Analytics & Accountability,319,83.41,48.3
+P07,"Biometrics, Facial Recognition & Proportionality",323,83.77,43.7
+P08,Forensic AI & Digital Evidence Admissibility,334,83.61,50.0
+P09,Courtroom Transcription & Multilingual Access,324,83.78,51.2
+P10,Automated Anonymisation & Open Justice,331,83.85,46.8
+P11,"Pretrial Risk, Bail & Sentencing Equity",343,83.78,45.5
+P12,Victim Protection & Trauma-Informed Justice,329,83.39,45.9
+P13,Civil & Commercial Justice Modernization,334,83.11,48.5
+P14,Administrative & Constitutional Review AI,328,83.55,45.1
+P15,Anti-Corruption & Financial Crime Intelligence,335,83.57,44.8
+P16,"Cybercrime, Deepfakes & Synthetic Media Law",348,83.19,46.3
+P17,Legal Aid & Self-Represented Litigant Access,324,83.61,43.5
+P18,Hallucination Prevention & Citation Verification,325,83.49,51.7
+P19,Judicial & Legal Education Transformation,336,83.71,49.4
+P20,Court Administration & Backlog Forecasting,350,83.62,43.7
+P21,"Corrections, Probation & Reintegration AI",373,83.55,45.6
+P22,Juvenile & Restorative Justice Safeguards,354,83.95,46.6
+P23,Cross-Border & International Criminal Justice,326,84.27,46.0
+P24,"Environmental, Labor & Specialized Tribunals",333,83.33,43.8
+P25,Public-Private Legal Tech Procurement & Sovereignty,366,83.85,47.0
+P26,Explainability (XAI) & Judicial Reasoning Standards,347,84.08,44.1
+P27,Low-Resource & Offline Justice Computing,345,83.76,42.6
+P28,Post-Deployment Monitoring & Algorithmic Audits,299,83.96,43.5
+P29,"Legal Ontology, Knowledge Graphs & Interoperability",338,83.86,44.1
+P30,Long-Horizon Justice Futures (2027-2045),331,83.36,45.6

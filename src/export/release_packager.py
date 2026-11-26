@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v1.4.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v1.5.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v1.4.0"
+RELEASE_NAME = "ijc-gajiu-v1.5.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.4.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.5.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -45,14 +45,14 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "v1.4.0: 2027-2045 roadmap, 350 AI systems, 46-country atlas & 100k programs",
+    "subtitle": "v1.5.0: Full verified 46-country atlas, 100k-1M 12D benchmarks & prototypes",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v1.4.0)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v1.5.0)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v1.4.0\n"
-        "- Added `horizon_roadmap_2027_2045.csv` (10-horizon roadmap distribution across 100,000 curated programs).\n"
-        "- Added Unified Offline Research Query CLI (`src/evidence/query_cli.py`).\n"
+        "## What's New in v1.5.0\n"
+        "- Added cryptographic SHA-256 manifest integrity verifier (`src/validation/verify_manifests.py`, 13/13 checksums verified).\n"
+        "- Published comprehensive System Whitepaper (`reports/SYSTEM_WHITEPAPER_V1_5.md`).\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -86,7 +86,7 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "1.4.0",
+        "release_version": "1.5.0",
         "release_name": RELEASE_NAME,
         "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {
