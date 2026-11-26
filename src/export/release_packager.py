@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v0.6.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v0.7.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v0.6.0"
+RELEASE_NAME = "ijc-gajiu-v0.7.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v0.6.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v0.7.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -24,7 +24,10 @@ BUNDLE_FILES = [
     "data/curated/top10_pilot_prototypes.csv",
     "data/curated/top10_pilot_prototypes.json",
     "data/curated/verified_authority_corpus.json",
+    "data/curated/multilingual_glossary_50.csv",
+    "data/curated/multilingual_glossary_50.json",
     "data/sample/prototype_benchmark_results.json",
+    "data/sample/anonymisation_benchmark_results.json",
     "data/manifests/cardinality_verification.json",
 ]
 
@@ -32,14 +35,14 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "46-country AI justice atlas, 10,000 12D research programs & 238 authorities",
+    "subtitle": "46-country AI justice atlas, 10,000 12D programs, glossary & pilots",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v0.6.0)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v0.7.0)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v0.6.0\n"
-        "- Scaled deterministic, schema-validated 12D program generation to **10,000** unique records (`programs_curated_10000.parquet`, 0 schema errors, 0 exact duplicates).\n"
-        "- Added Global Comparative Policy Brief `PB-GAJIU-2026-01` grounded in 45 verified Oxford AI Justice Atlas jurisdictions.\n"
+        "## What's New in v0.7.0\n"
+        "- Added `multilingual_glossary_50.{csv,json}` (**50** AI-and-justice governance terms across English, Indonesian/Malay, Spanish, French, and Arabic).\n"
+        "- Added `anonymisation_benchmark_results.json` (`4/4` exact PII redaction accuracy on synthetic benchmark).\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -73,7 +76,7 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "0.6.0",
+        "release_version": "0.7.0",
         "release_name": RELEASE_NAME,
         "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {

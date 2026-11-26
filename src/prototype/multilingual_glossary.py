@@ -1,0 +1,80 @@
+"""Build 50-term Multilingual AI & Justice Governance Glossary (en, id_ms, es, fr, ar)."""
+
+import csv
+import json
+from pathlib import Path
+from typing import Dict, List
+
+ROOT = Path(__file__).resolve().parent.parent.parent
+CURATED_DIR = ROOT / "data" / "curated"
+
+GLOSSARY_TERMS: List[Dict[str, str]] = [
+    {"term_id": "GLS-01", "en": "Human-in-the-Loop", "id_ms": "Manusia dalam Lingkar Keputusan", "es": "Supervisión Humana Directa", "fr": "Contrôle Humain dans la Boucle", "ar": "إشراف بشري مباشر"},
+    {"term_id": "GLS-02", "en": "Algorithmic Impact Assessment", "id_ms": "Penilaian Dampak Algoritma", "es": "Evaluación de Impacto Algorítmico", "fr": "Évaluation d'Impact Algorithmique", "ar": "تقييم الأثر الخوارزمي"},
+    {"term_id": "GLS-03", "en": "Facial Recognition Technology", "id_ms": "Teknologi Pengenalan Wajah", "es": "Tecnología de Reconocimiento Facial", "fr": "Technologie de Reconnaissance Faciale", "ar": "تقنية التعرف على الوجه"},
+    {"term_id": "GLS-04", "en": "Hallucinated Citation", "id_ms": "Sitasi Halusinasi", "es": "Cita Alucinada", "fr": "Citation Hallucinée", "ar": "استشهاد قضائي مختلق"},
+    {"term_id": "GLS-05", "en": "Pretrial Risk Assessment", "id_ms": "Penilaian Risiko Prapersidangan", "es": "Evaluación de Riesgo Preprocesal", "fr": "Évaluation du Risque Avant Procès", "ar": "تقييم المخاطر قبل المحاكمة"},
+    {"term_id": "GLS-06", "en": "Source Code Disclosure", "id_ms": "Keterbukaan Kode Sumber", "es": "Acceso al Código Fuente", "fr": "Divulgation du Code Source", "ar": "الإفصاح عن الشيفرة المصدرية"},
+    {"term_id": "GLS-07", "en": "Judicial Independence", "id_ms": "Kemandirian Kekuasaan Kehakiman", "es": "Independencia Judicial", "fr": "Indépendance Judiciaire", "ar": "استقلال القضاء"},
+    {"term_id": "GLS-08", "en": "Due Process", "id_ms": "Proses Hukum yang Adil", "es": "Debido Proceso", "fr": "Procès Équitable", "ar": "الإجراءات القانونية الواجبة"},
+    {"term_id": "GLS-09", "en": "Automated Anonymisation", "id_ms": "Anonimisasi Otomatis", "es": "Anonimización Automatizada", "fr": "Anonymisation Automatisée", "ar": "إخفاء الهوية الآلي"},
+    {"term_id": "GLS-10", "en": "Predictive Policing", "id_ms": "Pemolisian Prediktif", "es": "Policía Predictiva", "fr": "Police Prédictive", "ar": "الشرطة التنبؤية"},
+    {"term_id": "GLS-11", "en": "Deepfake Evidence", "id_ms": "Bukti Deepfake", "es": "Prueba Deepfake", "fr": "Preuve Hypertrucage", "ar": "أدلة التزييف العميق"},
+    {"term_id": "GLS-12", "en": "Courtroom Transcription", "id_ms": "Transkripsi Persidangan", "es": "Transcripción Judicial", "fr": "Transcription d'Audience", "ar": "تفريغ جلسات المحكمة"},
+    {"term_id": "GLS-13", "en": "Case Triage", "id_ms": "Triase Perkara", "es": "Triaje de Causas", "fr": "Triage des Affaires", "ar": "فرز القضايا"},
+    {"term_id": "GLS-14", "en": "Digital Forensics", "id_ms": "Forensik Digital", "es": "Informática Forense", "fr": "Criminalistique Numérique", "ar": "الأدلة الجنائية الرقمية"},
+    {"term_id": "GLS-15", "en": "Public Algorithm Register", "id_ms": "Register Algoritma Publik", "es": "Registro Público de Algoritmos", "fr": "Registre Public des Algorithmes", "ar": "السجل العام للخوارزميات"},
+    {"term_id": "GLS-16", "en": "Biometric Proportionality", "id_ms": "Proporsionalitas Biometrik", "es": "Proporcionalidad Biométrica", "fr": "Proportionnalité Biométrique", "ar": "التناسب البيومتري"},
+    {"term_id": "GLS-17", "en": "Right to Contestability", "id_ms": "Hak untuk Mengajukan Keberatan", "es": "Derecho de Impugnación", "fr": "Droit de Contestation", "ar": "الحق في الطعن والمنازعة"},
+    {"term_id": "GLS-18", "en": "Access to Justice", "id_ms": "Akses terhadap Keadilan", "es": "Acceso a la Justicia", "fr": "Accès à la Justice", "ar": "الوصول إلى العدالة"},
+    {"term_id": "GLS-19", "en": "Chain of Custody", "id_ms": "Rantai Penjagaan Bukti", "es": "Cadena de Custodia", "fr": "Chaîne de Traçabilité", "ar": "سلسلة حيازة الأدلة"},
+    {"term_id": "GLS-20", "en": "Open Justice", "id_ms": "Peradilan Terbuka", "es": "Justicia Abierta", "fr": "Justice Ouverte", "ar": "العدالة المفتوحة"},
+    {"term_id": "GLS-21", "en": "Sentencing Support System", "id_ms": "Sistem Pendukung Pemidanaan", "es": "Sistema de Apoyo a la Sentencia", "fr": "Aide à la Détermination de la Peine", "ar": "نظام دعم الأحكام الجنائية"},
+    {"term_id": "GLS-22", "en": "Equality of Arms", "id_ms": "Kesetaraan Para Pihak", "es": "Igualdad de Armas", "fr": "Égalité des Armes", "ar": "تكافؤ الفرص الدفاعية"},
+    {"term_id": "GLS-23", "en": "Data Protection", "id_ms": "Perlindungan Data Pribadi", "es": "Protección de Datos", "fr": "Protection des Données", "ar": "حماية البيانات الشخصية"},
+    {"term_id": "GLS-24", "en": "Legal Aid", "id_ms": "Bantuan Hukum", "es": "Asistencia Jurídica Gratuita", "fr": "Aide Juridictionnelle", "ar": "المساعدة القانونية"},
+    {"term_id": "GLS-25", "en": "Constitutional Review", "id_ms": "Pengujian Konstitusional", "es": "Control de Constitucionalidad", "fr": "Contrôle de Constitutionnalité", "ar": "الرقابة الدستورية"},
+    {"term_id": "GLS-26", "en": "Explainable AI", "id_ms": "AI yang Dapat Dijelaskan", "es": "IA Explicable", "fr": "IA Explicable", "ar": "الذكاء الاصطناعي القابل للتفسير"},
+    {"term_id": "GLS-27", "en": "Automated Decision-Making", "id_ms": "Pengambilan Keputusan Otomatis", "es": "Toma de Decisiones Automatizada", "fr": "Prise de Décision Automatisée", "ar": "اتخاذ القرار الآلي"},
+    {"term_id": "GLS-28", "en": "Citation Verification", "id_ms": "Verifikasi Sitasi Hukum", "es": "Verificación de Citas", "fr": "Vérification des Citations", "ar": "التحقق من الاستشهادات"},
+    {"term_id": "GLS-29", "en": "Backlog Reduction", "id_ms": "Pengurangan Tunggakan Perkara", "es": "Reducción de Mora Judicial", "fr": "Réduction de l'Arriéré Judiciaire", "ar": "تقليص تراكم القضايا"},
+    {"term_id": "GLS-30", "en": "Online Dispute Resolution", "id_ms": "Penyelesaian Sengketa Daring", "es": "Resolución de Disputas en Línea", "fr": "Règlement en Ligne des Litiges", "ar": "تسوية المنازعات عبر الإنترنت"},
+    {"term_id": "GLS-31", "en": "Victim Protection", "id_ms": "Perlindungan Korban", "es": "Protección a las Víctimas", "fr": "Protection des Victimes", "ar": "حماية الضحايا"},
+    {"term_id": "GLS-32", "en": "Small Claims Court", "id_ms": "Pengadilan Gugatan Sederhana", "es": "Juzgado de Pequeñas Causas", "fr": "Tribunal des Petits Litiges", "ar": "محكمة الدعاوى اليسيرة"},
+    {"term_id": "GLS-33", "en": "Public Defender", "id_ms": "Pembela Umum", "es": "Defensor Público", "fr": "Défenseur Public", "ar": "المحامي العام"},
+    {"term_id": "GLS-34", "en": "Prosecutorial Discretion", "id_ms": "Diskresi Penuntutan", "es": "Discrecionalidad Fiscal", "fr": "Opportunité des Poursuites", "ar": "السلطة التقديرية للادعاء"},
+    {"term_id": "GLS-35", "en": "Evidence Admissibility", "id_ms": "Keabsahan Alat Bukti", "es": "Admisibilidad de la Prueba", "fr": "Recevabilité de la Preuve", "ar": "قبول الأدلة القضائية"},
+    {"term_id": "GLS-36", "en": "Bias Mitigation", "id_ms": "Mitigasi Bias Algoritma", "es": "Mitigación de Sesgos", "fr": "Atténuation des Biais", "ar": "الحد من التحيز الخوارزمي"},
+    {"term_id": "GLS-37", "en": "Sunset Clause", "id_ms": "Klausul Berakhirnya Berlaku", "es": "Cláusula de Caducidad", "fr": "Clause de Temporisation", "ar": "شرط الانقضاء الزمني"},
+    {"term_id": "GLS-38", "en": "Audit Trail", "id_ms": "Jejak Audit", "es": "Pista de Auditoría", "fr": "Piste d'Audit", "ar": "سجل المراجعة والتدقيق"},
+    {"term_id": "GLS-39", "en": "Judicial Ethics", "id_ms": "Etika Hakim", "es": "Ética Judicial", "fr": "Déontologie Judiciaire", "ar": "أخلاقيات القضاء"},
+    {"term_id": "GLS-40", "en": "Warrant Oversight", "id_ms": "Pengawasan Surat Perintah", "es": "Control de Órdenes Judiciales", "fr": "Contrôle des Mandats", "ar": "الرقابة على أوامر الضبط"},
+    {"term_id": "GLS-41", "en": "Bail Reform", "id_ms": "Reformasi Penahanan Sementara", "es": "Reforma de Fianzas", "fr": "Réforme de la Détention Provisoire", "ar": "إصلاح الكفالة والاحتجاز"},
+    {"term_id": "GLS-42", "en": "Restorative Justice", "id_ms": "Keadilan Restoratif", "es": "Justicia Restaurativa", "fr": "Justice Restauratrice", "ar": "العدالة التصالحية"},
+    {"term_id": "GLS-43", "en": "Juvenile Justice", "id_ms": "Peradilan Anak", "es": "Justicia Juvenil", "fr": "Justice des Mineurs", "ar": "عدالة الأحداث"},
+    {"term_id": "GLS-44", "en": "Anti-Corruption Tribunal", "id_ms": "Pengadilan Tindak Pidana Korupsi", "es": "Tribunal Anticorrupción", "fr": "Tribunal Anticorruption", "ar": "محكمة مكافحة الفساد"},
+    {"term_id": "GLS-45", "en": "Environmental Justice", "id_ms": "Keadilan Lingkungan", "es": "Justicia Ambiental", "fr": "Justice Environnementale", "ar": "العدالة البيئية"},
+    {"term_id": "GLS-46", "en": "Labor Tribunal", "id_ms": "Pengadilan Hubungan Industrial", "es": "Tribunal Laboral", "fr": "Conseil de Prud'hommes", "ar": "المحكمة العمالية"},
+    {"term_id": "GLS-47", "en": "Sovereign Cloud", "id_ms": "Komputasi Awan Berdaulat", "es": "Nube Soberana", "fr": "Nuage Souverain", "ar": "الحوسبة السحابية السيادية"},
+    {"term_id": "GLS-48", "en": "Knowledge Graph", "id_ms": "Graf Pengetahuan Hukum", "es": "Grafo de Conocimiento", "fr": "Graphe de Connaissances", "ar": "رسم المعرفة القانونية"},
+    {"term_id": "GLS-49", "en": "Neuro-Symbolic AI", "id_ms": "AI Neuro-Simbolik", "es": "IA Neuro-Simbólica", "fr": "IA Neuro-Symbolique", "ar": "الذكاء الاصطناعي العصبي الرمزي"},
+    {"term_id": "GLS-50", "en": "Statutory Interpretation", "id_ms": "Penafsiran Undang-Undang", "es": "Interpretación Legal", "fr": "Interprétation Législative", "ar": "التفسير التشريعي"},
+]
+
+
+def main() -> None:
+    CURATED_DIR.mkdir(parents=True, exist_ok=True)
+    json_path = CURATED_DIR / "multilingual_glossary_50.json"
+    csv_path = CURATED_DIR / "multilingual_glossary_50.csv"
+
+    json_path.write_text(json.dumps(GLOSSARY_TERMS, indent=2, ensure_ascii=False), encoding="utf-8")
+    with csv_path.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=["term_id", "en", "id_ms", "es", "fr", "ar"])
+        writer.writeheader()
+        writer.writerows(GLOSSARY_TERMS)
+
+    print(f"Built 50-term multilingual glossary (5 languages) -> {json_path.name}")
+
+
+if __name__ == "__main__":
+    main()
