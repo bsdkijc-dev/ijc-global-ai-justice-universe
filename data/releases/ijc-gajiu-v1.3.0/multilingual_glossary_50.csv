@@ -1,0 +1,51 @@
+term_id,en,id_ms,es,fr,ar
+GLS-01,Human-in-the-Loop,Manusia dalam Lingkar Keputusan,Supervisión Humana Directa,Contrôle Humain dans la Boucle,إشراف بشري مباشر
+GLS-02,Algorithmic Impact Assessment,Penilaian Dampak Algoritma,Evaluación de Impacto Algorítmico,Évaluation d'Impact Algorithmique,تقييم الأثر الخوارزمي
+GLS-03,Facial Recognition Technology,Teknologi Pengenalan Wajah,Tecnología de Reconocimiento Facial,Technologie de Reconnaissance Faciale,تقنية التعرف على الوجه
+GLS-04,Hallucinated Citation,Sitasi Halusinasi,Cita Alucinada,Citation Hallucinée,استشهاد قضائي مختلق
+GLS-05,Pretrial Risk Assessment,Penilaian Risiko Prapersidangan,Evaluación de Riesgo Preprocesal,Évaluation du Risque Avant Procès,تقييم المخاطر قبل المحاكمة
+GLS-06,Source Code Disclosure,Keterbukaan Kode Sumber,Acceso al Código Fuente,Divulgation du Code Source,الإفصاح عن الشيفرة المصدرية
+GLS-07,Judicial Independence,Kemandirian Kekuasaan Kehakiman,Independencia Judicial,Indépendance Judiciaire,استقلال القضاء
+GLS-08,Due Process,Proses Hukum yang Adil,Debido Proceso,Procès Équitable,الإجراءات القانونية الواجبة
+GLS-09,Automated Anonymisation,Anonimisasi Otomatis,Anonimización Automatizada,Anonymisation Automatisée,إخفاء الهوية الآلي
+GLS-10,Predictive Policing,Pemolisian Prediktif,Policía Predictiva,Police Prédictive,الشرطة التنبؤية
+GLS-11,Deepfake Evidence,Bukti Deepfake,Prueba Deepfake,Preuve Hypertrucage,أدلة التزييف العميق
+GLS-12,Courtroom Transcription,Transkripsi Persidangan,Transcripción Judicial,Transcription d'Audience,تفريغ جلسات المحكمة
+GLS-13,Case Triage,Triase Perkara,Triaje de Causas,Triage des Affaires,فرز القضايا
+GLS-14,Digital Forensics,Forensik Digital,Informática Forense,Criminalistique Numérique,الأدلة الجنائية الرقمية
+GLS-15,Public Algorithm Register,Register Algoritma Publik,Registro Público de Algoritmos,Registre Public des Algorithmes,السجل العام للخوارزميات
+GLS-16,Biometric Proportionality,Proporsionalitas Biometrik,Proporcionalidad Biométrica,Proportionnalité Biométrique,التناسب البيومتري
+GLS-17,Right to Contestability,Hak untuk Mengajukan Keberatan,Derecho de Impugnación,Droit de Contestation,الحق في الطعن والمنازعة
+GLS-18,Access to Justice,Akses terhadap Keadilan,Acceso a la Justicia,Accès à la Justice,الوصول إلى العدالة
+GLS-19,Chain of Custody,Rantai Penjagaan Bukti,Cadena de Custodia,Chaîne de Traçabilité,سلسلة حيازة الأدلة
+GLS-20,Open Justice,Peradilan Terbuka,Justicia Abierta,Justice Ouverte,العدالة المفتوحة
+GLS-21,Sentencing Support System,Sistem Pendukung Pemidanaan,Sistema de Apoyo a la Sentencia,Aide à la Détermination de la Peine,نظام دعم الأحكام الجنائية
+GLS-22,Equality of Arms,Kesetaraan Para Pihak,Igualdad de Armas,Égalité des Armes,تكافؤ الفرص الدفاعية
+GLS-23,Data Protection,Perlindungan Data Pribadi,Protección de Datos,Protection des Données,حماية البيانات الشخصية
+GLS-24,Legal Aid,Bantuan Hukum,Asistencia Jurídica Gratuita,Aide Juridictionnelle,المساعدة القانونية
+GLS-25,Constitutional Review,Pengujian Konstitusional,Control de Constitucionalidad,Contrôle de Constitutionnalité,الرقابة الدستورية
+GLS-26,Explainable AI,AI yang Dapat Dijelaskan,IA Explicable,IA Explicable,الذكاء الاصطناعي القابل للتفسير
+GLS-27,Automated Decision-Making,Pengambilan Keputusan Otomatis,Toma de Decisiones Automatizada,Prise de Décision Automatisée,اتخاذ القرار الآلي
+GLS-28,Citation Verification,Verifikasi Sitasi Hukum,Verificación de Citas,Vérification des Citations,التحقق من الاستشهادات
+GLS-29,Backlog Reduction,Pengurangan Tunggakan Perkara,Reducción de Mora Judicial,Réduction de l'Arriéré Judiciaire,تقليص تراكم القضايا
+GLS-30,Online Dispute Resolution,Penyelesaian Sengketa Daring,Resolución de Disputas en Línea,Règlement en Ligne des Litiges,تسوية المنازعات عبر الإنترنت
+GLS-31,Victim Protection,Perlindungan Korban,Protección a las Víctimas,Protection des Victimes,حماية الضحايا
+GLS-32,Small Claims Court,Pengadilan Gugatan Sederhana,Juzgado de Pequeñas Causas,Tribunal des Petits Litiges,محكمة الدعاوى اليسيرة
+GLS-33,Public Defender,Pembela Umum,Defensor Público,Défenseur Public,المحامي العام
+GLS-34,Prosecutorial Discretion,Diskresi Penuntutan,Discrecionalidad Fiscal,Opportunité des Poursuites,السلطة التقديرية للادعاء
+GLS-35,Evidence Admissibility,Keabsahan Alat Bukti,Admisibilidad de la Prueba,Recevabilité de la Preuve,قبول الأدلة القضائية
+GLS-36,Bias Mitigation,Mitigasi Bias Algoritma,Mitigación de Sesgos,Atténuation des Biais,الحد من التحيز الخوارزمي
+GLS-37,Sunset Clause,Klausul Berakhirnya Berlaku,Cláusula de Caducidad,Clause de Temporisation,شرط الانقضاء الزمني
+GLS-38,Audit Trail,Jejak Audit,Pista de Auditoría,Piste d'Audit,سجل المراجعة والتدقيق
+GLS-39,Judicial Ethics,Etika Hakim,Ética Judicial,Déontologie Judiciaire,أخلاقيات القضاء
+GLS-40,Warrant Oversight,Pengawasan Surat Perintah,Control de Órdenes Judiciales,Contrôle des Mandats,الرقابة على أوامر الضبط
+GLS-41,Bail Reform,Reformasi Penahanan Sementara,Reforma de Fianzas,Réforme de la Détention Provisoire,إصلاح الكفالة والاحتجاز
+GLS-42,Restorative Justice,Keadilan Restoratif,Justicia Restaurativa,Justice Restauratrice,العدالة التصالحية
+GLS-43,Juvenile Justice,Peradilan Anak,Justicia Juvenil,Justice des Mineurs,عدالة الأحداث
+GLS-44,Anti-Corruption Tribunal,Pengadilan Tindak Pidana Korupsi,Tribunal Anticorrupción,Tribunal Anticorruption,محكمة مكافحة الفساد
+GLS-45,Environmental Justice,Keadilan Lingkungan,Justicia Ambiental,Justice Environnementale,العدالة البيئية
+GLS-46,Labor Tribunal,Pengadilan Hubungan Industrial,Tribunal Laboral,Conseil de Prud'hommes,المحكمة العمالية
+GLS-47,Sovereign Cloud,Komputasi Awan Berdaulat,Nube Soberana,Nuage Souverain,الحوسبة السحابية السيادية
+GLS-48,Knowledge Graph,Graf Pengetahuan Hukum,Grafo de Conocimiento,Graphe de Connaissances,رسم المعرفة القانونية
+GLS-49,Neuro-Symbolic AI,AI Neuro-Simbolik,IA Neuro-Simbólica,IA Neuro-Symbolique,الذكاء الاصطناعي العصبي الرمزي
+GLS-50,Statutory Interpretation,Penafsiran Undang-Undang,Interpretación Legal,Interprétation Législative,التفسير التشريعي

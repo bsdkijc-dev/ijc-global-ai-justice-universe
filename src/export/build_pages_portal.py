@@ -1,11 +1,14 @@
-"""Build zero-dependency static GitHub Pages explorer with Citation Gate, Anonymisation & Glossary."""
+"""Build zero-dependency static GitHub Pages explorer with Readiness Index & AI Systems Inventory."""
 
+import csv
 import json
 from pathlib import Path
 from src.ontology.taxonomy import PILLARS, compute_cardinality
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 ATLAS_JSON = ROOT / "data" / "curated" / "jurisdiction_atlas_46.json"
+READINESS_CSV = ROOT / "data" / "curated" / "governance_readiness_46.csv"
+SYSTEMS_JSON = ROOT / "data" / "curated" / "ai_systems_inventory.json"
 PILOTS_JSON = ROOT / "data" / "curated" / "top10_pilot_prototypes.json"
 CORPUS_JSON = ROOT / "data" / "curated" / "verified_authority_corpus.json"
 GLOSSARY_JSON = ROOT / "data" / "curated" / "multilingual_glossary_50.json"
@@ -17,6 +20,17 @@ def main() -> None:
     pilots = json.loads(PILOTS_JSON.read_text(encoding="utf-8"))
     corpus = json.loads(CORPUS_JSON.read_text(encoding="utf-8"))
     glossary = json.loads(GLOSSARY_JSON.read_text(encoding="utf-8"))
+    systems = json.loads(SYSTEMS_JSON.read_text(encoding="utf-8")) if SYSTEMS_JSON.exists() else []
+
+    readiness_map = {}
+    if READINESS_CSV.exists():
+        with READINESS_CSV.open("r", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                readiness_map[row["jurisdiction_name"]] = row["readiness_score"] or "N/A"
+
+    for r in atlas:
+        r["readiness_score"] = readiness_map.get(r["jurisdiction_name"], "N/A")
+
     total_space, _ = compute_cardinality()
 
     embedded = {
@@ -24,7 +38,9 @@ def main() -> None:
         "atlas_count": len(atlas),
         "accessible_count": sum(1 for r in atlas if r["verification_status"] == "VERIFIED_ACCESSIBLE"),
         "corpus_count": len(corpus),
+        "systems_count": len(systems),
         "glossary": glossary,
+        "systems": systems,
         "pillars": [{"id": pid, "title": title} for pid, title in PILLARS],
         "atlas": atlas,
         "corpus": [{"auth_id": c["auth_id"], "citation": c["citation"], "jurisdiction": c["jurisdiction"]} for c in corpus],
@@ -81,8 +97,8 @@ def main() -> None:
   <div class="kpis">
     <div class="kpi"><div class="val">{embedded['total_space']}</div><div class="lbl">12D Addressable Configurations</div></div>
     <div class="kpi"><div class="val">{embedded['accessible_count']} / {embedded['atlas_count']}</div><div class="lbl">Verified Accessible Jurisdictions</div></div>
+    <div class="kpi"><div class="val">{embedded['systems_count']}</div><div class="lbl">Documented Real-World Systems</div></div>
     <div class="kpi"><div class="val">{embedded['corpus_count']}</div><div class="lbl">Verified Real-World Authorities</div></div>
-    <div class="kpi"><div class="val">10,000 / 10</div><div class="lbl">Curated Programs / Pilot Prototypes</div></div>
   </div>
 
   <div class="panel">
@@ -102,7 +118,7 @@ def main() -> None:
   </div>
 
   <div class="panel">
-    <h2>Comparative Jurisdiction Atlas (46 Countries)</h2>
+    <h2>Comparative Jurisdiction Atlas &amp; Governance Readiness (46 Countries)</h2>
     <input id="qJur" type="text" placeholder="Filter country..." oninput="renderAtlas()">
     <select id="qArch" onchange="renderAtlas()">
       <option value="">All Regions</option>
@@ -110,8 +126,17 @@ def main() -> None:
       <option>MEN</option><option>SSA</option><option>ECA</option><option>NAM</option><option>OCE</option>
     </select>
     <table>
-      <thead><tr><th>Country</th><th>Region</th><th>Family</th><th>Status</th><th>Judicial Policy</th><th>FRT Pushback</th><th>Source</th></tr></thead>
+      <thead><tr><th>Country</th><th>Region</th><th>Family</th><th>Readiness</th><th>Status</th><th>Judicial Policy</th><th>FRT Pushback</th><th>Source</th></tr></thead>
       <tbody id="atlasBody"></tbody>
+    </table>
+  </div>
+
+  <div class="panel">
+    <h2>Real-World Justice AI Systems Inventory ({embedded['systems_count']} Systems)</h2>
+    <input id="qSys" type="text" placeholder="Search system or country..." oninput="renderSystems()">
+    <table>
+      <thead><tr><th>ID</th><th>System</th><th>Jurisdiction</th><th>Evidence Label</th></tr></thead>
+      <tbody id="sysBody"></tbody>
     </table>
   </div>
 
@@ -177,11 +202,21 @@ function renderAtlas() {{
       <td><strong>${{r.jurisdiction_name}}</strong></td>
       <td>${{r.region_archetype}}</td>
       <td>${{r.legal_system_family}}</td>
+      <td><strong>${{r.readiness_score}}</strong></td>
       <td><span class="badge ${{r.verification_status === 'SOURCE_INACCESSIBLE' ? 'warn' : ''}}">${{r.verification_status}}</span></td>
       <td>${{r.has_judicial_ai_policy === null ? 'N/A' : (r.has_judicial_ai_policy ? 'Yes' : 'No')}}</td>
       <td>${{r.has_biometric_or_frt_pushback === null ? 'N/A' : (r.has_biometric_or_frt_pushback ? 'Yes' : 'No')}}</td>
       <td><a href="${{r.source_url}}" target="_blank" rel="noopener">Oxford Atlas</a></td>
     </tr>`).join('');
+}}
+
+function renderSystems() {{
+  const q = document.getElementById('qSys').value.toLowerCase();
+  const rows = DATA.systems.filter(s =>
+    s.system_name.toLowerCase().includes(q) || s.jurisdiction.toLowerCase().includes(q)
+  ).slice(0, 50);
+  document.getElementById('sysBody').innerHTML = rows.map(s => `
+    <tr><td>${{s.system_id}}</td><td><strong>${{s.system_name}}</strong></td><td>${{s.jurisdiction}}</td><td><span class="badge">${{s.evidence_label}}</span></td></tr>`).join('');
 }}
 
 function renderGlossary() {{
@@ -202,6 +237,7 @@ document.getElementById('pilotBody').innerHTML = DATA.pilots.map(p => `
     <td>${{p.title}}</td>
   </tr>`).join('');
 renderAtlas();
+renderSystems();
 renderGlossary();
 runGate();
 runAnon();
@@ -211,7 +247,7 @@ runAnon();
 """
     OUT_HTML.parent.mkdir(parents=True, exist_ok=True)
     OUT_HTML.write_text(html, encoding="utf-8")
-    print(f"Built full interactive GitHub Pages portal -> {OUT_HTML} ({OUT_HTML.stat().st_size:,} bytes)")
+    print(f"Built upgraded GitHub Pages portal -> {OUT_HTML} ({OUT_HTML.stat().st_size:,} bytes)")
 
 
 if __name__ == "__main__":
