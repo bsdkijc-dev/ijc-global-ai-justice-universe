@@ -1,0 +1,138 @@
+{
+  "title": "IJC Global AI & Justice Innovation Universe",
+  "id": "judicialcollege/ijc-global-ai-justice-universe",
+  "licenses": [
+    {
+      "name": "MIT"
+    }
+  ],
+  "subtitle": "v1.9.0: Procurement auditor, SRL kiosk, curriculum & 100k programs",
+  "description": "# IJC Global AI & Justice Innovation Universe (v1.9.0)\n\n**Founder:** Cecep Mustafa  \n**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n## What's New in v1.9.0\n- Added `procurement_audit_benchmark_results.json` (offline Public-Private Legal Tech Procurement & Sovereignty Auditor, `4/4` exact accuracy).\n- Added `EXECUTIVE_SUMMARY_2027_2045.md` summarizing the complete ecosystem.\n",
+  "keywords": [
+    "law",
+    "artificial intelligence"
+  ],
+  "isPrivate": true,
+  "resources": [
+    {
+      "path": "source-registry.csv",
+      "description": "Released from sources/source-registry.csv"
+    },
+    {
+      "path": "source-registry.json",
+      "description": "Released from sources/source-registry.json"
+    },
+    {
+      "path": "access-log.csv",
+      "description": "Released from sources/access-log.csv"
+    },
+    {
+      "path": "jurisdiction_atlas_46.csv",
+      "description": "Released from data/curated/jurisdiction_atlas_46.csv"
+    },
+    {
+      "path": "jurisdiction_atlas_46.json",
+      "description": "Released from data/curated/jurisdiction_atlas_46.json"
+    },
+    {
+      "path": "governance_readiness_46.csv",
+      "description": "Released from data/curated/governance_readiness_46.csv"
+    },
+    {
+      "path": "ai_systems_inventory.csv",
+      "description": "Released from data/curated/ai_systems_inventory.csv"
+    },
+    {
+      "path": "ai_systems_inventory.json",
+      "description": "Released from data/curated/ai_systems_inventory.json"
+    },
+    {
+      "path": "precedent_graph_edges.csv",
+      "description": "Released from data/curated/precedent_graph_edges.csv"
+    },
+    {
+      "path": "horizon_roadmap_2027_2045.csv",
+      "description": "Released from data/curated/horizon_roadmap_2027_2045.csv"
+    },
+    {
+      "path": "judicial_ai_curriculum_10.csv",
+      "description": "Released from data/curated/judicial_ai_curriculum_10.csv"
+    },
+    {
+      "path": "programs_curated_1000.csv",
+      "description": "Released from data/curated/programs_curated_1000.csv"
+    },
+    {
+      "path": "programs_curated_1000.parquet",
+      "description": "Released from data/curated/programs_curated_1000.parquet"
+    },
+    {
+      "path": "programs_curated_10000.parquet",
+      "description": "Released from data/curated/programs_curated_10000.parquet"
+    },
+    {
+      "path": "programs_curated_100000.parquet",
+      "description": "Released from data/curated/programs_curated_100000.parquet"
+    },
+    {
+      "path": "top10_pilot_prototypes.csv",
+      "description": "Released from data/curated/top10_pilot_prototypes.csv"
+    },
+    {
+      "path": "top10_pilot_prototypes.json",
+      "description": "Released from data/curated/top10_pilot_prototypes.json"
+    },
+    {
+      "path": "top10_pilot_aia_dossiers.json",
+      "description": "Released from data/curated/top10_pilot_aia_dossiers.json"
+    },
+    {
+      "path": "verified_authority_corpus.json",
+      "description": "Released from data/curated/verified_authority_corpus.json"
+    },
+    {
+      "path": "multilingual_glossary_50.csv",
+      "description": "Released from data/curated/multilingual_glossary_50.csv"
+    },
+    {
+      "path": "multilingual_glossary_50.json",
+      "description": "Released from data/curated/multilingual_glossary_50.json"
+    },
+    {
+      "path": "pillar_coverage_30.csv",
+      "description": "Released from data/curated/pillar_coverage_30.csv"
+    },
+    {
+      "path": "prototype_benchmark_results.json",
+      "description": "Released from data/sample/prototype_benchmark_results.json"
+    },
+    {
+      "path": "anonymisation_benchmark_results.json",
+      "description": "Released from data/sample/anonymisation_benchmark_results.json"
+    },
+    {
+      "path": "risk_audit_benchmark_results.json",
+      "description": "Released from data/sample/risk_audit_benchmark_results.json"
+    },
+    {
+      "path": "synthetic_media_benchmark_results.json",
+      "description": "Released from data/sample/synthetic_media_benchmark_results.json"
+    },
+    {
+      "path": "srl_kiosk_benchmark_results.json",
+      "description": "Released from data/sample/srl_kiosk_benchmark_results.json"
+    },
+    {
+      "path": "procurement_audit_benchmark_results.json",
+      "description": "Released from data/sample/procurement_audit_benchmark_results.json"
+    },
+    {
+      "path": "cardinality_verification.json",
+      "description": "Released from data/manifests/cardinality_verification.json"
+    },
+    {
+      "path": "scale_1m_manifest.json",
+      "description": "Released from data/manifests/scale_1m_manifest.json"
+    }
+  ]
+}

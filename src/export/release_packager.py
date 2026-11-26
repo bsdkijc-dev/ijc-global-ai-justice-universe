@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v1.8.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v1.9.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v1.8.0"
+RELEASE_NAME = "ijc-gajiu-v1.9.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.8.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.9.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -40,6 +40,7 @@ BUNDLE_FILES = [
     "data/sample/risk_audit_benchmark_results.json",
     "data/sample/synthetic_media_benchmark_results.json",
     "data/sample/srl_kiosk_benchmark_results.json",
+    "data/sample/procurement_audit_benchmark_results.json",
     "data/manifests/cardinality_verification.json",
     "data/manifests/scale_1m_manifest.json",
 ]
@@ -48,14 +49,14 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "v1.8.0: SRL legal aid kiosk, curriculum, precedent graph & 100k programs",
+    "subtitle": "v1.9.0: Procurement auditor, SRL kiosk, curriculum & 100k programs",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v1.8.0)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v1.9.0)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v1.8.0\n"
-        "- Added `srl_kiosk_benchmark_results.json` (offline Self-Represented Litigant Legal Aid Triage Kiosk, `5/5` exact accuracy).\n"
-        "- Added `ECOSYSTEM_STATUS_V1_8.md` consolidating Tasks 001–018.\n"
+        "## What's New in v1.9.0\n"
+        "- Added `procurement_audit_benchmark_results.json` (offline Public-Private Legal Tech Procurement & Sovereignty Auditor, `4/4` exact accuracy).\n"
+        "- Added `EXECUTIVE_SUMMARY_2027_2045.md` summarizing the complete ecosystem.\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -89,7 +90,7 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "1.8.0",
+        "release_version": "1.9.0",
         "release_name": RELEASE_NAME,
         "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {

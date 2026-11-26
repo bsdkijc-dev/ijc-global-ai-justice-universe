@@ -1,0 +1,2802 @@
+[
+  {
+    "system_id": "SYS-001",
+    "system_name": "PROMETEA",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-002",
+    "system_name": "AymurAI",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-003",
+    "system_name": "IURIX Mind",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-004",
+    "system_name": "Genaro",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-005",
+    "system_name": "Relmo",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-006",
+    "system_name": "DoctIA",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-007",
+    "system_name": "MinutaIA",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-008",
+    "system_name": "Buenos Aires Facial Recognition System",
+    "jurisdiction": "Argentina",
+    "source_id": "OXF-AIATLAS-01",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/argentina",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-009",
+    "system_name": "AFP 6 AI capabilities",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-010",
+    "system_name": "NEC NeoFace",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-011",
+    "system_name": "iFace",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-012",
+    "system_name": "Acusensus",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-013",
+    "system_name": "Auror",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-014",
+    "system_name": "Silverer",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-015",
+    "system_name": "Amicus/Amicus X",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-016",
+    "system_name": "Coroners Redaction",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-017",
+    "system_name": "CoCounsel",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-018",
+    "system_name": "Lexis+AI",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-019",
+    "system_name": "Hear Me Out",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-020",
+    "system_name": "Umibot",
+    "jurisdiction": "Australia",
+    "source_id": "OXF-AIATLAS-02",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-australian-criminal-proceedings-insights-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-021",
+    "system_name": "ARAS (customs)",
+    "jurisdiction": "Azerbaijan",
+    "source_id": "OXF-AIATLAS-03",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-022",
+    "system_name": "E-qanun.ai",
+    "jurisdiction": "Azerbaijan",
+    "source_id": "OXF-AIATLAS-03",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-023",
+    "system_name": "e-court system (trial duration reduced 187 to 119 days)",
+    "jurisdiction": "Azerbaijan",
+    "source_id": "OXF-AIATLAS-03",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/azerbaijans-ai-integration-in-criminal-justice-challenges-and-progress-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-024",
+    "system_name": "VICTOR",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-025",
+    "system_name": "ATHOS",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-026",
+    "system_name": "Projeto Sócrates",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-027",
+    "system_name": "APOIA",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-028",
+    "system_name": "ASSIS",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-029",
+    "system_name": "STJ Logos",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-030",
+    "system_name": "Plataforma Codex (386M lawsuits)",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-031",
+    "system_name": "Detecta",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-032",
+    "system_name": "Smart Sampa (40k cameras)",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-033",
+    "system_name": "LuminarIA",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-034",
+    "system_name": "Jarvis",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-035",
+    "system_name": "Etiquetas Inteligentes",
+    "jurisdiction": "Brazil",
+    "source_id": "OXF-AIATLAS-04",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/brazil",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-036",
+    "system_name": "Palantir Gotham",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-037",
+    "system_name": "GeoDASH",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-038",
+    "system_name": "SPPAL",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-039",
+    "system_name": "Clearview AI (banned under PIPEDA)",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-040",
+    "system_name": "NEC NeoFace",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-041",
+    "system_name": "Griffeye",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-042",
+    "system_name": "Quebec Superior Court pilot",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-043",
+    "system_name": "Westlaw/Lexis+",
+    "jurisdiction": "Canada",
+    "source_id": "OXF-AIATLAS-05",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-canada",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-044",
+    "system_name": "Urban Crime Prediction System (89% accuracy claim)",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-045",
+    "system_name": "SITIA",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-046",
+    "system_name": "Calle Segura",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-047",
+    "system_name": "FISCAL HEREDIA (>240 prosecutors)",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-048",
+    "system_name": "Justa pilot",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-049",
+    "system_name": "Buscador de Jurisprudencia",
+    "jurisdiction": "Chile",
+    "source_id": "OXF-AIATLAS-06",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/chile",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-050",
+    "system_name": "Smart Courts",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-051",
+    "system_name": "206 System",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-052",
+    "system_name": "Faxin Zhitui",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-053",
+    "system_name": "Little Judge Bao",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-054",
+    "system_name": "Judicial Knowledge Services Platform (1.14B knowledge points)",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-055",
+    "system_name": "Kunpeng Team",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-056",
+    "system_name": "DeepSeek policing",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-057",
+    "system_name": "Skynet",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-058",
+    "system_name": "Sharp Eyes",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-059",
+    "system_name": "IJOP",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-060",
+    "system_name": "12368 Voice",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-061",
+    "system_name": "Fa Xiaotao",
+    "jurisdiction": "China",
+    "source_id": "OXF-AIATLAS-07",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/china",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-062",
+    "system_name": "Fiscal Watson",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-063",
+    "system_name": "Think",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-064",
+    "system_name": "PRiSMA (suspended)",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-065",
+    "system_name": "PROMETEA",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-066",
+    "system_name": "PretorIA (~4,500 tutelas/day)",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-067",
+    "system_name": "Ebba/PERLA",
+    "jurisdiction": "Colombia",
+    "source_id": "OXF-AIATLAS-08",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/colombia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-068",
+    "system_name": "Security Operations Centre",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-069",
+    "system_name": "Honeywell New Administrative Capital",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-070",
+    "system_name": "offline court speech-to-text (>96% accuracy)",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-071",
+    "system_name": "LegalMind",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-072",
+    "system_name": "Laiwyer",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-073",
+    "system_name": "KARNAK",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-074",
+    "system_name": "Shawwir",
+    "jurisdiction": "Egypt",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-075",
+    "system_name": "Salme (92% transcription accuracy)",
+    "jurisdiction": "Estonia",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-076",
+    "system_name": "Krat (anonymisation)",
+    "jurisdiction": "Estonia",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-077",
+    "system_name": "Texta OÜ (80k decisions)",
+    "jurisdiction": "Estonia",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-078",
+    "system_name": "semi-automated small claims (<=EUR 8,000)",
+    "jurisdiction": "Estonia",
+    "source_id": "OXF-AIATLAS-10",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/estonia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-079",
+    "system_name": "Smart Police Station",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-080",
+    "system_name": "Smart Court System (24 branches)",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-081",
+    "system_name": "Afaan Oromo transcription",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-082",
+    "system_name": "EFP App",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-083",
+    "system_name": "Chllot",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-084",
+    "system_name": "Behigamlak",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-085",
+    "system_name": "HegAwaqi",
+    "jurisdiction": "Ethiopia",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-086",
+    "system_name": "PNR AI (terrorism/crime)",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-087",
+    "system_name": "FERMI",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-088",
+    "system_name": "RANKKA",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-089",
+    "system_name": "AinoAid chatbot",
+    "jurisdiction": "Finland",
+    "source_id": "OXF-AIATLAS-12",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-criminal-justice-insights-on-finland-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-090",
+    "system_name": "RosetIA",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-091",
+    "system_name": "Parole",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-092",
+    "system_name": "PredNatinf",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-093",
+    "system_name": "BriefCam (halted by Caen/Grenoble/Nice courts)",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-094",
+    "system_name": "Paris 2024 Olympic video analytics",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-095",
+    "system_name": "TRAUNE",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-096",
+    "system_name": "Mon Assistant Pénal",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-097",
+    "system_name": "LABEL",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-098",
+    "system_name": "ÉPOPÉE",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-099",
+    "system_name": "DataJust (abandoned)",
+    "jurisdiction": "France",
+    "source_id": "OXF-AIATLAS-13",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-france",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-100",
+    "system_name": "Palantir Gotham (hessenDATA, VeRA)",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-101",
+    "system_name": "PreCobs",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-102",
+    "system_name": "SKALA",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-103",
+    "system_name": "AKLS",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-104",
+    "system_name": "AIRA",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-105",
+    "system_name": "JAIF",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-106",
+    "system_name": "Jailbox",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-107",
+    "system_name": "MoNA",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-108",
+    "system_name": "StruKi",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-109",
+    "system_name": "AKIRA",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-110",
+    "system_name": "JANO",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-111",
+    "system_name": "Codefy/ASTRA",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-112",
+    "system_name": "ALeKS (97%)",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-113",
+    "system_name": "FRIDA",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-114",
+    "system_name": "Beck-Noxtua",
+    "jurisdiction": "Germany",
+    "source_id": "OXF-AIATLAS-14",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-germany",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-115",
+    "system_name": "e-Courts Phase III (>50M backlog)",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-116",
+    "system_name": "SUVAS (31,184 judgments, 16 languages)",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-117",
+    "system_name": "SUPACE",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-118",
+    "system_name": "Nyaay AI",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-119",
+    "system_name": "Adalat AI (>4,000 courts)",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-120",
+    "system_name": "Lucio",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-121",
+    "system_name": "NyaySanhita.in",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-122",
+    "system_name": "Abhay",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-123",
+    "system_name": "AMPED FIVE",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-124",
+    "system_name": "CCTNS",
+    "jurisdiction": "India",
+    "source_id": "OXF-AIATLAS-15",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/india",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-125",
+    "system_name": "FARAJA facial recognition",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-126",
+    "system_name": "Sana System",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-127",
+    "system_name": "Tenad System (110M decisions)",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-128",
+    "system_name": "RoboLegal",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-129",
+    "system_name": "Vakil-GPT",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-130",
+    "system_name": "Adalat Hamrah",
+    "jurisdiction": "Iran",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-131",
+    "system_name": "Delia/KeyCrime (1.5M data points)",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-132",
+    "system_name": "Giove",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-133",
+    "system_name": "X-Law",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-134",
+    "system_name": "CEREBRO",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-135",
+    "system_name": "APFIS",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-136",
+    "system_name": "SARI (Enterprise active, Real-Time blocked)",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-137",
+    "system_name": "Progetto Seneca",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-138",
+    "system_name": "GIADA",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-139",
+    "system_name": "ASPEN",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-140",
+    "system_name": "Lisia",
+    "jurisdiction": "Italy",
+    "source_id": "OXF-AIATLAS-17",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-italy",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-141",
+    "system_name": "Crime Nabi",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-142",
+    "system_name": "NPA FRT (10M images)",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-143",
+    "system_name": "tokuryu social media AI (18,500 warnings)",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-144",
+    "system_name": "JAFIC AML",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-145",
+    "system_name": "Aichi AI sketch",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-146",
+    "system_name": "disaster drones",
+    "jurisdiction": "Japan",
+    "source_id": "OXF-AIATLAS-18",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-japans-law-enforcement-predictive-analytics-and-tools-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-147",
+    "system_name": "Safe City (1.4M cameras)",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-148",
+    "system_name": "Sergek",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-149",
+    "system_name": "Qorgau",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-150",
+    "system_name": "Digital Assistant to Investigator",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-151",
+    "system_name": "ProkAi",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-152",
+    "system_name": "E-Soty AI (500k claims)",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-153",
+    "system_name": "Assistance to Judges (-20% appeals)",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-154",
+    "system_name": "Digital Bailiff",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-155",
+    "system_name": "E-zan Komegi",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-156",
+    "system_name": "AdiletAI",
+    "jurisdiction": "Kazakhstan",
+    "source_id": "OXF-AIATLAS-19",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/kazakhstans-ai-integration-in-criminal-justice-tools-and-insights-adiletai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-157",
+    "system_name": "NPS NEC NeoFace CCTV",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-158",
+    "system_name": "ICCS",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-159",
+    "system_name": "Judiciary transcription (154k transcripts, 80% accuracy)",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-160",
+    "system_name": "Hakimu.ai",
+    "jurisdiction": "Kenya",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-161",
+    "system_name": "AI smart patrol vehicles",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-162",
+    "system_name": "3D FRT",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-163",
+    "system_name": "252 traffic cameras",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-164",
+    "system_name": "mandatory biometrics (>3M enrolled)",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-165",
+    "system_name": "Interpol cybercrime platform",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-166",
+    "system_name": "Oqood.ai",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-167",
+    "system_name": "Harvey",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-168",
+    "system_name": "Legora",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-169",
+    "system_name": "Qistas",
+    "jurisdiction": "Kuwait",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-170",
+    "system_name": "AI Sentencing System (Sabah/Sarawak & Peninsular)",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-171",
+    "system_name": "E-Court",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-172",
+    "system_name": "YITU bodycam FRT",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-173",
+    "system_name": "Penang/Sarawak AI CCTV",
+    "jurisdiction": "Malaysia",
+    "source_id": "OXF-AIATLAS-22",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-malaysian-criminal-justice-sentencing-tools-and-regulations-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-174",
+    "system_name": "CDMX C5 (>113k cameras)",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-175",
+    "system_name": "Michoacán SAFR FRT",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-176",
+    "system_name": "Zacatecas backlog triage (74%)",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-177",
+    "system_name": "Mapeo Nacional",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-178",
+    "system_name": "JulIA",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-179",
+    "system_name": "Ebba",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-180",
+    "system_name": "Fiscal IA (35 to 11 min)",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-181",
+    "system_name": "JusticIA",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-182",
+    "system_name": "Sor Juana",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-183",
+    "system_name": "TEO",
+    "jurisdiction": "Mexico",
+    "source_id": "OXF-AIATLAS-23",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-mexicos-criminal-justice-law-enforcement-courts-and-regulation-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-184",
+    "system_name": "Appian",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-185",
+    "system_name": "Auror ANPR",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-186",
+    "system_name": "BriefCam",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-187",
+    "system_name": "ABIS2",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-188",
+    "system_name": "Clearview AI (stopped 2021)",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-189",
+    "system_name": "Lumi Drug Scan",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-190",
+    "system_name": "Griffeye",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-191",
+    "system_name": "SAFVR/DYRA",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-192",
+    "system_name": "Te Au Reka",
+    "jurisdiction": "New Zealand",
+    "source_id": "OXF-AIATLAS-24",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/new-zealand-ai-in-crime-detection-tools-regulation-and-cases-police-use-ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-193",
+    "system_name": "Safe City / FindFace (70% Moscow crime resolution claim)",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-194",
+    "system_name": "Sfera",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-195",
+    "system_name": "AIK Nadzor WEB",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-196",
+    "system_name": "UNICA-AI",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-197",
+    "system_name": "Magis/NeuroMagis",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-198",
+    "system_name": "ISKRA",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-199",
+    "system_name": "ConsultantPlus AI (35% courts use AI)",
+    "jurisdiction": "Russia",
+    "source_id": "OXF-AIATLAS-25",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/russias-ai-integration-in-criminal-justice-tools-regulation-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-200",
+    "system_name": "Safe City Kigali",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-201",
+    "system_name": "AI traffic cameras",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-202",
+    "system_name": "Spam Alert Service",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-203",
+    "system_name": "IST Legal platform",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-204",
+    "system_name": "AiLex Rwanda",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-205",
+    "system_name": "Wansom",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-206",
+    "system_name": "Mbaza Ubutabera AI",
+    "jurisdiction": "Rwanda",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-207",
+    "system_name": "Saher",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-208",
+    "system_name": "EagleEye",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-209",
+    "system_name": "Sawaher",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-210",
+    "system_name": "Smart C",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-211",
+    "system_name": "Najiz",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-212",
+    "system_name": "Qanoniah",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-213",
+    "system_name": "Arabic.ai",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-214",
+    "system_name": "Wathiq",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-215",
+    "system_name": "Haseef",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-216",
+    "system_name": "Waddah AI",
+    "jurisdiction": "Saudi Arabia",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-217",
+    "system_name": "R-Cop",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-218",
+    "system_name": "GRAND-VISION",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-219",
+    "system_name": "Cyber Guardian",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-220",
+    "system_name": "AGC CaseEdge & Prollie",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-221",
+    "system_name": "Courts-Harvey SCT MoU",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-222",
+    "system_name": "Pair Search",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-223",
+    "system_name": "Lupl LTP",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-224",
+    "system_name": "LawNet GPT-Legal Q&A",
+    "jurisdiction": "Singapore",
+    "source_id": "OXF-AIATLAS-28",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/singapore",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-225",
+    "system_name": "ShotSpotter",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-226",
+    "system_name": "Vumacam ANPR (28k daily alerts)",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-227",
+    "system_name": "SAPS PIVA (>1.08M verifications)",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-228",
+    "system_name": "LegalFundi Maya",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-229",
+    "system_name": "My AI Lawyer",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-230",
+    "system_name": "Juta",
+    "jurisdiction": "South Africa",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-231",
+    "system_name": "KICS-AI (Exaone, 36k officers)",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-232",
+    "system_name": "Pre-CAS/Freecus",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-233",
+    "system_name": "AIID",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-234",
+    "system_name": "Zio-Keeper",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-235",
+    "system_name": "NPA deepfake detector (419 arrests)",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-236",
+    "system_name": "K-VoM",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-237",
+    "system_name": "LBox",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-238",
+    "system_name": "Trial Support AI",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-239",
+    "system_name": "SuperLawyer",
+    "jurisdiction": "South Korea",
+    "source_id": "OXF-AIATLAS-30",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-south-koreas-criminal-justice-law-enforcement-prosecution-courts-aiid",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-240",
+    "system_name": "RisCanvi",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-241",
+    "system_name": "VioGén / VioGén 2",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-242",
+    "system_name": "EPV-R",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-243",
+    "system_name": "Veripol (discontinued Oct 2024)",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-244",
+    "system_name": "ADIA",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-245",
+    "system_name": "Delfos",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-246",
+    "system_name": "KENDOJ",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-247",
+    "system_name": "LexNET",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-248",
+    "system_name": "AinoAid",
+    "jurisdiction": "Spain",
+    "source_id": "OXF-AIATLAS-31",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/spain",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-249",
+    "system_name": "Municipal AI patrol systems",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-250",
+    "system_name": "M-Police (NEC)",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-251",
+    "system_name": "Judicial Yuan ASR (Mandarin/Taiwanese/Hakka)",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-252",
+    "system_name": "AI judgment drafting (suspended Oct 2023)",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-253",
+    "system_name": "AI Sentencing Information System",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-254",
+    "system_name": "TAIDE",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-255",
+    "system_name": "Lawbot/Lawsnote/TaiLexi",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-256",
+    "system_name": "165 Anti-Fraud",
+    "jurisdiction": "Taiwan",
+    "source_id": "OXF-AIATLAS-32",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-tools-in-taiwans-criminal-justice-system-law-enforcement-innovations-legal-research-advancements-legal-tech-insights",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-257",
+    "system_name": "AI Police Cyborg 1.0 (14 fugitives)",
+    "jurisdiction": "Thailand",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-258",
+    "system_name": "Anti-Online Scam Center",
+    "jurisdiction": "Thailand",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-259",
+    "system_name": "ChatAI",
+    "jurisdiction": "Thailand",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-260",
+    "system_name": "CIBbot",
+    "jurisdiction": "Thailand",
+    "source_id": "OXF-AIATLAS-33",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thailand-8a972a9c-42a9-4d9f-b324-96e3bcbcc309",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-261",
+    "system_name": "Q-Soft Denovo court recording/transcription (no AI deployed yet)",
+    "jurisdiction": "The Gambia",
+    "source_id": "OXF-AIATLAS-34",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thegambia-3447303d-c9d6-4476-963c-02898588dc35",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-262",
+    "system_name": "Public Algorithm Register",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-263",
+    "system_name": "Threat to Life",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-264",
+    "system_name": "CATCH (56% match)",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-265",
+    "system_name": "HAVANK",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-266",
+    "system_name": "BriefCam",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-267",
+    "system_name": "MONOcam",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-268",
+    "system_name": "Hansken (1TB/30min)",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-269",
+    "system_name": "DNAxs",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-270",
+    "system_name": "RechtspraakGPT",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-271",
+    "system_name": "OxRec (suspended Feb 2026)",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-272",
+    "system_name": "CAS (phased out Dec 2025)",
+    "jurisdiction": "The Netherlands",
+    "source_id": "OXF-AIATLAS-35",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-netherlands",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-273",
+    "system_name": "AI Police Command Centers",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-274",
+    "system_name": "eCourt PH",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-275",
+    "system_name": "JIGSS",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-276",
+    "system_name": "Scriptix (mandatory nationwide Mar 2026, Taglish)",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-277",
+    "system_name": "Philippine Judiciary 365",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-278",
+    "system_name": "Anycase.ai",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-279",
+    "system_name": "Digest AI",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-280",
+    "system_name": "Lex Pilipinas",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-281",
+    "system_name": "Tisya Hutsiaya",
+    "jurisdiction": "The Philippines",
+    "source_id": "OXF-AIATLAS-36",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-philippine-justice-system-tools-training-and-regulation-anycase.ai",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-282",
+    "system_name": "Almawave Pervoice Kiswahili-English transcription ($3M, 11 to 50 courtrooms)",
+    "jurisdiction": "Tanzania",
+    "source_id": "OXF-AIATLAS-37",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/tanzanias-ai-in-criminal-justice-training-and-regulation-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-283",
+    "system_name": "Law Companion (98% accuracy)",
+    "jurisdiction": "Tanzania",
+    "source_id": "OXF-AIATLAS-37",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/tanzanias-ai-in-criminal-justice-training-and-regulation-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-284",
+    "system_name": "KGYS",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-285",
+    "system_name": "Trafidar",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-286",
+    "system_name": "ASENA (92% narcotics)",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-287",
+    "system_name": "YEDES",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-288",
+    "system_name": "CBS Organizational Prediction",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-289",
+    "system_name": "UYAP (40k docs/day)",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-290",
+    "system_name": "Court of Cassation Case-law Centre",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-291",
+    "system_name": "Söyle Yazsın",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-292",
+    "system_name": "Ez Cümle",
+    "jurisdiction": "Türkiye",
+    "source_id": "OXF-AIATLAS-38",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/t%C3%BCrkiye",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-293",
+    "system_name": "Safe City (74% Hikvision/Dahua security concern)",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-294",
+    "system_name": "Clearview AI",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-295",
+    "system_name": "Microsoft/Palantir (>107k war crimes)",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-296",
+    "system_name": "Legal Positions / Database 2.0",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-297",
+    "system_name": "Cassandra",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-298",
+    "system_name": "Court on the Palm",
+    "jurisdiction": "Ukraine",
+    "source_id": "OXF-AIATLAS-39",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-justice-atlas-ukraine",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-299",
+    "system_name": "27 Smart Police Stations (45 services, 7 languages)",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-300",
+    "system_name": "Oyoon",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-301",
+    "system_name": "Falcon Eye",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-302",
+    "system_name": "Digital Twin",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-303",
+    "system_name": "Federal Prosecution AI71",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-304",
+    "system_name": "Abu Dhabi ML case system",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-305",
+    "system_name": "Aisha",
+    "jurisdiction": "United Arab Emirates",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-306",
+    "system_name": "PoliceAI (£115M)",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-307",
+    "system_name": "Soze",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-308",
+    "system_name": "DocDefender",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-309",
+    "system_name": "OASys/OGRS/ARNS",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-310",
+    "system_name": "HART (ceased)",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-311",
+    "system_name": "LFR/RFR (4.7M faces in 2024)",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-312",
+    "system_name": "CPS Copilot",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-313",
+    "system_name": "Justice AI",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-314",
+    "system_name": "Luminance AI",
+    "jurisdiction": "United Kingdom",
+    "source_id": "OXF-AIATLAS-41",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-kingdom",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-315",
+    "system_name": "Geolitica (<0.5% Plainfield)",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-316",
+    "system_name": "Cybercheck",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-317",
+    "system_name": "Axon Draft One",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-318",
+    "system_name": "NGI-IPS (67M photos)",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-319",
+    "system_name": "ShotSpotter (Chicago decommissioned)",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-320",
+    "system_name": "PbK",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-321",
+    "system_name": "NICE Justice",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-322",
+    "system_name": "PTRA/COMPAS/PSA",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-323",
+    "system_name": "SANDI",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-324",
+    "system_name": "LearnedHand",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-325",
+    "system_name": "CoCounsel",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-326",
+    "system_name": "JusticeText",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-327",
+    "system_name": "Reduct.Video",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-328",
+    "system_name": "Arizona Pelkey AI avatar",
+    "jurisdiction": "United States",
+    "source_id": "OXF-AIATLAS-42",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-states-of-america",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-329",
+    "system_name": "Mening Inspektori",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-330",
+    "system_name": "Smart City (42,750 cameras)",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-331",
+    "system_name": "LexAI",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-332",
+    "system_name": "my.sud.uz",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-333",
+    "system_name": "E-huquqshunos",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-334",
+    "system_name": "Wakil AI",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-335",
+    "system_name": "Yurist AI",
+    "jurisdiction": "Uzbekistan",
+    "source_id": "OXF-AIATLAS-43",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-integration-in-uzbekistans-justice-system-tools-regulations-insights-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-336",
+    "system_name": "CloudWalk FRT",
+    "jurisdiction": "Zimbabwe",
+    "source_id": "OXF-AIATLAS-45",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-337",
+    "system_name": "Hikvision border",
+    "jurisdiction": "Zimbabwe",
+    "source_id": "OXF-AIATLAS-45",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-338",
+    "system_name": "Huawei $100M Harare CCTV",
+    "jurisdiction": "Zimbabwe",
+    "source_id": "OXF-AIATLAS-45",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-339",
+    "system_name": "IECMS",
+    "jurisdiction": "Zimbabwe",
+    "source_id": "OXF-AIATLAS-45",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-340",
+    "system_name": "Carbyne",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-341",
+    "system_name": "Eagle Eye",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-342",
+    "system_name": "Mabat 2000",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-343",
+    "system_name": "Corsight",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-344",
+    "system_name": "Cellebrite",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-345",
+    "system_name": "Briefcam",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-346",
+    "system_name": "Saifan",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-347",
+    "system_name": "Chat HaMishpat (45 to 1.5 min, ~900 judges)",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-348",
+    "system_name": "SUMIT",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-349",
+    "system_name": "Nevo AI",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "system_id": "SYS-350",
+    "system_name": "LawMate",
+    "jurisdiction": "Israel",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  }
+]
