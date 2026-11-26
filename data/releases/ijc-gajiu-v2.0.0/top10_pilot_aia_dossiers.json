@@ -1,0 +1,258 @@
+[
+  {
+    "program_id": "IJC-GAJIU-SAS-ADM-DPA-APP-22FD14",
+    "title": "Neural Legal Machine Translation for Appellate Review & Error Detection in Administrative & Regulatory Justice (SAS / DPA)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_2_MODERATE_RISK",
+    "region_archetype": "SAS",
+    "deployment_tier": "CPU",
+    "governance_mechanism": "CIT",
+    "human_rights_focus": "ACC",
+    "mandatory_safeguards": [
+      "Mandatory Human-in-the-Loop (HITL) sign-off before judicial or administrative use",
+      "Automated citation-grounding gate to prevent hallucinated authorities",
+      "User-facing disclosure tagging (aligned with Thailand Civil Court B.E. 2568 & UNESCO Guidelines)"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-15"
+    ]
+  },
+  {
+    "program_id": "IJC-GAJIU-SEA-LAB-BAR-APP-11C018",
+    "title": "Structured Extraction & Case Clustering NLP for Appellate Review & Error Detection in Labor & Employment Tribunals (SEA / BAR)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_2_MODERATE_RISK",
+    "region_archetype": "SEA",
+    "deployment_tier": "OFF",
+    "governance_mechanism": "CON",
+    "human_rights_focus": "PRI",
+    "mandatory_safeguards": [
+      "Mandatory Human-in-the-Loop (HITL) sign-off before judicial or administrative use",
+      "Automated citation-grounding gate to prevent hallucinated authorities",
+      "User-facing disclosure tagging (aligned with Thailand Civil Court B.E. 2568 & UNESCO Guidelines)"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-22",
+      "OXF-AIATLAS-28",
+      "OXF-AIATLAS-33"
+    ]
+  },
+  {
+    "program_id": "IJC-GAJIU-OCE-CON-DEF-RES-2F769B",
+    "title": "Interpretable / Counterfactual Risk Modeling for Legal Research & Precedent Retrieval in Constitutional & Fundamental Rights (OCE / DEF)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_2_MODERATE_RISK",
+    "region_archetype": "OCE",
+    "deployment_tier": "CPU",
+    "governance_mechanism": "CON",
+    "human_rights_focus": "IND",
+    "mandatory_safeguards": [
+      "Mandatory Human-in-the-Loop (HITL) sign-off before judicial or administrative use",
+      "Automated citation-grounding gate to prevent hallucinated authorities",
+      "User-facing disclosure tagging (aligned with Thailand Civil Court B.E. 2568 & UNESCO Guidelines)"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-02",
+      "OXF-AIATLAS-24",
+      "OXF-AIATLAS-01"
+    ]
+  },
+  {
+    "program_id": "IJC-GAJIU-LAT-ADM-MOJ-ASR-EB0D7A",
+    "title": "Multimedia & Deepfake Forensics for Hearing Recording & Multilingual Transcription in Administrative & Regulatory Justice (LAT / MOJ)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_2_MODERATE_RISK",
+    "region_archetype": "LAT",
+    "deployment_tier": "CPU",
+    "governance_mechanism": "UNE",
+    "human_rights_focus": "CHI",
+    "mandatory_safeguards": [
+      "Mandatory Human-in-the-Loop (HITL) sign-off before judicial or administrative use",
+      "Automated citation-grounding gate to prevent hallucinated authorities",
+      "User-facing disclosure tagging (aligned with Thailand Civil Court B.E. 2568 & UNESCO Guidelines)"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-01",
+      "OXF-AIATLAS-04",
+      "OXF-AIATLAS-06"
+    ]
+  },
+  {
+    "program_id": "IJC-GAJIU-EAS-CON-DPA-DRF-A16D3B",
+    "title": "Federated Learning Across Court Nodes for Judicial / Prosecutorial Document Drafting in Constitutional & Fundamental Rights (EAS / DPA)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_2_MODERATE_RISK",
+    "region_archetype": "EAS",
+    "deployment_tier": "OPN",
+    "governance_mechanism": "HIT",
+    "human_rights_focus": "DIG",
+    "mandatory_safeguards": [
+      "Mandatory Human-in-the-Loop (HITL) sign-off before judicial or administrative use",
+      "Automated citation-grounding gate to prevent hallucinated authorities",
+      "User-facing disclosure tagging (aligned with Thailand Civil Court B.E. 2568 & UNESCO Guidelines)"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-02",
+      "OXF-AIATLAS-07",
+      "OXF-AIATLAS-18"
+    ]
+  },
+  {
+    "program_id": "IJC-GAJIU-EUR-CON-DPA-DIS-0AA31C",
+    "title": "Interpretable / Counterfactual Risk Modeling for Pre-Trial Disclosure & Discovery in Constitutional & Fundamental Rights (EUR / DPA)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_1_LOW_RISK",
+    "region_archetype": "EUR",
+    "deployment_tier": "CPU",
+    "governance_mechanism": "CIT",
+    "human_rights_focus": "VIC",
+    "mandatory_safeguards": [
+      "Pre-deployment data-minimization check",
+      "Immutable audit logging of automated steps",
+      "Periodic annual review"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-10",
+      "OXF-AIATLAS-12",
+      "OXF-AIATLAS-13"
+    ]
+  },
+  {
+    "program_id": "IJC-GAJIU-SSA-COR-MOJ-INT-B2DDD3",
+    "title": "Neuro-Symbolic Legal Reasoning for Intake, Filing & Case Triage in Anti-Corruption & Financial Crime (SSA / MOJ)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_2_MODERATE_RISK",
+    "region_archetype": "SSA",
+    "deployment_tier": "CPU",
+    "governance_mechanism": "HIT",
+    "human_rights_focus": "IND",
+    "mandatory_safeguards": [
+      "Mandatory Human-in-the-Loop (HITL) sign-off before judicial or administrative use",
+      "Automated citation-grounding gate to prevent hallucinated authorities",
+      "User-facing disclosure tagging (aligned with Thailand Civil Court B.E. 2568 & UNESCO Guidelines)"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-11",
+      "OXF-AIATLAS-20",
+      "OXF-AIATLAS-26"
+    ]
+  },
+  {
+    "program_id": "IJC-GAJIU-ECA-SEN-SUP-MON-551BEC",
+    "title": "Multimedia & Deepfake Forensics for Post-Deployment Audit & Compliance Monitoring in Sentencing, Corrections & Probation (ECA / SUP)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_1_LOW_RISK",
+    "region_archetype": "ECA",
+    "deployment_tier": "CPU",
+    "governance_mechanism": "UNE",
+    "human_rights_focus": "TRN",
+    "mandatory_safeguards": [
+      "Pre-deployment data-minimization check",
+      "Immutable audit logging of automated steps",
+      "Periodic annual review"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-03",
+      "OXF-AIATLAS-19",
+      "OXF-AIATLAS-25"
+    ]
+  },
+  {
+    "program_id": "IJC-GAJIU-LOW-ADM-COR-MON-ABC119",
+    "title": "Interpretable / Counterfactual Risk Modeling for Post-Deployment Audit & Compliance Monitoring in Administrative & Regulatory Justice (LOW / COR)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_1_LOW_RISK",
+    "region_archetype": "LOW",
+    "deployment_tier": "OFF",
+    "governance_mechanism": "SRC",
+    "human_rights_focus": "IND",
+    "mandatory_safeguards": [
+      "Pre-deployment data-minimization check",
+      "Immutable audit logging of automated steps",
+      "Periodic annual review"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-00"
+    ]
+  },
+  {
+    "program_id": "IJC-GAJIU-MEN-CRM-LEG-DIS-A41B25",
+    "title": "Multimedia & Deepfake Forensics for Pre-Trial Disclosure & Discovery in Criminal Justice & Procedure (MEN / LEG)",
+    "epistemic_label": "PROPOSED_RESEARCH_PROGRAM",
+    "aia_status": "PROPOSED_UNVALIDATED_AIA_TEMPLATE",
+    "human_rights_risk_tier": "TIER_1_LOW_RISK",
+    "region_archetype": "MEN",
+    "deployment_tier": "CPU",
+    "governance_mechanism": "AIA",
+    "human_rights_focus": "NON",
+    "mandatory_safeguards": [
+      "Pre-deployment data-minimization check",
+      "Immutable audit logging of automated steps",
+      "Periodic annual review"
+    ],
+    "comparative_benchmarks": [
+      "CNJ Res 615/2025 (Brazil)",
+      "Acuerdo PCSJA24-12243 (Colombia)",
+      "AM 25-11-28-SC (Philippines)"
+    ],
+    "inspiration_source_ids": [
+      "OXF-AIATLAS-09",
+      "OXF-AIATLAS-16",
+      "OXF-AIATLAS-21"
+    ]
+  }
+]

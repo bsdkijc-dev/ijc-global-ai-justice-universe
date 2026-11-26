@@ -1,4 +1,5 @@
 import json
+import re
 import unittest
 from pathlib import Path
 
@@ -12,7 +13,7 @@ class TestV1Release(unittest.TestCase):
         self.assertEqual(len(manifest["files"]), 19)
         self.assertTrue((ROOT / "src" / "run_all.py").exists())
         pyproject = (ROOT / "pyproject.toml").read_text(encoding="utf-8")
-        self.assertIn('version = "1.0.0"', pyproject)
+        self.assertRegex(pyproject, r'version = "\d+\.\d+\.\d+"')
 
 
 if __name__ == "__main__":

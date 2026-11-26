@@ -1,4 +1,4 @@
-# IJC Global AI & Justice Innovation Universe (`v1.0.0`)
+# IJC Global AI & Justice Innovation Universe (`v2.0.0`)
 
 **Founder:** Cecep Mustafa  
 **Horizon:** 2027–2045  
@@ -9,16 +9,17 @@
 ## Overview
 An independent open-research and open-source ecosystem representing **8,957,952,000,000** (8.958 trillion) addressable AI-and-justice program configurations across a 12-dimensional taxonomy and 30 global research pillars, grounded in the [Oxford AI Justice Atlas](https://www.techandjustice.bsg.ox.ac.uk/ai-atlas).
 
-## Key `v1.0.0` Components
-- **Source Audit (`sources/`)**: 47 Oxford AI Justice Atlas URLs audited (46 `VERIFIED_ACCESSIBLE`, 1 `SOURCE_INACCESSIBLE` Zambia with zero-imputation).
-- **Comparative Atlas & Authority Corpus (`data/curated/`)**: 46-country Comparative Jurisdiction Atlas, **238** verified real-world authorities, and **50-term** 5-language glossary (`en`, `id_ms`, `es`, `fr`, `ar`).
-- **Curated Portfolios (`data/curated/`)**: 100-program sample (`seed=2027`), 1,000-program TF-IDF-screened portfolio (`seed=202702`), 10,000-program scale-up (`seed=202706`), Top-10 Pilot Prototypes, and Top-10 AIA Dossiers.
-- **Offline CPU Prototypes (`src/prototype/`, `PROTOTYPE_EXPERIMENTAL_NONBINDING`)**:
-  - Grounded Citation Verification Gate & CLI (`src/prototype/cli.py`, 6/6 synthetic accuracy)
-  - Judgment Anonymisation & PII Redaction Gate (4/4 synthetic accuracy)
-  - Risk-Scoring Disparity & Fairness Audit Simulator (detecting injected 0.2386 FPR disparity)
-  - Algorithmic Impact Assessment (AIA) Dossier Generator
-- **Interactive Portal & CI**: Zero-CDN GitHub Pages portal (`docs/index.html`) and GitHub Actions CI (`.github/workflows/ci.yml`).
+## `v2.0.0` Ecosystem Components (`Tasks 001–020`)
+- **Empirical Source Base (`EXISTING_REAL_WORLD_RECORD`)**: 47 Oxford AI Justice Atlas URLs audited (46 `VERIFIED_ACCESSIBLE`, 1 `SOURCE_INACCESSIBLE` Zambia), 46-country Comparative Atlas & Governance Readiness Index (`mean=50.22`), **350** real-world AI systems, **238** verified case/statutory authorities, and **98** precedent graph edges.
+- **Generative & Curated Portfolios (`PROPOSED_RESEARCH_PROGRAM`)**: Verified `100`, `1,000`, `10,000`, `100,000` (`1.37s`), and `1,000,000` (`5.84s`, `171,232.9` prog/sec) datasets, plus **Top-10** Pilot Prototypes, Top-10 AIA Dossiers, and 2027–2045 Horizon Roadmap.
+- **Six Offline CPU Prototypes (`PROTOTYPE_EXPERIMENTAL_NONBINDING`)**:
+  1. Grounded Citation Verification Gate & CLI (`src/prototype/citation_and_triage_gate.py`, `cli.py`)
+  2. Judgment Anonymisation & PII Redaction Gate (`src/prototype/anonymisation_gate.py`)
+  3. Risk-Scoring Disparity Simulator (`src/prototype/risk_audit_simulator.py`)
+  4. Synthetic Media & Chain-of-Custody Gate (`src/prototype/synthetic_media_gate.py`)
+  5. SRL Legal Aid Triage Kiosk (`src/prototype/srl_kiosk_guide.py`)
+  6. Legal Tech Procurement & Sovereignty Auditor (`src/prototype/procurement_auditor.py`)
+- **Education, Query & Portal**: 50-term 5-language glossary, 10-module Judicial AI Curriculum, Unified Query CLI (`src/evidence/query_cli.py`), 20 reproducible notebooks, GitHub Actions CI, and zero-CDN GitHub Pages portal (`docs/index.html`).
 
 ## Quickstart
 ```bash

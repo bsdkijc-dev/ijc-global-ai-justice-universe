@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v1.9.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v2.0.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v1.9.0"
+RELEASE_NAME = "ijc-gajiu-v2.0.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.9.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v2.0.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -49,14 +49,14 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "v1.9.0: Procurement auditor, SRL kiosk, curriculum & 100k programs",
+    "subtitle": "v2.0.0: Complete 20-task AI justice atlas, 100k programs & 6 prototypes",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v1.9.0)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v2.0.0)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v1.9.0\n"
-        "- Added `procurement_audit_benchmark_results.json` (offline Public-Private Legal Tech Procurement & Sovereignty Auditor, `4/4` exact accuracy).\n"
-        "- Added `EXECUTIVE_SUMMARY_2027_2045.md` summarizing the complete ecosystem.\n"
+        "## v2.0.0 Complete 20-Task Milestone\n"
+        "- **30** curated datasets & benchmark artifacts across 46 jurisdictions, 350 real-world systems, 238 verified authorities, 98 precedent edges, 50-term 5-language glossary, 10-module curriculum, and 100k 12D programs.\n"
+        "- **6** offline CPU prototypes (`PROTOTYPE_EXPERIMENTAL_NONBINDING`) and 20 reproducible notebooks.\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -90,9 +90,9 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "1.9.0",
+        "release_version": "2.0.0",
         "release_name": RELEASE_NAME,
-        "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
+        "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE_V2",
         "archive": {
             "filename": ARCHIVE_PATH.name,
             "bytes": ARCHIVE_PATH.stat().st_size,
