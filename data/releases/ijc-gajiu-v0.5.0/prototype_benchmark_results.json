@@ -1,0 +1,70 @@
+{
+  "prototype_id": "IJC-GAJIU-PILOT-PROTOTYPE-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "authority_registry_entries": 238,
+  "benchmark_cases": 6,
+  "exact_citation_detection_accuracy": 1.0,
+  "clusters_formed": 6,
+  "results": [
+    {
+      "case_id": "SYN-01",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "cluster_id": "CLU-01",
+      "expected_unverified": 0,
+      "detected_unverified": 0,
+      "citations_detected": 2,
+      "gate_status": "PASS_HUMAN_SIGN_OFF_READY",
+      "audit_hash": "A7564105F4D2"
+    },
+    {
+      "case_id": "SYN-02",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "cluster_id": "CLU-02",
+      "expected_unverified": 1,
+      "detected_unverified": 1,
+      "citations_detected": 2,
+      "gate_status": "FLAG_UNVERIFIED_CITATIONS_HITL_REQUIRED",
+      "audit_hash": "62D8090FD0DF"
+    },
+    {
+      "case_id": "SYN-03",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "cluster_id": "CLU-03",
+      "expected_unverified": 0,
+      "detected_unverified": 0,
+      "citations_detected": 2,
+      "gate_status": "PASS_HUMAN_SIGN_OFF_READY",
+      "audit_hash": "A1543E646E8A"
+    },
+    {
+      "case_id": "SYN-04",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "cluster_id": "CLU-04",
+      "expected_unverified": 2,
+      "detected_unverified": 2,
+      "citations_detected": 2,
+      "gate_status": "FLAG_UNVERIFIED_CITATIONS_HITL_REQUIRED",
+      "audit_hash": "2855525E0D1D"
+    },
+    {
+      "case_id": "SYN-05",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "cluster_id": "CLU-05",
+      "expected_unverified": 0,
+      "detected_unverified": 0,
+      "citations_detected": 2,
+      "gate_status": "PASS_HUMAN_SIGN_OFF_READY",
+      "audit_hash": "F1CBC5A24CDA"
+    },
+    {
+      "case_id": "SYN-06",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "cluster_id": "CLU-06",
+      "expected_unverified": 1,
+      "detected_unverified": 1,
+      "citations_detected": 2,
+      "gate_status": "FLAG_UNVERIFIED_CITATIONS_HITL_REQUIRED",
+      "audit_hash": "2F005B8512C9"
+    }
+  ]
+}
