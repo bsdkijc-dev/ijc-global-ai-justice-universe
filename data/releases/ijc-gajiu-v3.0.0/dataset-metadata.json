@@ -6,8 +6,8 @@
       "name": "MIT"
     }
   ],
-  "subtitle": "v2.8.0: Phase 3 Statutory Harmonizer, Adversarial & 100k",
-  "description": "# IJC Global AI & Justice Innovation Universe (v2.8.0 \u2014 Phase 3)\n\n**Founder:** Cecep Mustafa  \n**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n## What's New in v2.8.0 (Phase 3 \u2014 Task 028)\n- Added `statutory_harmonization_matrix.csv` and `statutory_harmonization_results.json` (30-cell 5-region x 6-norm comparative statutory harmonization map grounded in the 238-entry Oxford authority corpus).\n",
+  "subtitle": "v3.0.0: Phase 3 Milestone, Neuro-Symbolic, 46-Country & 100k",
+  "description": "# IJC Global AI & Justice Innovation Universe (v3.0.0 \u2014 Phase 3 Milestone)\n\n**Founder:** Cecep Mustafa  \n**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n## Phase 1\u20133 Complete Architecture (`v3.0.0`)\n- **Phase 1 (`v0.1.0`\u2013`v2.0.0`)**: 47-URL Oxford AI Justice Atlas audit, 30-pillar 12D combinatorial space (`8,957,952,000,000` configs), `100`\u2013`1,000,000` scale benchmarks, `350` AI systems, `238` verified authorities, `98` precedent edges, `50`-term `5`-language glossary, `10`-module curriculum.\n- **Phase 2 (`v2.1.0`\u2013`v2.5.0`)**: 5 regional comparative deep-dives (`ASEAN/APAC`, `Europe/UK`, `LATAM`, `SSA/MENA`, `NAM/ECA`) + `2,500` targeted regional programs.\n- **Phase 3 (`v2.6.0`\u2013`v3.0.0`)**: Neuro-Symbolic Legal Reasoning (`6/6`), Adversarial & Epistemic Stress-Test (`10/10`), Statutory Harmonization (`30` cells), and zero-CDN interactive portal simulator (`45` data files).\n",
   "keywords": [
     "law",
     "artificial intelligence"
@@ -181,6 +181,10 @@
     {
       "path": "statutory_harmonization_results.json",
       "description": "Released from data/sample/statutory_harmonization_results.json"
+    },
+    {
+      "path": "phase3_unified_audit.json",
+      "description": "Released from data/sample/phase3_unified_audit.json"
     },
     {
       "path": "cardinality_verification.json",

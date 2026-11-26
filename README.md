@@ -1,4 +1,4 @@
-# IJC Global AI & Justice Innovation Universe (`v2.0.0`)
+# IJC Global AI & Justice Innovation Universe (`v3.0.0`)
 
 **Founder:** Cecep Mustafa  
 **Horizon:** 2027–2045  
@@ -9,7 +9,7 @@
 ## Overview
 An independent open-research and open-source ecosystem representing **8,957,952,000,000** (8.958 trillion) addressable AI-and-justice program configurations across a 12-dimensional taxonomy and 30 global research pillars, grounded in the [Oxford AI Justice Atlas](https://www.techandjustice.bsg.ox.ac.uk/ai-atlas).
 
-## `v2.0.0` Ecosystem Components (`Tasks 001–020`)
+## `v3.0.0` Ecosystem Components (`Tasks 001–020`)
 - **Empirical Source Base (`EXISTING_REAL_WORLD_RECORD`)**: 47 Oxford AI Justice Atlas URLs audited (46 `VERIFIED_ACCESSIBLE`, 1 `SOURCE_INACCESSIBLE` Zambia), 46-country Comparative Atlas & Governance Readiness Index (`mean=50.22`), **350** real-world AI systems, **238** verified case/statutory authorities, and **98** precedent graph edges.
 - **Generative & Curated Portfolios (`PROPOSED_RESEARCH_PROGRAM`)**: Verified `100`, `1,000`, `10,000`, `100,000` (`1.37s`), and `1,000,000` (`5.84s`, `171,232.9` prog/sec) datasets, plus **Top-10** Pilot Prototypes, Top-10 AIA Dossiers, and 2027–2045 Horizon Roadmap.
 - **Six Offline CPU Prototypes (`PROTOTYPE_EXPERIMENTAL_NONBINDING`)**:

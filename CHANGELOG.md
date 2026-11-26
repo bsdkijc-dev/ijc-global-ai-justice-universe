@@ -1,3 +1,11 @@
+## [3.0.0] - 2026-11-26
+### Phase 3 Milestone (Tasks 026–030)
+- **Task 026 (`v2.6.0`)**: Neuro-Symbolic Legal Reasoning & Comparative Constitutional Benchmark Engine (`6/6` exact norm accuracy over 238 verified Oxford authorities).
+- **Task 027 (`v2.7.0`)**: Adversarial Robustness, Counterfactual & Epistemic Boundary Stress-Test Suite (`10/10` pass rate, prompt-injection immunity, `OXF-AIATLAS-44` Zambia non-imputation).
+- **Task 028 (`v2.8.0`)**: Cross-Jurisdictional Statutory Conflict & Harmonization Mapper (`30` regional x norm cells: `4` convergent, `9` emerging, `17` gap).
+- **Task 029 (`v2.9.0`)**: Phase 3 Unified Audit Pipeline & zero-CDN Interactive Neuro-Symbolic Safeguard Simulator in `docs/index.html`.
+- **Task 030 (`v3.0.0`)**: Phase 3 Milestone release (`30` notebooks, `45` Kaggle data files, `45` unit tests).
+
 # Changelog
 
 ## [2.0.0] - 2026-11-26

@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v2.9.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v3.0.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v2.9.0"
+RELEASE_NAME = "ijc-gajiu-v3.0.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v2.9.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v3.0.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -64,14 +64,15 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "v2.9.0: Phase 3 Unified Audit, Simulator Portal & 100k",
+    "subtitle": "v3.0.0: Phase 3 Milestone, Neuro-Symbolic, 46-Country & 100k",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v2.9.0 — Phase 3)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v3.0.0 — Phase 3 Milestone)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v2.9.0 (Phase 3 — Task 029)\n"
-        "- Added `phase3_unified_audit.json` unifying Neuro-Symbolic Reasoning (`6/6`), Adversarial Stress-Testing (`10/10`), and Statutory Harmonization (`30` regional cells).\n"
-        "- Upgraded zero-CDN GitHub Pages portal (`docs/index.html`) with an interactive client-side Neuro-Symbolic Safeguard Simulator (`NORM-01`–`NORM-06`).\n"
+        "## Phase 1–3 Complete Architecture (`v3.0.0`)\n"
+        "- **Phase 1 (`v0.1.0`–`v2.0.0`)**: 47-URL Oxford AI Justice Atlas audit, 30-pillar 12D combinatorial space (`8,957,952,000,000` configs), `100`–`1,000,000` scale benchmarks, `350` AI systems, `238` verified authorities, `98` precedent edges, `50`-term `5`-language glossary, `10`-module curriculum.\n"
+        "- **Phase 2 (`v2.1.0`–`v2.5.0`)**: 5 regional comparative deep-dives (`ASEAN/APAC`, `Europe/UK`, `LATAM`, `SSA/MENA`, `NAM/ECA`) + `2,500` targeted regional programs.\n"
+        "- **Phase 3 (`v2.6.0`–`v3.0.0`)**: Neuro-Symbolic Legal Reasoning (`6/6`), Adversarial & Epistemic Stress-Test (`10/10`), Statutory Harmonization (`30` cells), and zero-CDN interactive portal simulator (`45` data files).\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -105,7 +106,7 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "2.9.0",
+        "release_version": "3.0.0",
         "release_name": RELEASE_NAME,
         "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {
