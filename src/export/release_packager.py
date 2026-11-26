@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v1.6.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v1.7.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v1.6.0"
+RELEASE_NAME = "ijc-gajiu-v1.7.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.6.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v1.7.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -23,6 +23,7 @@ BUNDLE_FILES = [
     "data/curated/ai_systems_inventory.json",
     "data/curated/precedent_graph_edges.csv",
     "data/curated/horizon_roadmap_2027_2045.csv",
+    "data/curated/judicial_ai_curriculum_10.csv",
     "data/curated/programs_curated_1000.csv",
     "data/curated/programs_curated_1000.parquet",
     "data/curated/programs_curated_10000.parquet",
@@ -46,14 +47,14 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "v1.6.0: Precedent graph, 46-country atlas, 350 systems & 100k programs",
+    "subtitle": "v1.7.0: Judicial AI curriculum, precedent graph & 100k 12D programs",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v1.6.0)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v1.7.0)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v1.6.0\n"
-        "- Added `precedent_graph_edges.csv` (**98** verified governance & precedent edges across 45 accessible jurisdictions).\n"
-        "- Added `KAGGLE_DATASET_CARD.md` documenting all 27 release files and epistemic labels.\n"
+        "## What's New in v1.7.0\n"
+        "- Added `judicial_ai_curriculum_10.csv` (10-module open Judicial & Legal Education AI Curriculum linked to offline Python labs).\n"
+        "- Added `docs/MAINTENANCE_PLAYBOOK.md` for zero-cost solo-founder operations.\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -87,7 +88,7 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "1.6.0",
+        "release_version": "1.7.0",
         "release_name": RELEASE_NAME,
         "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {
