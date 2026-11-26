@@ -1,4 +1,4 @@
-"""Package a reproducible local release bundle (v2.3.0) with Kaggle metadata and SHA-256 manifest."""
+"""Package a reproducible local release bundle (v2.4.0) with Kaggle metadata and SHA-256 manifest."""
 
 import json
 import shutil
@@ -7,10 +7,10 @@ from pathlib import Path
 from src.export.exporter import sha256_file
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-RELEASE_NAME = "ijc-gajiu-v2.3.0"
+RELEASE_NAME = "ijc-gajiu-v2.4.0"
 RELEASE_DIR = ROOT / "data" / "releases" / RELEASE_NAME
 ARCHIVE_PATH = ROOT / "data" / "releases" / f"{RELEASE_NAME}.tar.gz"
-MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v2.3.0_manifest.json"
+MANIFEST_PATH = ROOT / "data" / "manifests" / "release_v2.4.0_manifest.json"
 
 BUNDLE_FILES = [
     "sources/source-registry.csv",
@@ -25,6 +25,8 @@ BUNDLE_FILES = [
     "data/curated/europe_eur_programs_500.parquet",
     "data/curated/latam_comparative_matrix.csv",
     "data/curated/latam_lat_programs_500.parquet",
+    "data/curated/ssa_mena_comparative_matrix.csv",
+    "data/curated/ssa_mena_programs_500.parquet",
     "data/curated/ai_systems_inventory.csv",
     "data/curated/ai_systems_inventory.json",
     "data/curated/precedent_graph_edges.csv",
@@ -55,14 +57,14 @@ KAGGLE_METADATA = {
     "title": "IJC Global AI & Justice Innovation Universe",
     "id": "judicialcollege/ijc-global-ai-justice-universe",
     "licenses": [{"name": "MIT"}],
-    "subtitle": "v2.3.0: Phase 2 LATAM, Europe & ASEAN deep-dives + 100k programs",
+    "subtitle": "v2.4.0: Phase 2 SSA/MENA, LATAM, Europe & ASEAN deep-dives + 100k",
     "description": (
-        "# IJC Global AI & Justice Innovation Universe (v2.3.0 — Phase 2)\n\n"
+        "# IJC Global AI & Justice Innovation Universe (v2.4.0 — Phase 2)\n\n"
         "**Founder:** Cecep Mustafa  \n"
         "**Repository:** https://github.com/bsdkijc-dev/ijc-global-ai-justice-universe\n\n"
-        "## What's New in v2.3.0\n"
-        "- Added `latam_comparative_matrix.csv` (Argentina, Brazil, Chile, Colombia, Mexico).\n"
-        "- Added `latam_lat_programs_500.parquet` (**500** schema-validated LAT 12D research programs).\n"
+        "## What's New in v2.4.0\n"
+        "- Added `ssa_mena_comparative_matrix.csv` (13 verified SSA/MENA jurisdictions + `SOURCE_INACCESSIBLE` Zambia preserved with zero imputation).\n"
+        "- Added `ssa_mena_programs_500.parquet` (**500** schema-validated SSA & MENA 12D research programs).\n"
     ),
     "keywords": ["law", "artificial intelligence"],
     "isPrivate": True,
@@ -96,7 +98,7 @@ def main() -> None:
         tar.add(RELEASE_DIR, arcname=RELEASE_NAME)
 
     manifest = {
-        "release_version": "2.3.0",
+        "release_version": "2.4.0",
         "release_name": RELEASE_NAME,
         "publication_status": "STAGED_FOR_GITHUB_AND_KAGGLE",
         "archive": {

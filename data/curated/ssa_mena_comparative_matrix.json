@@ -1,0 +1,142 @@
+[
+  {
+    "jurisdiction": "Ethiopia",
+    "subregion": "SSA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-11",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ethiopias-emerging-ai-in-criminal-justice-regulation-tools-and-insights-ai-atlas",
+    "key_ai_systems": "Smart Police Station; Smart Court System (24 branches); Afaan Oromo transcription; EFP App; Chllot; Behigamlak; HegAwaqi",
+    "regulatory_instruments": "National AI Policy (2024); Personal Data Protection Proclamation 1321/2024 (automated decision right)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Kenya",
+    "subregion": "SSA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-20",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-kenyas-judiciary-and-law-enforcement-tools-training-and-regulations-ai-atlas",
+    "key_ai_systems": "NPS NEC NeoFace CCTV; ICCS; Judiciary transcription (154k transcripts, 80% accuracy); Hakimu.ai",
+    "regulatory_instruments": "AI Bill 2026; Data Protection Act 2019",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Rwanda",
+    "subregion": "SSA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-26",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/rwandas-ai-integration-in-justice-system-law-enforcement-and-courts-ailex-rwanda",
+    "key_ai_systems": "Safe City Kigali; AI traffic cameras; Spam Alert Service; IST Legal platform; AiLex Rwanda; Wansom; Mbaza Ubutabera AI",
+    "regulatory_instruments": "National AI Policy (2023, first in Africa); Data Protection & Privacy Law 058/2021; Evidence Law 62/2024",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "South Africa",
+    "subregion": "SSA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-29",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/south-africa",
+    "key_ai_systems": "ShotSpotter; Vumacam ANPR (28k daily alerts); SAPS PIVA (>1.08M verifications); LegalFundi Maya; My AI Lawyer; Juta",
+    "regulatory_instruments": "POPIA; ECTA; Draft National AI Policy (withdrawn over AI hallucinations)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Tanzania",
+    "subregion": "SSA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-37",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/tanzanias-ai-in-criminal-justice-training-and-regulation-insights-ai-atlas",
+    "key_ai_systems": "Almawave Pervoice Kiswahili-English transcription ($3M, 11 to 50 courtrooms); Law Companion (98% accuracy)",
+    "regulatory_instruments": "PDPA 2022; Draft Ethical AI Guidelines (2024); Draft National AI Strategy (2025)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "The Gambia",
+    "subregion": "SSA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-34",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/thegambia-3447303d-c9d6-4476-963c-02898588dc35",
+    "key_ai_systems": "Q-Soft Denovo court recording/transcription (no AI deployed yet)",
+    "regulatory_instruments": "Data Protection & Privacy Law (Sep 2025); National Digital Economy Master Plan 2023-2033",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Zambia",
+    "subregion": "SSA",
+    "verification_status": "SOURCE_INACCESSIBLE",
+    "source_id": "OXF-AIATLAS-44",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-zambias-criminal-justice-system-insights-and-regulation-ai-atlas",
+    "key_ai_systems": "",
+    "regulatory_instruments": "",
+    "evidence_label": "UNVERIFIED_INACCESSIBLE_SOURCE"
+  },
+  {
+    "jurisdiction": "Zimbabwe",
+    "subregion": "SSA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-45",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/zimbabwes-ai-use-in-criminal-justice-training-regulation-and-cases-ai-atlas",
+    "key_ai_systems": "CloudWalk FRT; Hikvision border; Huawei $100M Harare CCTV; IECMS",
+    "regulatory_instruments": "National AI Strategy 2026-2030 (Mar 2026); Cyber & Data Protection Act 2021",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Egypt",
+    "subregion": "MENA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-09",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-in-egypts-legal-system-training-regulation-and-tools-legalmind",
+    "key_ai_systems": "Security Operations Centre; Honeywell New Administrative Capital; offline court speech-to-text (>96% accuracy); LegalMind; Laiwyer; KARNAK; Shawwir",
+    "regulatory_instruments": "National AI Strategy 2025-2030; Responsible AI Charter (2023); AI Governance Guide (2026); GenAI Guidelines (2026); PDPL 151/2020",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Iran",
+    "subregion": "MENA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-16",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/irans-ai-adoption-in-law-enforcement-smart-justice-initiatives-ai-legal-tools-legal-innovations",
+    "key_ai_systems": "FARAJA facial recognition; Sana System; Tenad System (110M decisions); RoboLegal; Vakil-GPT; Adalat Hamrah",
+    "regulatory_instruments": "National AI Document (2024); Judiciary Transformation Document",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Israel",
+    "subregion": "MENA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-46",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-use-in-israels-legal-system-law-enforcement-tools-regulation-insights-chat-hamishpat",
+    "key_ai_systems": "Carbyne; Eagle Eye; Mabat 2000; Corsight; Cellebrite; Briefcam; Saifan; Chat HaMishpat (45 to 1.5 min, ~900 judges); SUMIT; Nevo AI; LawMate",
+    "regulatory_instruments": "Privacy Protection Law Amendment 13",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Kuwait",
+    "subregion": "MENA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-21",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/ai-adoption-in-kuwaits-justice-sector-law-enforcement-innovations-kuwait-ai-insights",
+    "key_ai_systems": "AI smart patrol vehicles; 3D FRT; 252 traffic cameras; mandatory biometrics (>3M enrolled); Interpol cybercrime platform; Oqood.ai; Harvey; Legora; Qistas",
+    "regulatory_instruments": "CITRA AI Ethics Guide (2025); National AI Strategy 2025-2028",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "Saudi Arabia",
+    "subregion": "MENA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-27",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/saudi-arabias-ai-governance-framework-law-enforcement-and-courts-sdaia",
+    "key_ai_systems": "Saher; EagleEye; Sawaher; Smart C; Najiz; Qanoniah; Arabic.ai; Wathiq; Haseef; Waddah AI",
+    "regulatory_instruments": "SDAIA AI Ethics Principles (2023); GenAI Gov Guidelines (2024); AI Adoption Framework (2024/2025); Deepfakes Guidelines (2026); GCC Prosecutors Ethics (2023); PDPL",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  },
+  {
+    "jurisdiction": "United Arab Emirates",
+    "subregion": "MENA",
+    "verification_status": "VERIFIED_ACCESSIBLE",
+    "source_id": "OXF-AIATLAS-40",
+    "source_url": "https://www.techandjustice.bsg.ox.ac.uk/research/united-arab-emirates",
+    "key_ai_systems": "27 Smart Police Stations (45 services, 7 languages); Oyoon; Falcon Eye; Digital Twin; Federal Prosecution AI71; Abu Dhabi ML case system; Aisha",
+    "regulatory_instruments": "UAE AI Charter (2024)",
+    "evidence_label": "EXISTING_REAL_WORLD_RECORD"
+  }
+]
