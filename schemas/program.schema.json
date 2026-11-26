@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ijc-gajiu.org/schemas/program.schema.json",
+  "title": "IJC Global AI & Justice Program Configuration Schema",
+  "type": "object",
+  "required": [
+    "program_id",
+    "title",
+    "epistemic_label",
+    "verification_status",
+    "maturity_state",
+    "dimensions",
+    "rationale",
+    "potential_value",
+    "implementation_pathway",
+    "human_rights_risk_tier",
+    "quality_score",
+    "originality_score",
+    "inspiration_source_ids"
+  ],
+  "properties": {
+    "program_id": {
+      "type": "string",
+      "pattern": "^IJC-GAJIU-[A-Z0-9]+-[A-Z0-9]+-[A-Z0-9]+-[A-Z0-9]+-[A-F0-9]{6}$"
+    },
+    "title": {"type": "string", "minLength": 10},
+    "epistemic_label": {
+      "type": "string",
+      "const": "PROPOSED_RESEARCH_PROGRAM"
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["PROPOSED_UNVALIDATED", "EXPERT_REVIEW_PENDING", "PILOT_TESTED_NONBINDING"]
+    },
+    "maturity_state": {
+      "type": "string",
+      "enum": ["CONCEPTUAL_SPEC", "DESIGN_BLUEPRINT", "PROTOTYPE_READY", "EMPIRICAL_EVAL_STAGE"]
+    },
+    "dimensions": {
+      "type": "object",
+      "required": [
+        "D01_jurisdiction_archetype",
+        "D02_legal_system",
+        "D03_justice_domain",
+        "D04_institutional_actor",
+        "D05_workflow_stage",
+        "D06_ai_paradigm",
+        "D07_data_modality",
+        "D08_governance_mechanism",
+        "D09_human_rights_focus",
+        "D10_deployment_tier",
+        "D11_research_pillar",
+        "D12_horizon_target"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "D01_jurisdiction_archetype": {"type": "string"},
+        "D02_legal_system": {"type": "string"},
+        "D03_justice_domain": {"type": "string"},
+        "D04_institutional_actor": {"type": "string"},
+        "D05_workflow_stage": {"type": "string"},
+        "D06_ai_paradigm": {"type": "string"},
+        "D07_data_modality": {"type": "string"},
+        "D08_governance_mechanism": {"type": "string"},
+        "D09_human_rights_focus": {"type": "string"},
+        "D10_deployment_tier": {"type": "string"},
+        "D11_research_pillar": {"type": "string"},
+        "D12_horizon_target": {"type": "string"}
+      }
+    },
+    "rationale": {"type": "string", "minLength": 20},
+    "potential_value": {"type": "string", "minLength": 15},
+    "implementation_pathway": {"type": "string", "minLength": 20},
+    "human_rights_risk_tier": {
+      "type": "string",
+      "enum": [
+        "TIER_1_LOW_RISK",
+        "TIER_2_MODERATE_RISK",
+        "TIER_3_HIGH_RISK",
+        "TIER_4_PROHIBITED_OR_MORATORIUM_CANDIDATE"
+      ]
+    },
+    "quality_score": {"type": "number", "minimum": 0, "maximum": 100},
+    "originality_score": {"type": "number", "minimum": 0, "maximum": 1},
+    "inspiration_source_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"}
+    },
+    "tuple_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "release_version": "0.3.0",
+  "release_name": "ijc-gajiu-v0.3.0",
+  "publication_status": "STAGED_LOCALLY_NOT_PUBLISHED",
+  "archive": {
+    "filename": "ijc-gajiu-v0.3.0.tar.gz",
+    "bytes": 393502,
+    "sha256": "ba634e91da26c024036d03a4ca21e52998b02f5fe23f4c91f8d03ede19a3363a"
+  },
+  "files": {
+    "source-registry.csv": {
+      "source_path": "sources/source-registry.csv",
+      "bytes": 55261,
+      "sha256": "d0961e0b4965f1d393c47fcf1ba1e65d59c40c3e46278e3e72745e69db9e1dd5"
+    },
+    "source-registry.json": {
+      "source_path": "sources/source-registry.json",
+      "bytes": 83268,
+      "sha256": "3551dd2128580817c5e35d4b59fadf6aa75c1be2660edd0846f2cab0a8d8b8aa"
+    },
+    "access-log.csv": {
+      "source_path": "sources/access-log.csv",
+      "bytes": 9497,
+      "sha256": "6b71bd9a68af3e0ff813ae3aa067c02857721f535fa69fbfb0fd0179389dd8bf"
+    },
+    "jurisdiction_atlas_46.csv": {
+      "source_path": "data/curated/jurisdiction_atlas_46.csv",
+      "bytes": 9672,
+      "sha256": "14c29e329101d7a0434016c5d4007e88100c3f88a87a9caeed065b8ef5a5753e"
+    },
+    "jurisdiction_atlas_46.json": {
+      "source_path": "data/curated/jurisdiction_atlas_46.json",
+      "bytes": 28149,
+      "sha256": "32668f12ef11a389c16499900e0969b87619382ceb9884c0712ac99f13906993"
+    },
+    "programs_curated_1000.csv": {
+      "source_path": "data/curated/programs_curated_1000.csv",
+      "bytes": 1309669,
+      "sha256": "2d80db861706f47834581c4083992936efd5284b50c0fd9e9ca1390da5ee3de2"
+    },
+    "programs_curated_1000.parquet": {
+      "source_path": "data/curated/programs_curated_1000.parquet",
+      "bytes": 245757,
+      "sha256": "1474a6f56d5ad7ac9bcf3826e6c82736281d3775ec09fb694ca64a33cf39efc0"
+    },
+    "top10_pilot_prototypes.csv": {
+      "source_path": "data/curated/top10_pilot_prototypes.csv",
+      "bytes": 13424,
+      "sha256": "6021ed4dd35f23a8b93e76624a97d641cb7b5adbe514c77433e570520bebb3fc"
+    },
+    "top10_pilot_prototypes.json": {
+      "source_path": "data/curated/top10_pilot_prototypes.json",
+      "bytes": 21086,
+      "sha256": "aadc82845abcf5549bfeaddc60ca2d7f3c4f228fcc407a2f9a214f99eccac026"
+    },
+    "prototype_benchmark_results.json": {
+      "source_path": "data/sample/prototype_benchmark_results.json",
+      "bytes": 2088,
+      "sha256": "ea8576d10794bd03f82a51931f8fa2f6753b8e3f224fc43a540cd4b2efcf4e0f"
+    }
+  }
+}

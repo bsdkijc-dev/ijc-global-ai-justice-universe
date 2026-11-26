@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ijc-gajiu.org/schemas/source.schema.json",
+  "title": "IJC Source Registry Record Schema",
+  "type": "object",
+  "required": [
+    "source_id",
+    "jurisdiction",
+    "url",
+    "publisher",
+    "date_accessed",
+    "evidence_label",
+    "verification_status"
+  ],
+  "properties": {
+    "source_id": {"type": "string", "pattern": "^OXF-AIATLAS-[0-9]{2}$"},
+    "jurisdiction": {"type": "string"},
+    "url": {"type": "string", "format": "uri"},
+    "source_title": {"type": "string"},
+    "publisher": {"type": "string"},
+    "publication_or_update_date": {"type": "string"},
+    "date_accessed": {"type": "string"},
+    "evidence_label": {
+      "type": "string",
+      "enum": ["EXISTING_REAL_WORLD_RECORD", "UNVERIFIED_INACCESSIBLE_SOURCE"]
+    },
+    "verification_status": {
+      "type": "string",
+      "enum": ["VERIFIED_ACCESSIBLE", "SOURCE_INACCESSIBLE"]
+    }
+  }
+}

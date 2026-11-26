@@ -1,0 +1,23 @@
+{
+  "dataset_name": "programs_sample_100",
+  "record_count": 100,
+  "seed": 2027,
+  "files": {
+    "programs_sample_100.jsonl": {
+      "bytes": 191088,
+      "sha256": "08898e260c88084184f023dd4b1aaf9ada6dd162b4e9586162a584a0ae839238"
+    },
+    "programs_sample_100.csv": {
+      "bytes": 129516,
+      "sha256": "d12dab6be74b173fd5fbbf8e495948698f4fa73f760d4aa155bf1de1cd4d5691"
+    },
+    "programs_sample_100.parquet": {
+      "bytes": 47076,
+      "sha256": "f6c2610907c2a5acfa86674d7e6269f6937824d63d5b70e23f380488c9fe0edb"
+    },
+    "programs_sample_100.sqlite": {
+      "bytes": 147456,
+      "sha256": "06ce56323d22fc1a5e80507f4be0d858fbbd1ee10702634f59eae7f6b219c292"
+    }
+  }
+}

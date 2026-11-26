@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ijc-gajiu.org/schemas/jurisdiction.schema.json",
+  "title": "IJC Jurisdiction Profile Schema",
+  "type": "object",
+  "required": ["jurisdiction_code", "jurisdiction_name", "legal_system_family", "source_ids"],
+  "properties": {
+    "jurisdiction_code": {"type": "string"},
+    "jurisdiction_name": {"type": "string"},
+    "legal_system_family": {"type": "string"},
+    "source_ids": {"type": "array", "items": {"type": "string"}}
+  }
+}

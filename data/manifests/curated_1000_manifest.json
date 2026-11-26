@@ -1,0 +1,37 @@
+{
+  "dataset_name": "programs_curated_1000",
+  "record_count": 1000,
+  "seed": 202702,
+  "originality_stats": {
+    "exact_hash_duplicates": 0,
+    "flagged_near_duplicate_pairs": 1,
+    "mean_originality_score": 0.3756,
+    "min_originality_score": 0.1259
+  },
+  "files": {
+    "programs_curated_1000.jsonl": {
+      "bytes": 1956420,
+      "sha256": "d3cade70e8437250ba28bb39dac194e5f8f31be5834800403c6786a2929e1bdf"
+    },
+    "programs_curated_1000.csv": {
+      "bytes": 1309669,
+      "sha256": "2d80db861706f47834581c4083992936efd5284b50c0fd9e9ca1390da5ee3de2"
+    },
+    "programs_curated_1000.parquet": {
+      "bytes": 245757,
+      "sha256": "1474a6f56d5ad7ac9bcf3826e6c82736281d3775ec09fb694ca64a33cf39efc0"
+    },
+    "programs_curated_1000.sqlite": {
+      "bytes": 1388544,
+      "sha256": "597ba841632a0194df871f087a0e419b9ee64ae487835ce32d6c0aa2f237026b"
+    },
+    "top10_pilot_prototypes.json": {
+      "bytes": 21086,
+      "sha256": "aadc82845abcf5549bfeaddc60ca2d7f3c4f228fcc407a2f9a214f99eccac026"
+    },
+    "top10_pilot_prototypes.csv": {
+      "bytes": 13424,
+      "sha256": "6021ed4dd35f23a8b93e76624a97d641cb7b5adbe514c77433e570520bebb3fc"
+    }
+  }
+}

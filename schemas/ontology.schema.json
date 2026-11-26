@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ijc-gajiu.org/schemas/ontology.schema.json",
+  "title": "IJC Global AI & Justice Innovation Ontology Schema",
+  "type": "object",
+  "required": ["ontology_version", "pillars", "dimensions"],
+  "properties": {
+    "ontology_version": {"type": "string"},
+    "pillars": {
+      "type": "array",
+      "minItems": 30,
+      "items": {
+        "type": "object",
+        "required": ["pillar_id", "title", "focus"],
+        "properties": {
+          "pillar_id": {"type": "string", "pattern": "^P[0-9]{2}$"},
+          "title": {"type": "string"},
+          "focus": {"type": "string"}
+        }
+      }
+    },
+    "dimensions": {
+      "type": "object",
+      "minProperties": 12,
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 10,
+        "items": {
+          "type": "object",
+          "required": ["code", "label"],
+          "properties": {
+            "code": {"type": "string"},
+            "label": {"type": "string"}
+          }
+        }
+      }
+    }
+  }
+}
