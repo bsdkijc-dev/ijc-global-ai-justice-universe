@@ -1,4 +1,4 @@
-"""Build zero-dependency static GitHub Pages explorer with interactive Citation Gate at docs/index.html."""
+"""Build zero-dependency static GitHub Pages explorer with Citation Gate, Anonymisation & Glossary."""
 
 import json
 from pathlib import Path
@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 ATLAS_JSON = ROOT / "data" / "curated" / "jurisdiction_atlas_46.json"
 PILOTS_JSON = ROOT / "data" / "curated" / "top10_pilot_prototypes.json"
 CORPUS_JSON = ROOT / "data" / "curated" / "verified_authority_corpus.json"
+GLOSSARY_JSON = ROOT / "data" / "curated" / "multilingual_glossary_50.json"
 OUT_HTML = ROOT / "docs" / "index.html"
 
 
@@ -15,6 +16,7 @@ def main() -> None:
     atlas = json.loads(ATLAS_JSON.read_text(encoding="utf-8"))
     pilots = json.loads(PILOTS_JSON.read_text(encoding="utf-8"))
     corpus = json.loads(CORPUS_JSON.read_text(encoding="utf-8"))
+    glossary = json.loads(GLOSSARY_JSON.read_text(encoding="utf-8"))
     total_space, _ = compute_cardinality()
 
     embedded = {
@@ -22,6 +24,7 @@ def main() -> None:
         "atlas_count": len(atlas),
         "accessible_count": sum(1 for r in atlas if r["verification_status"] == "VERIFIED_ACCESSIBLE"),
         "corpus_count": len(corpus),
+        "glossary": glossary,
         "pillars": [{"id": pid, "title": title} for pid, title in PILLARS],
         "atlas": atlas,
         "corpus": [{"auth_id": c["auth_id"], "citation": c["citation"], "jurisdiction": c["jurisdiction"]} for c in corpus],
@@ -79,7 +82,7 @@ def main() -> None:
     <div class="kpi"><div class="val">{embedded['total_space']}</div><div class="lbl">12D Addressable Configurations</div></div>
     <div class="kpi"><div class="val">{embedded['accessible_count']} / {embedded['atlas_count']}</div><div class="lbl">Verified Accessible Jurisdictions</div></div>
     <div class="kpi"><div class="val">{embedded['corpus_count']}</div><div class="lbl">Verified Real-World Authorities</div></div>
-    <div class="kpi"><div class="val">1,000 / 10</div><div class="lbl">Curated Programs / Pilot Prototypes</div></div>
+    <div class="kpi"><div class="val">10,000 / 10</div><div class="lbl">Curated Programs / Pilot Prototypes</div></div>
   </div>
 
   <div class="panel">
@@ -88,6 +91,14 @@ def main() -> None:
     <textarea id="citInput">Appeal brief citing [2025] ADGMCFI 0032, State v Loomis, and fabricated Smith v PhantomCorp.</textarea>
     <button onclick="runGate()">Verify Citations</button>
     <div id="gateOut" style="margin-top:0.8rem;"></div>
+  </div>
+
+  <div class="panel">
+    <h2>Interactive Judgment Anonymisation Playground (<code>PROTOTYPE_EXPERIMENTAL_NONBINDING</code>)</h2>
+    <p style="color:var(--muted); margin-top:0;">Redacts emails, phone numbers, and national IDs client-side while preserving legal citations.</p>
+    <textarea id="anonInput">Witness contact witness.doe@example.org, phone +62 812-3456-7890, NIK 3201012345678901, citing State v Loomis.</textarea>
+    <button onclick="runAnon()">Anonymise Text</button>
+    <div id="anonOut" style="margin-top:0.8rem;"></div>
   </div>
 
   <div class="panel">
@@ -101,6 +112,15 @@ def main() -> None:
     <table>
       <thead><tr><th>Country</th><th>Region</th><th>Family</th><th>Status</th><th>Judicial Policy</th><th>FRT Pushback</th><th>Source</th></tr></thead>
       <tbody id="atlasBody"></tbody>
+    </table>
+  </div>
+
+  <div class="panel">
+    <h2>5-Language AI &amp; Justice Glossary (50 Terms)</h2>
+    <input id="qGls" type="text" placeholder="Search glossary term..." oninput="renderGlossary()">
+    <table>
+      <thead><tr><th>ID</th><th>English</th><th>Indonesian / Malay</th><th>Spanish</th><th>French</th><th>Arabic</th></tr></thead>
+      <tbody id="glsBody"></tbody>
     </table>
   </div>
 
@@ -138,6 +158,14 @@ function runGate() {{
     <p style="margin:0.4rem 0;"><strong>Unverified (${{unverified.length}}):</strong> ${{unverified.join('; ') || 'None'}}</p>`;
 }}
 
+function runAnon() {{
+  let txt = document.getElementById('anonInput').value || '';
+  txt = txt.replace(/\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{{2,}}\\b/g, '[REDACTED_EMAIL]');
+  txt = txt.replace(/(?:\\+?\\d{{1,3}}[\\s-]?)?(?:\\(?\\d{{2,4}}\\)?[\\s-]?)\\d{{3,4}}[\\s-]?\\d{{3,4}}\\b/g, '[REDACTED_PHONE]');
+  txt = txt.replace(/\\b(?:NIK|SSN|ID)[\\s:#-]*\\d{{6,16}}\\b/gi, '[REDACTED_ID]');
+  document.getElementById('anonOut').innerHTML = `<span class="badge ok">PASS_READY_FOR_HUMAN_PUBLICATION_REVIEW</span><p style="margin:0.4rem 0;"><code>${{txt}}</code></p>`;
+}}
+
 function renderAtlas() {{
   const q = document.getElementById('qJur').value.toLowerCase();
   const arch = document.getElementById('qArch').value;
@@ -155,6 +183,16 @@ function renderAtlas() {{
       <td><a href="${{r.source_url}}" target="_blank" rel="noopener">Oxford Atlas</a></td>
     </tr>`).join('');
 }}
+
+function renderGlossary() {{
+  const q = document.getElementById('qGls').value.toLowerCase();
+  const rows = DATA.glossary.filter(g =>
+    g.en.toLowerCase().includes(q) || g.id_ms.toLowerCase().includes(q) || g.es.toLowerCase().includes(q) || g.fr.toLowerCase().includes(q)
+  );
+  document.getElementById('glsBody').innerHTML = rows.map(g => `
+    <tr><td>${{g.term_id}}</td><td><strong>${{g.en}}</strong></td><td>${{g.id_ms}}</td><td>${{g.es}}</td><td>${{g.fr}}</td><td>${{g.ar}}</td></tr>`).join('');
+}}
+
 document.getElementById('pilotBody').innerHTML = DATA.pilots.map(p => `
   <tr>
     <td><code>${{p.program_id}}</code></td>
@@ -164,14 +202,16 @@ document.getElementById('pilotBody').innerHTML = DATA.pilots.map(p => `
     <td>${{p.title}}</td>
   </tr>`).join('');
 renderAtlas();
+renderGlossary();
 runGate();
+runAnon();
 </script>
 </body>
 </html>
 """
     OUT_HTML.parent.mkdir(parents=True, exist_ok=True)
     OUT_HTML.write_text(html, encoding="utf-8")
-    print(f"Built upgraded GitHub Pages explorer -> {OUT_HTML} ({OUT_HTML.stat().st_size:,} bytes)")
+    print(f"Built full interactive GitHub Pages portal -> {OUT_HTML} ({OUT_HTML.stat().st_size:,} bytes)")
 
 
 if __name__ == "__main__":
