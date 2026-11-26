@@ -1,0 +1,40 @@
+{
+  "prototype_id": "IJC-GAJIU-ANONYMISATION-GATE-01",
+  "prototype_status": "PROTOTYPE_EXPERIMENTAL_NONBINDING",
+  "benchmark_cases": 4,
+  "exact_redaction_accuracy": 1.0,
+  "results": [
+    {
+      "case_id": "ANON-01",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "expected_redactions": 2,
+      "detected_redactions": 2,
+      "audit_hash": "99AFB556E555",
+      "gate_status": "PASS_READY_FOR_HUMAN_PUBLICATION_REVIEW"
+    },
+    {
+      "case_id": "ANON-02",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "expected_redactions": 2,
+      "detected_redactions": 2,
+      "audit_hash": "38CEF87719A6",
+      "gate_status": "PASS_READY_FOR_HUMAN_PUBLICATION_REVIEW"
+    },
+    {
+      "case_id": "ANON-03",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "expected_redactions": 0,
+      "detected_redactions": 0,
+      "audit_hash": "607D64A22E42",
+      "gate_status": "PASS_READY_FOR_HUMAN_PUBLICATION_REVIEW"
+    },
+    {
+      "case_id": "ANON-04",
+      "record_type": "SYNTHETIC_BENCHMARK_TEST_CASE",
+      "expected_redactions": 3,
+      "detected_redactions": 3,
+      "audit_hash": "740BB39A1674",
+      "gate_status": "PASS_READY_FOR_HUMAN_PUBLICATION_REVIEW"
+    }
+  ]
+}
